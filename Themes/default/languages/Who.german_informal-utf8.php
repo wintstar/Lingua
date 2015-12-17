@@ -26,7 +26,7 @@ $txt['whoall_buddy'] = 'Ändert die Freundesliste.';
 $txt['whoall_coppa'] = 'Füllt die Einverständniserklärung für Erziehungsberechtigte aus.';
 $txt['whoall_credits'] = 'Schaut die Credits Seite an.';
 $txt['whoall_emailuser'] = 'Senden einer E-Mail zu einem anderen Mitglied.';
-$txt['whoall_groups'] = 'Sie betrachten die Mitglieder Gruppen Seite.';
+$txt['whoall_groups'] = 'Betrachet die Mitglieder Gruppen Seite.';
 $txt['whoall_help'] = 'Schaut sich die <a href="' . $scripturl . '?action=help">Hilfeseiten</a> an.';
 $txt['whoall_helpadmin'] = 'Schaut die Administrator Hilfeseiten an.';
 $txt['whoall_pm'] = 'Schaut die Privaten Mitteilungen an.';
@@ -139,19 +139,19 @@ $txt['credits_groups_customize'] = 'Customizer';
 $txt['credits_groups_docs'] = 'Dokumentation';
 $txt['credits_groups_marketing'] = 'Marketing';
 $txt['credits_groups_internationalizers'] = 'Übersetzer';
-$txt['credits_groups_servers'] = 'Server Administratoren';
-$txt['credits_groups_site'] = 'Seiten Administratoren';
+$txt['credits_groups_servers'] = 'Servers Administrators';
+$txt['credits_groups_site'] = 'Site Administrators';
 // Replace "English" with the name of this language pack in the string below.
 $txt['credits_groups_translation'] = 'Deutsche Übersetzung';
 $txt['credits_groups_translators'] = 'Übersetzer';
 $txt['credits_translators_message'] = 'Vielen Dank für Eure Mühe, damit Menschen überall auf der Welt SMF benutzen können!';
-$txt['credits_groups_consultants'] = 'Beratende Entwickler';
+$txt['credits_groups_consultants'] = 'Consulting Developers';
 $txt['credits_groups_beta'] = 'Beta Tester';
 $txt['credits_beta_message'] = 'Die paar versteckten Benutzer, welche unermüdlich nach Fehlern gesucht, Feedback gegeben und die Entwickler in den Wahnsinn getrieben haben.';
 $txt['credits_groups_founder'] = 'Gründer von SMF';
 $txt['credits_groups_orignal_pm'] = 'Ursprüngliche Projekt Manager';
 
 // List of people who have made more than a token contribution to this translation. (blank for English)
-$txt['translation_credits'] = array ('Kissaki', 'noex', 'Korinna "Feline" Kohler');
+$txt['translation_credits'] = array ('Kissaki', 'noex', 'rohu');
 
 ?>

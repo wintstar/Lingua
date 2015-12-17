@@ -2,7 +2,7 @@
 // Version: 2.0; ManageMail
 
 // Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['mailqueue_desc'] = 'Hier können sie ihre E-Mail Einstellungen konfigurieren und die E-Mail Warteschlange anschauen bzw. administrieren, sofern sie aktiviert ist.';
+$txt['mailqueue_desc'] = 'Hier kannst Du deine E-Mail Einstellungen konfigurieren und die E-Mail Warteschlange anschauen bzw. administrieren, sofern sie aktiviert ist.';
 
 $txt['mail_type'] = 'E-Mail Typ';
 $txt['mail_type_default'] = '(PHP Standard)';
@@ -28,7 +28,7 @@ $txt['mailqueue_subject'] = 'Betreff';
 $txt['mailqueue_clear_list'] = 'E-Mail Warteschlange jetzt senden';
 $txt['mailqueue_no_items'] = 'Die Warteschlange ist momentan leer';
 // Do not use numeric entities in below string.
-$txt['mailqueue_clear_list_warning'] = 'Sind sie sicher, dass sie die Warteschlange jetzt senden möchten? Das würde die eingestellten Einschränkungen nicht berücksichtigen.';
+$txt['mailqueue_clear_list_warning'] = 'Bist Du sicher, dass du die Warteschlange jetzt senden möchten? Das würde die eingestellten Einschränkungen nicht berücksichtigen.';
 
 $txt['mq_day'] = '%1.1f Tag';
 $txt['mq_days'] = '%1.1f Tage';

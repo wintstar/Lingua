@@ -27,15 +27,15 @@ $txt['emails'] = array(
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'D bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername ist "{USERNAME}". Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+Dein Benutzername ist "{USERNAME}". Wenn Du dein Passwort vergessen hast, kannst Du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
-Bevor Sie sich einloggen können, müssen Sie zuerst Ihr Konto aktivieren. Dazu folgen Sie bitte folgendem Link:
+Bevor Du dich einloggen kannst, musst Du zuerst dein Konto aktivieren. Dazu folge bitte folgendem Link:
 
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -48,11 +48,11 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Ihre Anfrage zur Registrierung im Forum {FORUMNAME} wurde gestellt, {REALNAME}.
+		'body' => 'Deine Anfrage zur Registrierung im Forum {FORUMNAME} wurde gestellt, {REALNAME}.
 
-Der Benutzername mit dem Sie sich registriert haben ist {USERNAME}.
+Der Benutzername mit dem Du dich registriert hast ist {USERNAME}.
 
-Bevor Sie sich einloggen und das Forum benutzen können, wird Ihre Anfrage geprüft und genehmigt. Wenn dies geschehen ist, erhalten Sie eine weitere E-Mail von dieser Adresse.
+Bevor Du dich einloggen und das Forum benutzen kannst, wird deine Anfrage geprüft und genehmigt. Wenn dies geschehen ist, erhältst Du eine weitere E-Mail von dieser Adresse.
 
 {REGARDS}',
 	),
@@ -66,7 +66,7 @@ Bevor Sie sich einloggen und das Forum benutzen können, wird Ihre Anfrage gepr�
 		'subject' => 'Genehmigung der Gruppenmitgliedschaft',
 		'body' => '{USERNAME},
 
-Wir freuen uns Ihnen mitteilen zu können, dass Ihre Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beitreten zu dürfen akzeptiert wurde. Ihr Benutzerkonto wurde um die neue Mitgliedergruppe ergänzt.
+Wir freuen uns dir mitteilen zu können, dass Deine Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beizutreten akzeptiert wurde. Dein Benutzerkonto wurde um die neue Mitgliedergruppe ergänzt.
 
 {REGARDS}',
 	),
@@ -80,7 +80,7 @@ Wir freuen uns Ihnen mitteilen zu können, dass Ihre Anfrage der Gruppe "{GROUPN
 		'subject' => 'Ablehnung der Gruppenmitgliedschaft',
 		'body' => '{USERNAME},
 
-Wir bedauern Ihnen mitteilen zu müssen, dass Ihre Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beitreten zu dürfen abgelehnt wurde.
+Wir bedauern dir mitteilen zu müssen, dass Deine Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beizutreten abgelehnt wurde.
 
 {REGARDS}',
 	),
@@ -95,7 +95,7 @@ Wir bedauern Ihnen mitteilen zu müssen, dass Ihre Anfrage der Gruppe "{GROUPNAM
 		'subject' => 'Ablehnung der Gruppenmitgliedschaft',
 		'body' => '{USERNAME},
 
-Wir bedauern Ihnen mitteilen zu müssen, dass Ihre Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beitreten zu dürfen abgelehnt wurde.
+Wir bedauern dir mitteilen zu müssen, dass Deine Anfrage der Gruppe "{GROUPNAME}" im Forum {FORUMNAME} beizutreten abgelehnt wurde.
 
 Dies erfolgte aus folgenden Gründen: {REASON}
 
@@ -114,9 +114,9 @@ Dies erfolgte aus folgenden Gründen: {REASON}
 		'body' => 'Willkommen, {NAME}!
 
 
-Ihr Benutzerkonto wurde vom Administrator aktiviert. Sie können sich jetzt anmelden und Beiträge schreiben. Ihr Benutzername ist: {USERNAME}
+Dein Benutzerkonto wurde vom Administrator aktiviert. Du kannst dich jetzt einloggen und Beiträge schreiben. Dein Benutzername ist: {USERNAME}
 
-Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+Wenn Du dein Passwort vergessen hast, kannst Du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
 {REGARDS}',
 	),
@@ -132,11 +132,11 @@ Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurü
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
 		'body' => 'Willkommen, {USERNAME}!
 
-Ihr Benutzerkonto im Forum {FORUMNAME} wurde vom Administrator genehmigt und muss jetzt aktiviert werden, bevor Sie Beiträge schreiben können. Bitte benutzen Sie folgenden Link, um Ihr Benutzerkonto zu aktivieren:
+Dein Benutzerkonto im Forum {FORUMNAME} wurde vom Administrator genehmigt und muss jetzt aktiviert werden, bevor Du Beiträge schreiben kannst. Bitte benutze folgenden Link, um dein Benutzerkonto zu aktivieren:
 
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -149,7 +149,7 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 		'subject' => 'Registrierung abgelehnt',
 		'body' => '{USERNAME},
 
-Ihre Anfrage dem Forum {FORUMNAME} beizutreten wurde abgelehnt.
+Deine Anfrage dem Forum {FORUMNAME} beizutreten wurde abgelehnt.
 
 {REGARDS}',
 	),
@@ -162,7 +162,7 @@ Ihre Anfrage dem Forum {FORUMNAME} beizutreten wurde abgelehnt.
 		'subject' => 'Profil gelöscht',
 		'body' => '{USERNAME},
 
-Ihr Profil im Forum {FORUMNAME} wurde gelöscht. Dies ist eventuell passiert, weil Sie Ihr Profil nie aktiviert haben. War dies der Fall, können Sie sich jederzeit erneut registrieren.
+Dein Profil im Forum {FORUMNAME} wurde gelöscht. Dies ist eventuell passiert, weil Du dein Profil nie aktiviert hast. War dies der Fall, kannst Du dich jederzeit erneut registrieren.
 
 {REGARDS}',
 	),
@@ -177,12 +177,12 @@ Ihr Profil im Forum {FORUMNAME} wurde gelöscht. Dies ist eventuell passiert, we
 		*/
 		'subject' => 'Registrierungserinnerung',
 		'body' => '{USERNAME},
-Sie haben Ihr Benutzerkonto im Forum {FORUMNAME} noch nicht aktiviert.
+Du hast dein Benutzerkonto im Forum {FORUMNAME} noch nicht aktiviert.
 
-Bitte benutzen Sie folgenden Link, um Ihr Benutzerkonto zu aktivieren:
+Bitte benutze folgenden Link, um dein Benutzerkonto zu aktivieren:
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -196,18 +196,18 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert. Ihr Benutzername lautet {USERNAME} und Ihr Passwort lautet {PASSWORD}.
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert. Dein Benutzername lautet {USERNAME} und dein Passwort lautet {PASSWORD}.
 
-Bevor Sie sich einloggen können, müssen Sie zuerst Ihr Konto aktivieren. Dazu folgen Sie bitte folgendem Link:
+Bevor Du dich einloggen kannst, musst Du zuerst dein Konto aktivieren. Dazu folge bitte folgendem Link:
 
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 {REGARDS}',
 	),
 	'admin_register_immediate' => array(
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert. Ihr Benutzername lautet {USERNAME} und Ihr Passwort lautet {PASSWORD}.
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert. Dein Benutzername lautet {USERNAME} und dein Passwort lautet {PASSWORD}.
 
 {REGARDS}',
 	),
@@ -223,9 +223,9 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 		'subject' => 'Neue Ankündigung: {TOPICSUBJECT}',
 		'body' => '{MESSAGE}
 
-Um diese Ankündigungen abzubestellen, loggen Sie sich bitte im Forum ein und deaktivieren die Option "E-Mail Benachrichtigung bei neuen Ankündigungen schicken" in Ihrem Profil.
+Um diese Ankündigungen abzubestellen, logge dich bitte im Forum ein und deaktivieren die Option "E-Mail Benachrichtigung bei neuen Ankündigungen schicken" in deinem Profil.
 
-Sie können die komplette Ankündigung unter folgendem Link lesen:
+Du kannst die komplette Ankündigung unter folgendem Link lesen:
 {TOPICLINK}
 
 {REGARDS}',
@@ -240,18 +240,18 @@ Sie können die komplette Ankündigung unter folgendem Link lesen:
 			@description:
 		*/
 		'subject' => 'Neues Thema: {TOPICSUBJECT}',
-		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Sie beobachten.
+		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welches Du beobachtest.
 
-Sie finden es unter
+Du findest es unter
 {TOPICLINK}
 
 
-Es könnten mehrere Themen erstellt worden sein, Sie erhalten jedoch erst weitere Benachrichtigungen, wenn Sie das Board besucht haben.
+Es könnten mehrere Themen erstellt worden sein, Du erhälst jedoch erst weitere Benachrichtigungen, wenn Du das Board besucht hast.
 
 Der Titel des Themas lautet:
 {MESSAGE}
 
-Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicken Sie bitte auf folgenden Link:
+Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicke bitte auf folgenden Link:
 {UNSUBSCRIBELINK}
 
 {REGARDS}',
@@ -265,14 +265,14 @@ Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klic
 			@description:
 		*/
 		'subject' => 'Neues Thema: {TOPICSUBJECT}',
-		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Sie beobachten.
+		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welches Du beobachtest.
 
-Sie finden es unter
+Du finden es unter
 {TOPICLINK}
 
-Es könnten mehrere Themen erstellt worden sein, Sie erhalten jedoch erst weitere Benachrichtigungen, wenn Sie das Board besucht haben.
+Es könnten mehrere Themen erstellt worden sein, Du erhälst jedoch erst weitere Benachrichtigungen, wenn Du das Board besucht hast.
 
-Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicken Sie bitte auf folgenden Link:
+Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicke bitte auf folgenden Link:
 {UNSUBSCRIBELINK}
 
 {REGARDS}',
@@ -287,15 +287,15 @@ Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klic
 			@description:
 		*/
 		'subject' => 'Neues Thema: {TOPICSUBJECT}',
-		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Sie beobachten.
+		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Du beobachtest.
 
-Sie finden es unter
+Du finden es unter
 {TOPICLINK}
 
 Der Inhalt des Themas lautet:
 {MESSAGE}
 
-Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicken Sie bitte auf folgenden Link:
+Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicke bitte auf folgenden Link:
 {UNSUBSCRIBELINK}
 
 {REGARDS}',
@@ -309,12 +309,12 @@ Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klic
 			@description:
 		*/
 		'subject' => 'Neues Thema: {TOPICSUBJECT}',
-		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Sie beobachten.
+		'body' => 'Ein neues Thema, \'{TOPICSUBJECT}\', wurde in einem Board erstellt, welche Du beobachtest.
 
-Sie finden es unter
+Du finden es unter
 {TOPICLINK}
 
-Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicken Sie bitte auf folgenden Link:
+Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klicke bitte auf folgenden Link:
 {UNSUBSCRIBELINK}
 
 {REGARDS}',
@@ -336,7 +336,7 @@ Um die Benachrichtigungen über neue Themen aus diesem Board abzubestellen, klic
 
 {REASON}
 
-Sie können diese Anfrage genehmigen oder ablehnen, in dem Sie den folgenden Link besuchen:
+Du kannst diese Anfrage genehmigen oder ablehnen, in dem Du den folgenden Link besuchst:
 
 {MODLINK}
 
@@ -354,12 +354,12 @@ Sie können diese Anfrage genehmigen oder ablehnen, in dem Sie den folgenden Lin
 		'subject' => 'Das Abonnement im Forum {FORUMNAME} läuft ab',
 		'body' => '{REALNAME},
 
-Eines Ihrer Abonnements im Forum {FORUMNAME} läuft in der nächsten Zeit ab. Wenn Sie beim Bestellen des Abonnements die automatische Erneuerung aktiviert haben, müssen Sie nichts weiter tun - ansonsten müssen Sie das Abonnement nochmal durchführen, wenn sie dies möchten. Lesen Sie die folgenden Details:
+Eines Deiner Abonnements im Forum {FORUMNAME} läuft in der nächsten Zeit ab. Wenn Du beim Bestellen des Abonnements die automatische Erneuerung aktiviert hast, musst Du nichts weiter tun - ansonsten musst Du das Abonnement nochmal durchführen, wenn Du dies möchtest. Lese die folgenden Details:
 
 Name des Abonnements: {SUBSCRIPTION}
 Läuft ab: {END_DATE}
 
-Um Ihre Abonnements zu ändern, besuchen Sie bitte folgenden Link:
+Um Deine Abonnements zu ändern, besuche bitte folgenden Link:
 {PROFILE_LINK}
 
 {REGARDS}',
@@ -373,10 +373,10 @@ Um Ihre Abonnements zu ändern, besuchen Sie bitte folgenden Link:
 			@description:
 		*/
 		'subject' => 'Willkommen zurück im Forum {FORUMNAME}',
-		'body' => 'Um Ihre E-Mail-Adresse zu überprüfen, wurde Ihr Profil deaktiviert. Klicken Sie den folgenden Link, um es wieder zu aktivieren:
+		'body' => 'Um Deine E-Mail-Adresse zu überprüfen, wurde Dein Profil deaktiviert. Klicke den folgenden Link, um es wieder zu aktivieren:
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -390,8 +390,8 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 			@description:
 		*/
 		'subject' => 'Neues Passwort für das Forum {FORUMNAME}',
-		'body' => 'Sehr geehrte/r {REALNAME},
-Diese E-Mail wurde Ihnen zugesandt, weil die Funktion \'Passwort vergessen\' auf ihr Benutzerkonto angewendet worden ist. Um ein neues Passwort festzulegen, klicken Sie bitte auf den folgenden Link:
+		'body' => 'Hallo {REALNAME},
+Diese E-Mail wurde versandt, weil die Funktion \'Passwort vergessen\' auf dein Benutzerkonto angewendet worden ist. Um ein neues Passwort festzulegen, klicke bitte auf den folgenden Link:
 {REMINDLINK}
 
 IP: {IP}
@@ -408,8 +408,8 @@ Benutzername: {MEMBERNAME}
 			@description:
 		*/
 		'subject' => 'OpenID Erinnerung für {FORUMNAME}',
-		'body' => 'Sehr geehrte/r {REALNAME},
-Diese E-Mail wurde versandt, weil die  \'OpenID vergessen\' Funktion auf ihr Benutzerkonto angewendet wurde. Folgend die OpenID die mit ihrem Benutzerkonto verbunden ist:
+		'body' => 'Hallo {REALNAME},
+Diese E-Mail wurde versandt, weil die \'OpenID vergessen\' Funktion auf dein Benutzerkonto angewendet wurde. Folgend die OpenID die mit ihrem Benutzerkonto verbunden ist:
 {OPENID}
 
 IP: {IP}
@@ -431,7 +431,7 @@ Diese E-Mail enthält eine Zusammenfassung der Beiträge, die im Forum {FORUMNAM
 
 {BODY}
 
-Bitte loggen Sie sich im Forum ein, um die einzelnen Beiträge zu prüfen.
+Bitte logge dich im Forum ein, um die einzelnen Beiträge zu prüfen.
 {SCRIPTURL}
 
 {REGARDS}',
@@ -446,8 +446,8 @@ Bitte loggen Sie sich im Forum ein, um die einzelnen Beiträge zu prüfen.
 			@description:
 		*/
 		'subject' => 'Thema: {TOPICSUBJECT} (Von: {SENDERNAME})',
-		'body' => 'Sehr geehrte/r {RECPNAME},
-Bitte schauen Sie sich das Thema "{TOPICSUBJECT}" im Forum {FORUMNAME} an. Um dorthin zu gelangen, klicken Sie bitte auf folgenden Link:
+		'body' => 'Hallo {RECPNAME},
+Bitte schaue dir das Thema "{TOPICSUBJECT}" im Forum {FORUMNAME} an. Um dorthin zu gelangen, klicke bitte auf folgenden Link:
 
 {TOPICLINK}
 
@@ -466,8 +466,8 @@ Vielen Dank,
 			@description:
 		*/
 		'subject' => 'Thema: {TOPICSUBJECT} (Von: {SENDERNAME})',
-		'body' => 'Sehr geehrte/r {RECPNAME},
-Bitte schauen Sie sich das Thema "{TOPICSUBJECT}" im Forum {FORUMNAME} an. Um dorthin zu gelangen, klicken Sie bitte auf folgenden Link:
+		'body' => 'Hallo {RECPNAME},
+Bitte schaue dir das Thema "{TOPICSUBJECT}" im Forum {FORUMNAME} an. Um dorthin zu gelangen, klicke bitte auf folgenden Link:
 
 {TOPICLINK}
 
@@ -522,11 +522,11 @@ Der Benutzer hat folgenden Kommentar dazu geschrieben:
 		'subject' => 'Details zum neuen Passwort',
 		'body' => 'Hallo, {USERNAME}!
 
-Ihre Daten zum Einloggen im Forum {FORUMNAME} wurden geändert und das Passwort zurückgesetzt. Im folgenden sind Ihre neuen Login-Daten aufgelistet.
+Deine Daten zum Einloggen im Forum {FORUMNAME} wurden geändert und das Passwort zurückgesetzt. Im folgenden sind deine neuen Login-Daten aufgelistet.
 
-Ihr Benutzername ist "{USERNAME}" und Ihr Passwort ist "{PASSWORD}".
+Dein Benutzername ist "{USERNAME}" und dein Passwort ist "{PASSWORD}".
 
-Sie können diese Daten ändern, nach dem Sie sich eingeloggt haben und Ihr Profil editieren. Sie können nach dem Einloggen auch folgenden Link besuchen:
+Du kannst diese Daten ändern, wenn Du nach dem Einloggen dein Profil editierst. Du kannst nach dem Einloggen auch folgenden Link besuchen:
 {SCRIPTURL}?action=profile
 
 {REGARDS}',
@@ -544,14 +544,14 @@ Sie können diese Daten ändern, nach dem Sie sich eingeloggt haben und Ihr Prof
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
-Ihr Benutzername ist {USERNAME}. Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+Dein Benutzername ist {USERNAME}. Wenn Du dein Passwort vergessen hast, kannst Du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
-Bevor Sie sich einloggen können, müssen Sie Ihr Benutzerkonto zuerst aktivieren. Um dies zu tun, klicken Sie bitte den folgenden Link:
+Bevor Du dich einloggen kannst, musst Du zuerst dein Benutzerkonto aktivieren. Um dies zu tun, klicke bitte den folgenden Link:
 
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -567,17 +567,17 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername ist {USERNAME}.
-Sie haben sich entschieden sich mit der folgenden OpenID zu authentifizieren:
+Dein Benutzername ist {USERNAME}.
+Du hast dich entschieden, dich mit der folgenden OpenID zu authentifizieren:
 {OPENID}
 
-Bevor Sie sich einloggen können, müssen Sie Ihr Benutzerkonto zuerst aktivieren. Um dies zu tun, klicken Sie bitte den folgenden Link:
+Bevor Du dich einloggen kannst, musst Du zuerst dein Benutzerkonto aktivieren. Um dies zu tun, klicke bitte den folgenden Link:
 
 {ACTIVATIONLINK}
 
-Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und geben Sie dort folgenden Code ein "{ACTIVATIONCODE}".
+Solltest Du Probleme mit der Aktivierung haben, verwende bitte diesen Link {ACTIVATIONLINKWITHOUTCODE} und gib dort folgenden Code ein "{ACTIVATIONCODE}".
 
 {REGARDS}',
 	),
@@ -592,11 +592,11 @@ Sollten Sie Probleme mit der Aktivierung haben, verwenden Sie bitte diesen Link 
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername ist {USERNAME} und das Passwort lautet {PASSWORD}. Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+Dein Benutzername ist {USERNAME} und das Passwort lautet {PASSWORD}. Wenn Du dein Passwort vergessen hast, kannst du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
-Bevor Sie sich einloggen können, benötigt der Administrator das Einverständnis Ihrer Eltern/Erziehungsberechtigten. Sie können mehr Informationen unter dem folgenden Link lesen:
+Bevor du dich einloggen kannst, benötigt der Administrator das Einverstndnis deiner Eltern/Erziehungsberechtigten. Du kannst mehr Informationen unter dem folgenden Link lesen:
 
 {COPPALINK}
 
@@ -612,14 +612,14 @@ Bevor Sie sich einloggen können, benötigt der Administrator das Einverständni
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername ist {USERNAME}.
+Dein Benutzername ist {USERNAME}.
 
-Sie haben sich dazu entschieden, sich mit der folgenden OpenID zu authentifizieren:
+Du hast dich entschieden dich mit der folgenden OpenID zu authentifizieren:
 {OPENID}
 
-Bevor Sie sich einloggen können, benötigt der Administrator das Einverstandnis Ihrer Eltern/Erziehungsberechtigten. Sie können mehr Informationen unter dem folgenden Link lesen:
+Bevor du dich einloggen kannst, benötigt der Administrator das Einverstndnis deiner Eltern/Erziehungsberechtigten. Du kannst mehr Informationen unter dem folgenden Link lesen:
 
 {COPPALINK}
 
@@ -635,9 +635,9 @@ Bevor Sie sich einloggen können, benötigt der Administrator das Einverstandnis
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername lautet {USERNAME}. Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+Dein Benutzername lautet {USERNAME}. Wenn Du dein Passwort vergessen hast, kannst Du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
 {REGARDS}',
 	),
@@ -650,14 +650,14 @@ Ihr Benutzername lautet {USERNAME}. Wenn Sie Ihr Passwort vergessen haben, könn
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Sie sind jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
+		'body' => 'Du bist jetzt mit einem Benutzerkonto im Forum {FORUMNAME} registriert, {REALNAME}!
 
-Ihr Benutzername ist {USERNAME}.
+Dein Benutzername ist {USERNAME}.
 
-Sie haben sich entschieden sich mit der folgenden OpenID zu authentifizieren:
+Du hast entschieden dich mit der folgenden OpenID zu authentifizieren:
 {OPENID}
 
-Sie können ihr Profil aktualisieren, indem Sie nach dem Einloggen die folgende Seite besuchen:
+Du kannst dein Profil aktualisieren, indem Du nach dem Einloggen die folgende Seite besuchen:
 
 {SCRIPTURL}?action=profile
 
@@ -673,11 +673,11 @@ Sie können ihr Profil aktualisieren, indem Sie nach dem Einloggen die folgende 
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Ihre Registrierungsanfrage im Forum {FORUMNAME} haben wir erhalten, {REALNAME}.
+		'body' => 'Deine Registrierungsanfrage im Forum {FORUMNAME} haben wir erhalten, {REALNAME}.
 
-Ihr Benutzername, mit dem Sie sich registriert haben, ist {USERNAME}. Wenn Sie Ihr Passwort vergessen haben, können Sie es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
+Dein Benutzername, mit dem Du dich registriert hast, ist {USERNAME}. Wenn Du dein Passwort vergessen hast, kannst Du es unter folgenden Link zurücksetzen: {FORGOTPASSWORDLINK}
 
-Bevor Sie sich einloggen und das Forum benutzen können, muss Ihre Registrierung genehmigt werden. Sobald dies geschehen ist, erhalten Sie eine weitere E-Mail von dieser Adresse.
+Bevor Du dich einloggen und das Forum benutzen kannst, muss deine Registrierung genehmigt werden. Sobald dies geschehen ist, erhältst Du eine weitere E-Mail von dieser Adresse.
 
 {REGARDS}',
 	),
@@ -690,14 +690,14 @@ Bevor Sie sich einloggen und das Forum benutzen können, muss Ihre Registrierung
 			@description:
 		*/
 		'subject' => 'Willkommen im Forum {FORUMNAME}',
-		'body' => 'Ihre Registrierungsanfrage im Forum {FORUMNAME} haben wir erhalten, {REALNAME}.
+		'body' => 'Deine Registrierungsanfrage im Forum {FORUMNAME} haben wir erhalten, {REALNAME}.
 
-Ihr Benutzername, mit dem Sie sich registriert haben, ist {USERNAME}.
+Dein Benutzername, mit dem Du dich registriert hast, ist {USERNAME}.
 
-Sie haben sich entschieden sich mit der folgenden OpenID zu authentifizieren:
+Du hast entschieden dich mit der folgenden OpenID zu authentifizieren:
 {OPENID}
 
-Bevor Sie sich einloggen und das Forum benutzen können, muss Ihre Registrierung genehmigt werden. Sobald dies geschehen ist, erhalten Sie eine weitere E-Mail von dieser Adresse.
+Bevor Du dich einloggen und das Forum benutzen kannst, muss deine Registrierung genehmigt werden. Sobald dies geschehen ist, erhältst Du eine weitere E-Mail von dieser Adresse.
 
 {REGARDS}',
 	),
@@ -713,9 +713,9 @@ Bevor Sie sich einloggen und das Forum benutzen können, muss Ihre Registrierung
 		'subject' => 'Antwort im Thema: {TOPICSUBJECT}',
 		'body' => 'In diesem Thema wurde eine Antwort von {POSTERNAME} geschrieben.
 
-Lesen Sie die Antwort unter: {TOPICLINK}
+Lese die Antwort unter: {TOPICLINK}
 
-Um die Benachrichtigungen von diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigungen von diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -732,9 +732,9 @@ Um die Benachrichtigungen von diesem Thema abzubestellen, klicken Sie auf den fo
 		'subject' => 'Antwort im Thema: {TOPICSUBJECT}',
 		'body' => 'In diesem Thema wurde eine Antwort von {POSTERNAME} geschrieben.
 
-Lesen Sie die Antwort unter: {TOPICLINK}
+Lese die Antwort unter: {TOPICLINK}
 
-Um die Benachrichtigungen von diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigungen von diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 Der Text der Antwort lautet:
 {MESSAGE}
@@ -751,13 +751,13 @@ Der Text der Antwort lautet:
 			@description:
 		*/
 		'subject' => 'Antwort im Thema: {TOPICSUBJECT}',
-		'body' => 'In einem Thema das Sie beobachten wurde eine Antwort von {POSTERNAME} geschrieben.
+		'body' => 'In einem Thema das Du beobachtest wurde eine Antwort von {POSTERNAME} geschrieben.
 
-Lesen Sie die Antwort unter: {TOPICLINK}
+Lese die Antwort unter: {TOPICLINK}
 
-Um die Benachrichtigungen von diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigungen von diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
-Es könnten mehrere Anworten geschrieben worden sein, Sie erhalten jedoch erst weitere Benachrichtigungen, wenn Sie das Thema gelesen haben.
+Es könnten mehrere Anworten geschrieben worden sein, Du erhältst jedoch erst weitere Benachrichtigungen, wenn Du das Thema gelesen hast.
 
 {REGARDS}',
 	),
@@ -772,16 +772,16 @@ Es könnten mehrere Anworten geschrieben worden sein, Sie erhalten jedoch erst w
 			@description:
 		*/
 		'subject' => 'Antwort im Thema: {TOPICSUBJECT}',
-		'body' => 'In einem Thema das Sie beobachten wurde eine Antwort von {POSTERNAME} geschrieben.
+		'body' => 'In einem Thema das Du beobachtest wurde eine Antwort von {POSTERNAME} geschrieben.
 
-Lesen Sie die Antwort unter: {TOPICLINK}
+Lese die Antwort unter: {TOPICLINK}
 
-Um die Benachrichtigungen von diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigungen von diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 Der Text der Antwort lautet:
 {MESSAGE}
 
-Es könnten mehrere Anworten geschrieben worden sein, Sie erhalten jedoch erst weitere Benachrichtigungen, wenn Sie das Thema gelesen haben.
+Es könnten mehrere Anworten geschrieben worden sein, Du erhältst jedoch erst weitere Benachrichtigungen, wenn Du das Thema gelesen hast.
 
 {REGARDS}',
 	),
@@ -791,11 +791,11 @@ Es könnten mehrere Anworten geschrieben worden sein, Sie erhalten jedoch erst w
 			@description:
 		*/
 		'subject' => 'Thema fixiert: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} fixiert.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} fixiert.
 
-Lesen Sie das Thema unter: {TOPICLINK}
+Lese das Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -805,11 +805,11 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema geschlossen: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} geschlossen.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} geschlossen.
 
-Lesen Sie das Thema unter: {TOPICLINK}
+Lese das Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -819,11 +819,11 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema geöffnet: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} wieder geöffnet.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} wieder geöffnet.
 
-Lesen Sie das Thema unter: {TOPICLINK}
+Lese das Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -833,7 +833,7 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema gelöscht: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} gelöscht.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} gelöscht.
 
 {REGARDS}',
 	),
@@ -843,11 +843,11 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema verschoben: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} in ein anderes Board verschoben.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} in ein anderes Board verschoben.
 
-Lesen Sie das Thema unter: {TOPICLINK}
+Lese das Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -857,11 +857,11 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema zusammengeführt: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} mit einem anderen Thema zusammengeführt.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} mit einem anderen Thema zusammengeführt.
 
-Lesen Sie das neue, zusammengeführte Thema unter: {TOPICLINK}
+Lese das neue, zusammengeführte Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -871,11 +871,11 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Thema geteilt: {TOPICSUBJECT}',
-		'body' => 'Ein von Ihnen beobachtetes Thema wurde von {POSTERNAME} in zwei oder mehr Themen geteilt.
+		'body' => 'Ein von dir beobachtetes Thema wurde von {POSTERNAME} in zwei oder mehr Themen geteilt.
 
-Lesen Sie das verbliebene Thema unter: {TOPICLINK}
+Lese das verbliebene Thema unter: {TOPICLINK}
 
-Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folgenden Link: {UNSUBSCRIBELINK}
+Um die Benachrichtigung zu diesem Thema abzubestellen, klicke auf den folgenden Link: {UNSUBSCRIBELINK}
 
 {REGARDS}',
 	),
@@ -887,7 +887,7 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Ein neues Mitglied hat sich angemeldet',
-		'body' => '{USERNAME} hat sich als neues Mitglied in Ihrem Forum angemeldet. Klicken Sie den folgenden Link, um das Profil zu betrachten.
+		'body' => '{USERNAME} hat sich als neues Mitglied in Deinem Forum angemeldet. Klicke den folgenden Link, um das Profil zu betrachten.
 {PROFILELINK}
 
 {REGARDS}',
@@ -901,10 +901,10 @@ Um die Benachrichtigung zu diesem Thema abzubestellen, klicken Sie auf den folge
 			@description:
 		*/
 		'subject' => 'Ein neues Mitglied hat sich angemeldet',
-		'body' => '{USERNAME} hat sich als neues Mitglied in Ihrem Forum angemeldet. Klicken Sie den folgenden Link, um das Profil zu betrachten.
+		'body' => '{USERNAME} hat sich als neues Mitglied in Deinem Forum angemeldet. Klicke den folgenden Link, um das Profil zu betrachten.
 {PROFILELINK}
 
-Bevor dieses Mitglied Beiträge schreiben kann, muss das Profil zuerst genehmigt werden. Klicken Sie den folgenden Link, um auf die Aktivierungsseite zu gelangen.
+Bevor dieses Mitglied Beiträge schreiben kann, muss das Profil zuerst genehmigt werden. Klicke den folgenden Link, um auf die Aktivierungsseite zu gelangen.
 {APPROVALLINK}
 
 {REGARDS}',
@@ -918,7 +918,7 @@ Bevor dieses Mitglied Beiträge schreiben kann, muss das Profil zuerst genehmigt
 		'subject' => 'Dringend! Das Anhänge-Verzeichnis ist fast voll',
 		'body' => '{REALNAME},
 
-Das Verzeichnis für Anhänge des Forums {FORUMNAME} ist fast voll. Bitte kontrollieren Sie die Einstellungen, um das Problem zu beseitigen.
+Das Verzeichnis für Anhänge des Forums {FORUMNAME} ist fast voll. Bitte kontrolliere die Einstellungen, um das Problem zu beseitigen.
 
 Wenn das Anhänge-Verzeichnis die max. Größe erreicht hat, können die Benutzer keine weiteren Dateianhänge oder Benutzerbilder hochladen (wenn aktiviert).
 
@@ -944,7 +944,7 @@ Ein Benutzer hat ein bezahltes Abonnement zurückerstattet bekommen. Hier sind w
 	Benutzername: {REFUNDNAME} ({REFUNDUSER})
 	Datum: {DATE}
 
-Sie können das Profil des Benutzers anschauen, in dem Sie den folgenden Link anklicken:
+Du kannst das Profil des Benutzers anschauen, in dem Du den folgenden Link anklickst:
 {PROFILELINK}
 
 {REGARDS}',
@@ -972,7 +972,7 @@ Ein Benutzer hat ein neues Abonnement bestellt. Hier sind die Details zu der Bes
 	Preis: {PRICE}
 	Datum: {DATE}
 
-Sie können das Profil des Benutzers anschauen, in dem Sie den folgenden Link anklicken:
+Du kannst das Profil des Benutzers anschauen, in dem Du den folgenden Link anklickst:
 {PROFILELINK}
 
 {REGARDS}',
@@ -1003,26 +1003,26 @@ Der folgende Fehler trat während dem Verarbeiten einer bezahlten Abonnements au
 $birthdayEmails = array(
 	'happy_birthday' => array(
 		'subject' => 'Herzlichen Glückwunsch vom Forum {FORUMNAME}.',
-		'body' => 'Sehr geehrte/r {REALNAME},
+		'body' => 'Hallo {REALNAME},
 
-Wir vom Forum {FORUMNAME} wünschen Ihnen alles Gute zum Geburtstag. Wir hoffen, dass dieser Tag und das folgende Jahr zu Ihrer vollsten Zufriedenheit verläuft.
+Wir vom Forum {FORUMNAME} wünschen dir alles Gute zum Geburtstag. Wir hoffen, dass dieser Tag und das folgende Jahr zu Deiner vollsten Zufriedenheit verläuft.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=2676">Thantos</a>, aus dem englischen übersetzt',
 	),
 	'karlbenson1' => array(
-		'subject' => 'An Ihrem Geburtstag...',
-		'body' => 'Wir hätten Ihnen eine Geburtstagskarte senden können. Wir hätten Ihnen Blumen oder einen Kuchen schicken können.
+		'subject' => 'An Deinem Geburtstag...',
+		'body' => 'Wir hätten dir eine Geburtstagskarte senden können. Wir hätten dir Blumen oder einen Kuchen schicken können.
 
 Haben wir aber nicht.
 
-Wir hätten Ihnen auch eine dieser automatisch generierten Nachrichten schicken können, bei der noch nicht mal der Wortlaut NAME EINFÜGEN hätte ersetzt werden müssen.
+Wir hätten dir auch eine dieser automatisch generierten Nachrichten schicken können, bei der noch nicht mal der Wortlaut NAME EINFÜGEN hätte ersetzt werden müssen.
 
 Haben wir aber nicht.
 
-Wir haben diesen Geburtstaggruß extra für Sie geschrieben.
+Wir haben diesen Geburtstaggruß extra für Dich geschrieben.
 
-Wir wünschen Ihnen alles Gute zu Ihrem Geburtstag.
+Wir wünschen dir alles Gute zu Deinem Geburtstag.
 
 {REGARDS}
 
@@ -1031,9 +1031,9 @@ Wir wünschen Ihnen alles Gute zu Ihrem Geburtstag.
 	),
 	'nite0859' => array(
 		'subject' => 'Herzlichen Glückwunsch!',
-		'body' => 'Ihre Freunde im Forum {FORUMNAME} würden gerne einen Moment Ihrer kostbaren Zeit stehlen, um Ihnen alles Gute zum Geburtstag zu wünschen, {REALNAME}. Wenn Sie es noch nicht gemacht haben, besuchen Sie das Forum um anderen Benutzern die Möglichkeit zu geben, ein paar Grüße loszuwerden .
+		'body' => 'Deine Freunde im Forum {FORUMNAME} würden gerne einen Moment deoner kostbaren Zeit stehlen, um Dir alles Gute zum Geburtstag zu wünschen, {REALNAME}. Wenn Du es noch nicht gemacht hast, besuche das Forum um anderen Benutzern die Möglichkeit zu geben, ein paar Grüße loszuwerden.
 
-Auch wenn heute Ihr Geburtstag ist, {REALNAME}, möchten wir Sie daran erinnern, dass Ihre Mitgliedschaft in unserem Forum das größte Geschenk von allen war.
+Auch wenn heute Dein Geburtstag ist, {REALNAME}, möchten wir dich daran erinnern, dass deine Mitgliedschaft in unserem Forum das größte Geschenk von allen war.
 
 Herzliche Grüße,
 Die Forumleitung von {FORUMNAME}',
@@ -1041,32 +1041,32 @@ Die Forumleitung von {FORUMNAME}',
 	),
 	'zwaldowski' => array(
 		'subject' => 'Geburtstagsgrüße für {REALNAME}',
-		'body' => 'Sehr geehrte/r {REALNAME},
+		'body' => 'Hallo {REALNAME},
 
-ein weiteres Jahr in Ihrem Leben ist vorbei. Wir vom Forum {FORUMNAME} hoffen, dass es Ihnen Spaß gemacht hat und wüschen Ihnen für das kommende Jahr viel Glück.
+ein weiteres Jahr in deinem Leben ist vorbei. Wir vom Forum {FORUMNAME} hoffen, dass es dir Spaß gemacht hat und wüschen dir für das kommende Jahr viel Glück.
 
 {REGARDS}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=72038">zwaldowski</a>, aus dem englischen übersetzt',
 	),
 	'geezmo' => array(
 		'subject' => 'Herzlichen Glückwunsch, {REALNAME}!',
-		'body' => 'Wissen Sie, wer heute Geburtstag hat, {REALNAME}?
+		'body' => 'Weißt Du, wer heute Geburtstag hat, {REALNAME}?
 
-Wir wissen es... SIE! 
+Wir wissen es... DU!
 
 Herzlichen Glückwunsch!
 
-Sie sind jetzt zwar ein Jahr älter, aber wir hoffen, dass Sie auch glücklicher als letztes Jahr sind.
+Du bist jetzt zwar ein Jahr älter, aber wir hoffen, dass Du auch glücklicher als letztes Jahr bist.
 
-Wir wünschen Ihnen einen schönen Tag, {REALNAME}!
+Wir wünschen Dir einen schönen Tag, {REALNAME}!
 
 - Ihr Forenteam von {FORUMNAME}',
 		'author' => '<a href="http://www.simplemachines.org/community/?action=profile;u=48671">geezmo</a>, aus dem englischen übersetzt',
 	),
 	'karlbenson2' => array(
-		'subject' => 'Ihre Geburtstagsglückwünsche',
+		'subject' => 'Deine Geburtstagsglückwünsche',
 		'body' => 'Wir hoffen, dass dieser Geburtstag der beste aller Zeiten ist, egal welches Wetter herrscht.
-Wir wünschen Ihnen viele Geburtstagskuchen und viel Spaß - erzählen Sie uns, was Sie heute erlebt haben.
+Wir wünschen Dir viele Geburtstagskuchen und viel Spaß - erzähle uns, was Du heute erlebt hast.
 
 Bis nächstes Jahr, zur selben Zeit, am selben Ort.
 

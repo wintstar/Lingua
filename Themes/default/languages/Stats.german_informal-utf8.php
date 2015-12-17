@@ -39,7 +39,7 @@ $txt['average_hits'] = 'Durchschnittliche Seitenaufrufe pro Tag';
 $txt['ssi_comment'] = 'Kommentar';
 $txt['ssi_comments'] = 'Kommentare';
 $txt['ssi_write_comment'] = 'Kommentar schreiben';
-$txt['ssi_no_guests'] = 'Sie können kein Board angeben, was keine Gäste erlaubt. Bitte überprüfen Sie die Board ID, bevor Sie es erneut versuchen.';
+$txt['ssi_no_guests'] = 'Du kannst kein Board angeben, was keine Gäste erlaubt. Bitte überprüfe die Board ID, bevor du es erneut versuchst.';
 $txt['xml_rss_desc'] = 'Aktuelle Information von ' . $context['forum_name'];
 
 ?>

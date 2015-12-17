@@ -29,7 +29,7 @@ $txt['modlog_ac_pruned'] = 'Beiträge bereinigt, welche älter waren als {days} 
 $txt['modlog_ac_news'] = 'News editiert';
 $txt['modlog_enter_comment'] = 'Kommentar eingeben';
 $txt['modlog_moderation_log'] = 'Moderator-Protokoll';
-$txt['modlog_moderation_log_desc'] = 'Hier können Sie eine Liste mit protokollierten Aktionen der Moderatoren anschauen, welche im Forum durchgeführt worden sind.<br /><strong>Bitte beachten Sie:</strong> Diese Einträge können frühestens nach 24 Stunden gelöscht werden.';
+$txt['modlog_moderation_log_desc'] = 'Hier kannst du eine Liste mit protokollierten Aktionen der Moderatoren anschauen, welche im Forum durchgeführt worden sind.<br /><strong>Bitte beachte:</strong> Diese Einträge können frühestens nach 24 Stunden gelöscht werden.';
 $txt['modlog_no_entries_found'] = 'Keine Einträge im Moderatoren-Protokoll gefunden';
 $txt['modlog_remove'] = 'Entfernen';
 $txt['modlog_removeall'] = 'Alle entfernen';
@@ -50,7 +50,7 @@ $txt['modlog_ac_ban_trigger_ip_range'] = ' <em>IP-Adresse:</em> {ip_range}';
 $txt['modlog_ac_ban_trigger_hostname'] = '<em>Hostname:</em> {hostname}';
 
 $txt['modlog_admin_log'] = 'Administrator-Protokoll';
-$txt['modlog_admin_log_desc'] = 'Hier können Sie eine Liste mit protokollierten Aktionen der Administratoren anschauen, welche im Forum durchgeführt wurden.<br /><strong>Bitte beachten Sie:</strong> Diese Einträge können frühestens nach 24 Stunden gelöscht werden.';
+$txt['modlog_admin_log_desc'] = 'Hier kannst du eine Liste mit protokollierten Aktionen der Administratoren anschauen, welche im Forum durchgeführt wurden.<br /><strong>Bitte beachte:</strong> Diese Einträge können frühestens nach 24 Stunden gelöscht werden.';
 $txt['modlog_admin_log_no_entries_found'] = 'Es sind momentan keine Administrations-Log-Einträge vorhanden.';
 
 // Admin type strings.

@@ -11,7 +11,7 @@ $txt['mc_groups'] = 'Mitgliedergruppen';
 
 $txt['mc_view_groups'] = 'Mitgliedergruppen anzeigen';
 
-$txt['mc_description'] = 'Das ist Ihr "Moderations-Center". Hier können Sie alle Ihre Ihnen vom Administrator zugewiesenen Moderator Tätigkeiten ausführen. Diese Seite zeigt eine Zusammenfassung der aktuellsten Ereignisse in Ihrem Forum an. Sie können das Layout nach <a href="' . $scripturl . '?action=moderate;sa=personalize">Ihren eigenen Vorstellungen</a> anpassen.';
+$txt['mc_description'] = 'Das ist dein "Moderations-Center". Hier kannst du alle vom Administrator zugewiesenen Moderator Tätigkeiten ausführen. Diese Seite zeigt eine Zusammenfassung der aktuellsten Ereignisse in deinem Forum an. DU kannst das Layout nach <a href="' . $scripturl . '?action=moderate;sa=personalize">deinen eigenen Vorstellungen</a> anpassen.';
 $txt['mc_group_requests'] = 'Gruppenanfragen';
 $txt['mc_unapproved_posts'] = 'Ungenehmigte Beiträge';
 $txt['mc_watched_users'] = 'Neu beobachtete Benutzer';
@@ -32,7 +32,7 @@ $txt['mc_seen'] = '%1$s zuletzt gesehen %2$s';
 $txt['mc_seen_never'] = '%1$s nie gesehen';
 $txt['mc_groupr_by'] = 'von';
 
-$txt['mc_reported_posts_desc'] = 'Hier können Sie alle Beträge nachlesen, die von den Mitgliedern gemeldet wurden.';
+$txt['mc_reported_posts_desc'] = 'Hier kannst du alle Beträge nachlesen, die von den Mitgliedern gemeldet wurden.';
 $txt['mc_reportedp_active'] = 'Aktive Meldungen';
 $txt['mc_reportedp_closed'] = 'Alte Meldungen';
 $txt['mc_reportedp_by'] = 'von';
@@ -46,7 +46,7 @@ $txt['mc_reportedp_open'] = 'Aktive Meldungen';
 $txt['mc_reportedp_ignore'] = 'Ignorieren';
 $txt['mc_reportedp_unignore'] = 'Ignorieren aufheben';
 // Do not use numeric entries in the below string.
-$txt['mc_reportedp_ignore_confirm'] = 'Sind Sie sicher, dass Sie zukünftige Meldungen über diesen Beitrag ignorieren möchten?\\n\\nDies deaktiviert zukünftige Meldungen für alle Moderatoren des Forums!';
+$txt['mc_reportedp_ignore_confirm'] = 'Bist du sicher, dass du zukünftige Meldungen über diesen Beitrag ignorieren möchtest?\\n\\nDies deaktiviert zukünftige Meldungen für alle Moderatoren des Forums!';
 $txt['mc_reportedp_close_selected'] = 'Ausgewählte schließen';
 
 $txt['mc_groupr_group'] = 'Mitgliedergruppe';
@@ -61,16 +61,16 @@ $txt['mc_groupr_approve'] = 'Anfrage genehmigen';
 $txt['mc_groupr_reject'] = 'Anfrage ablehnen (kein Grund)';
 $txt['mc_groupr_reject_w_reason'] = 'Anfrage ablehnen (einen Grund angeben)';
 // Do not use numeric entries in the below string.
-$txt['mc_groupr_warning'] = 'Sind Sie sicher, dass Sie das tun möchten?';
+$txt['mc_groupr_warning'] = 'Bist du sicher, dass du das tun möchtest?';
 
 $txt['mc_unapproved_attachments_none_found'] = 'Keine ungenehmigten Dateianhänge gefunden!';
 $txt['mc_unapproved_replies_none_found'] = 'Keine ungenehmigten Beiträge gefunden!';
 $txt['mc_unapproved_topics_none_found'] = 'Keine ungenehmigten Themen gefunden!';
-$txt['mc_unapproved_posts_desc'] = 'Hier können Sie alle Beiträge genehmigen oder ablehnen, die moderiert werden müssen.';
+$txt['mc_unapproved_posts_desc'] = 'Hier kannst du alle Beiträge genehmigen oder ablehnen, die moderiert werden müssen.';
 $txt['mc_unapproved_replies'] = 'Antworten';
 $txt['mc_unapproved_topics'] = 'Themen';
 $txt['mc_unapproved_by'] = 'von';
-$txt['mc_unapproved_sure'] = 'Sind Sie sicher, dass Sie das tun möchten?';
+$txt['mc_unapproved_sure'] = 'Bist du sicher, dass du das tun möchtest?';
 $txt['mc_unapproved_attach_name'] = 'Name des Dateianhangs';
 $txt['mc_unapproved_attach_size'] = 'Dateigröße';
 $txt['mc_unapproved_attach_poster'] = 'Autor';
@@ -95,12 +95,12 @@ $txt['mc_watched_users_last_login'] = 'Letzter Login';
 $txt['mc_watched_users_last_post'] = 'Letzter Beitrag';
 $txt['mc_watched_users_no_posts'] = 'Es gibt keine Beiträge von beobachteten Benutzern.';
 // Don't use entities in the two strings below.
-$txt['mc_watched_users_delete_post'] = 'Sind Sie sicher, dass Sie diesen Beitrag löschen möchten?';
-$txt['mc_watched_users_delete_posts'] = 'Sind Sie sicher, dass Sie diese Beiträge löschen möchten?';
+$txt['mc_watched_users_delete_post'] = 'Bist du sicher, dass du diesen Beitrag löschen möchtest?';
+$txt['mc_watched_users_delete_posts'] = 'Bist du sicher, dass du diese Beiträge löschen möchtest?';
 $txt['mc_watched_users_posted'] = 'Geschrieben am';
 $txt['mc_watched_users_member'] = 'Nach Mitglied anzeigen';
 
-$txt['mc_warnings_description'] = 'In dieser Sektion können Sie sehen, welche Warnungen an welche Benutzer ausgesprochen wurden. Sie können außerdem Vorlagen hinzufügen und bearbeiten, welche beim Verwarnen eines Benutzers an diesen versandt werden.';
+$txt['mc_warnings_description'] = 'In dieser Sektion siehst du, welche Warnungen an welche Benutzer ausgesprochen wurden. Du kannst außerdem Vorlagen hinzufügen und bearbeiten, welche beim Verwarnen eines Benutzers an diesen versandt werden.';
 $txt['mc_warning_log'] = 'Verwarnungsprotokoll';
 $txt['mc_warning_templates'] = 'Benutzerdefinierte Templates';
 $txt['mc_warning_log_title'] = 'Zeige Warnungs Log';
@@ -116,20 +116,20 @@ $txt['mc_warning_templates_creator'] = 'Erstellt von';
 $txt['mc_warning_template_add'] = 'Vorlage hinzufügen';
 $txt['mc_warning_template_modify'] = 'Vorlage ändern';
 $txt['mc_warning_template_delete'] = 'Ausgewählte löschen';
-$txt['mc_warning_template_delete_confirm'] = 'Sind Sie sicher, dass Sie die ausgewählten Schablonen löschen möchten?';
+$txt['mc_warning_template_delete_confirm'] = 'Bist du sicher, dass du die ausgewählten Schablonen löschen möchtest?';
 
-$txt['mc_warning_template_desc'] = 'Benutzen Sie diese Seite um die Details der Schablone einzutragen. Beachten Sie, dass der Betreff nicht Teil der Schablone ist. Beachten sie außerdem, dass, da die Benachrichtigung als PN versandt wird, sie BBC in der Schablone verwenden können. Wenn sie die {MESSAGE} Variable verwenden ist diese Schablone nicht für Allgemeine Warnungen verfügbar (also Warnungen, die nicht mit Beiträgen in Zusammenhang stehen).';
+$txt['mc_warning_template_desc'] = 'Benutze diese Seite um die Details der Schablone einzutragen. Beachte, dass der Betreff nicht Teil der Schablone ist. Beachte außerdem, dass, da die Benachrichtigung als PN versandt wird, BBC in der Schablone verwenden kannst. Wenn du die {MESSAGE} Variable verwendest ist diese Schablone nicht für Allgemeine Warnungen verfügbar (also Warnungen, die nicht mit Beiträgen in Zusammenhang stehen).';
 $txt['mc_warning_template_title'] = 'Vorlagen-Titel';
-$txt['mc_warning_template_body_desc'] = 'Der Inhalt der Benachrichtigung. Beachten Sie, dass sie die folgenden Schablonen verwenden können:<ul style="margin-top: 0px;"><li>{MEMBER} - Benutzeraccount Name</li><li>{MESSAGE} - Link zum betreffenden Beitrag (falls zutreffend)</li><li>{FORUMNAME} - Forum Name.</li><li>{SCRIPTURL} - Web Adresse des Forums</li><li>{REGARDS} - Standard E-Mail Abschied/Unterschrift</li></ul>';
-$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Sie haben eine Verwarnung wegen unangebrachten Verhaltens bekommen. Bitte stoppen Sie dieses Verhalten und verhalten Sie sich nach den Forum Regeln damit keine weiteren Schritte eingeleitet werden müssen.' . "\n\n" . '{REGARDS}';
+$txt['mc_warning_template_body_desc'] = 'Der Inhalt der Benachrichtigung. Beachte, dass die folgenden Schablonen verwenden können:<ul style="margin-top: 0px;"><li>{MEMBER} - Benutzeraccount Name</li><li>{MESSAGE} - Link zum betreffenden Beitrag (falls zutreffend)</li><li>{FORUMNAME} - Forum Name.</li><li>{SCRIPTURL} - Web Adresse des Forums</li><li>{REGARDS} - Standard E-Mail Abschied/Unterschrift</li></ul>';
+$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Du hast eine Verwarnung wegen unangebrachten Verhaltens bekommen. Bitte stoppe dieses Verhalten und verhalte dich nach den Forum Regeln damit keine weiteren Schritte eingeleitet werden müssen.' . "\n\n" . '{REGARDS}';
 $txt['mc_warning_template_personal'] = 'persönliche Vorlage';
-$txt['mc_warning_template_personal_desc'] = 'Wenn sie diese Option wählen können nur Sie dieses Template sehen, ändern und verwenden. Ist sie nicht gewählt, können es alle Moderatorenverwenden. ';
-$txt['mc_warning_template_error_empty'] = 'Sie müssen sowohl einen Titel, wie auch Benachrichtigungs Inhalt angeben.';
+$txt['mc_warning_template_personal_desc'] = 'Wenn du diese Option wählst kannst nur du dieses Template sehen, ändern und verwenden. Ist sie nicht gewählt, können es alle Moderatorenverwenden. ';
+$txt['mc_warning_template_error_empty'] = 'Du musst sowohl einen Titel, wie auch Benachrichtigungs Inhalt angeben.';
 
 $txt['mc_prefs'] = 'Einstellungen';
 $txt['mc_settings'] = 'Einstellungen ändern';
 $txt['mc_prefs_title'] = 'Moderatoreinstellungen';
-$txt['mc_prefs_desc'] = 'Hier können Sie ein paar Einstellungen bezüglich der Moderation (z.B. die Benachrichtigungen) konfigurieren.';
+$txt['mc_prefs_desc'] = 'Hier kannst du ein paar Einstellungen bezüglich der Moderation (z.B. die Benachrichtigungen) konfigurieren.';
 $txt['mc_prefs_homepage'] = 'Bereiche, welche auf der Moderations-Startseite angezeigt werden sollen';
 $txt['mc_prefs_latest_news'] = 'Simple Machines News';
 $txt['mc_prefs_show_reports'] = 'Offene Meldungen im Kopf des Forums anzeigen';

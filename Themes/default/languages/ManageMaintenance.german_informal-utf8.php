@@ -80,7 +80,7 @@ $txt['salvaged_poll_topic_name'] = 'Isolierte Umfragen';
 $txt['salvaged_poll_message_body'] = 'Diese Umfrage wurde ohne zugewiesenes Thema gefunden.';
 
 $txt['database_optimize'] = 'Datenbank optimieren';
-$txt['database_numb_tables'] = 'Ihre Datenbank enthält %1$d Tabellen.';
+$txt['database_numb_tables'] = 'Deine Datenbank enthält %1$d Tabellen.';
 $txt['database_optimize_attempt'] = 'Versuche die Datenbank zu optimieren ...';
 $txt['database_optimizing'] = 'Optimiere %1$s... %2$f KB optimiert.';
 $txt['database_already_optimized'] = 'Alle Tabellen sind optimiert!';
@@ -101,7 +101,7 @@ $txt['error_message'] = 'Fehlermeldung';
 $txt['clear_filter'] = 'Filter löschen';
 $txt['remove_selection'] = 'Auswahl entfernen';
 $txt['remove_filtered_results'] = 'Alle gefilterten Resultate entfernen';
-$txt['sure_about_errorlog_remove'] = 'Sind Sie sicher, dass Sie alle Fehlermeldungen löschen möchten?';
+$txt['sure_about_errorlog_remove'] = 'Bist Du sicher, dass Du alle Fehlermeldungen löschen möchtest?';
 $txt['reverse_direction'] = 'Chronologische Reihenfolge der Liste ändern';
 $txt['error_type'] = 'Art des Fehlers';
 $txt['filter_only_type'] = 'Nur Fehler von diesem Typ zeigen';
@@ -112,7 +112,7 @@ $txt['errortype_all'] = 'Alle Fehler';
 $txt['errortype_general'] = 'Generell';
 $txt['errortype_general_desc'] = 'Generelle Fehler, die keinem anderen Fehler-Typ zugeordnet werden konnten.';
 $txt['errortype_critical'] = '<span style="color:red;">Kritisch</span>';
-$txt['errortype_critical_desc'] = 'Kritische Fehler. Diese sollten unverzüglich behoben werden, da sie sonst negative Auswirkungen auf das Forum haben sowie potentielle Sicherheitsrisiken darstellen.';
+$txt['errortype_critical_desc'] = 'Kritische Fehler. Diese sollten unverzüglich behoben werden, da diese sonst negative Auswirkungen auf das Forum haben sowie potentielle Sicherheitsrisiken darstellen.';
 $txt['errortype_database'] = 'Datenbank';
 $txt['errortype_database_desc'] = 'Fehler aufgrund falscher Abfragen. Diese sollten untersucht und dem SMF-Team mitgeteilt werden.';
 $txt['errortype_undefined_vars'] = 'Undefiniert';
@@ -123,7 +123,7 @@ $txt['errortype_user'] = 'Benutzer';
 $txt['errortype_user_desc'] = 'Fehler aufgrund eines Benutzerfehler: Eingabe eines falschen Passwortes, Einloggen während eines Banns oder ausführen einer Aktion ohne Berechtigung.';
 
 $txt['maintain_recount'] = 'Alle totalen Forumswerte und Statistiken neu auszählen';
-$txt['maintain_recount_info'] = 'Sollte die Gesamtzahl an Antworten eines Themas oder die Anzahl der PNs in Ihrem Nachrichten-Eingang inkorrekt sein: diese Funktion zählt alle gespeicherten Zähler und Statistiken neu.';
+$txt['maintain_recount_info'] = 'Sollte die Gesamtzahl an Antworten eines Themas oder die Anzahl der PNs in Deinem Nachrichten-Eingang inkorrekt sein: diese Funktion zählt alle gespeicherten Zähler und Statistiken neu.';
 $txt['maintain_errors'] = 'Fehler finden und reparieren';
 $txt['maintain_errors_info'] = 'Wenn, zum Beispiel nach einem Server Absturz, Beiträge und Themen fehlen könnte diese Funktion dabei helfen sie wieder aufzufinden.';
 $txt['maintain_logs'] = 'Unwichtige Protokolle leeren';
@@ -131,9 +131,9 @@ $txt['maintain_logs_info'] = 'Diese Funktion leert alle unwichtigen Protokolle. 
 $txt['maintain_cache'] = 'Dateicache leeren';
 $txt['maintain_cache_info'] = 'Diese Funktion entfernt alle Dateien aus dem Zwischenspeicher (Cache).';
 $txt['maintain_optimize'] = 'Optimiere alle Tabellen';
-$txt['maintain_optimize_info'] = 'Diese Aufgabe erlaubt es ihnen, alle Tabellen zu optimieren. Dies wird Overhead entfernen, was die Tabellen kleiner und Ihr Forum schneller machen wird.';
+$txt['maintain_optimize_info'] = 'Diese Aufgabe erlaubt es Dir, alle Tabellen zu optimieren. Dies wird Overhead entfernen, wodurch die Tabellen kleiner werden und Dein Forum schneller.';
 $txt['maintain_version'] = 'Alle Dateien auf neue Versionen überprüfen';
-$txt['maintain_version_info'] = 'Diese Wartungsaufgabe erlaubt es ihnen eine ausführliche Versionsprüfung der einzelnen Forums Dateien gegenüber den aktuellen Versionen durchzuführen.';
+$txt['maintain_version_info'] = 'Diese Wartungsaufgabe erlaubt es Dir, eine ausführliche Versionsprüfung der einzelnen Forums Dateien gegenüber den aktuellen Versionen durchzuführen.';
 $txt['maintain_run_now'] = 'Aufgabe jetzt ausführen';
 $txt['maintain_return'] = 'Zurück zu \'Wartung des Forums\'';
 
@@ -154,7 +154,7 @@ $txt['maintain_old_are_not_stickied'] = 'fixierte Themen ausschließen';
 $txt['maintain_old_all'] = 'Alle Boards (klicke um spezifische Boards zu wählen)';
 $txt['maintain_old_choose'] = 'Spezifische Boards (klicken um alle zu wählen)';
 $txt['maintain_old_remove'] = 'Entfernen';
-$txt['maintain_old_confirm'] = 'Sind Sie sicher, dass Sie alle alten Beiträge löschen möchten?\\n\\nDies kann nicht rückgängig gemacht werden!';
+$txt['maintain_old_confirm'] = 'Bist Du sicher, dass Du alle alten Beiträge löschen möchtest?\\n\\nDies kann nicht rückgängig gemacht werden!';
 
 $txt['maintain_members'] = 'Inaktive Mitglieder entfernen';
 $txt['maintain_members_ungrouped'] = 'Ungruppierte Mitglieder <span class="smalltext">(ohne zugewiesene Gruppe)</span>';
@@ -165,30 +165,30 @@ $txt['maintain_members_activated'] = 'ihre Zugänge aktiviert haben';
 $txt['maintain_members_logged_in'] = 'eingeloggt waren';
 $txt['maintain_members_all'] = 'Alle Mitgliedergruppen';
 $txt['maintain_members_choose'] = 'Ausgewählte Mitgliedergruppen';
-$txt['maintain_members_confirm'] = 'Sind sie sicher, dass sie diese Mitgliederzugänge löschen möchten?\\n\\nDies kann nicht rückgängig gemacht werden!';
+$txt['maintain_members_confirm'] = 'Bist Du sicher, dass Du diese Mitgliederzugänge löschen möchtest?\\n\\nDies kann nicht rückgängig gemacht werden!';
 
 $txt['utf8_title'] = 'Konvertiert die Datenbank und die Daten zu UTF-8';
 $txt['utf8_introduction'] = 'UTF-8 ist ein internationaler Zeichensatz, welcher fast alle Sprachen umfasst. Die Konvertierung der Datenbank und der Daten zu UTF-8 macht die Unterstützung verschiedener Sprachen in einem Board einfacher und verbessert die Möglichkeiten der Suche bzw. der Sortierfunktion für Sprachen mit nicht-lateinischen Zeichen.';
-$txt['utf8_warning'] = 'Sollten Sie die Datenbank und die Daten zu UTF-8 konvertieren möchten, beachten Sie bitte folgendes:
+$txt['utf8_warning'] = 'Solltest Du die Datenbank und die Daten zu UTF-8 konvertieren wollen, beachte bitte folgendes:
 <ul class="normallist">
-	<li>Das Konvertieren von Zeichensätzen kann Ihre Daten <em>beschädigen</em>! Stellen sie sicher, dass eine Datensicherung <em>vor</em> der Konvertierung gemacht wurde.</li>
+	<li>Das Konvertieren von Zeichensätzen kann Deine Daten <em>beschädigen</em>! Stelle sicher, dass eine Datensicherung <em>vor</em> der Konvertierung gemacht wurde.</li>
 	<li>Aufgrund des größeren Umfangs des UTF-8 Zeichensatzes gibt es keine Möglichkeit die Konvertierung rückgängig zu machen - außer das Zurückspielen einer Datensicherung, welche vor der Konvertierung erstellt wurde.</li>
-	<li>Nach der Konvertierung von Datenbank und Daten benötigen Sie UTF-8 kompatible Sprachdateien.</li>
+	<li>Nach der Konvertierung von Datenbank und Daten benötigst Du UTF-8 kompatible Sprachdateien.</li>
 </ul>';
 $txt['utf8_charset_not_supported'] = 'Konvertierung von %1$s zu UTF-8 wird nicht unterstützt.';
-$txt['utf8_detected_charset'] = 'Basierend auf Ihren Standard-Sprachdateien (\'%1$s\') würde der Zeichensatz Ihrer Daten \'%2$s\' sein.';
-$txt['utf8_already_utf8'] = 'Ihre Datenbank und Ihre Daten sind schon als UTF-8 konfiguriert. Eine Konvertierung ist nicht nötig.';
+$txt['utf8_detected_charset'] = 'Basierend auf Deinen Standard-Sprachdateien (\'%1$s\') würde der Zeichensatz Deiner Daten \'%2$s\' sein.';
+$txt['utf8_already_utf8'] = 'Deine Datenbank und Deine Daten sind schon als UTF-8 konfiguriert. Eine Konvertierung ist nicht nötig.';
 $txt['utf8_source_charset'] = 'Zeichensatz der Daten';
 $txt['utf8_proceed'] = 'Weiter';
 $txt['utf8_database_charset'] = 'Zeichensatz der Datenbank';
 $txt['utf8_target_charset'] = 'Konvertiere Datenbank und Daten zu';
 $txt['utf8_utf8'] = 'UTF-8';
-$txt['utf8_db_version_too_low'] = 'Die MySQL-Version Ihres Datenbankservers ist nicht aktuell genug um UTF-8 problemlos zu unterstützen. Sie benötigen mind. Version 4.1.2.';
-$txt['utf8_cannot_convert_fulltext'] = 'Ihre Nachrichten-Tabelle verwendet Volltext-Indexierung zur Verwendung bei einer Suche. Sie können mit der Konvertierung zu UTF-8 nicht fortfahren, bevor diese nicht entfernt wurde. Sie können Ihn anschließend wieder Erstellen, sobald die Konvertierung abgeschlossen ist.';
+$txt['utf8_db_version_too_low'] = 'Die MySQL-Version Deines Datenbankservers ist nicht aktuell genug um UTF-8 problemlos zu unterstützen. Du benötigst mind. Version 4.1.2.';
+$txt['utf8_cannot_convert_fulltext'] = 'Deine Nachrichten-Tabelle verwendet Volltext-Indexierung zur Verwendung bei einer Suche. Du kannst mit der Konvertierung zu UTF-8 nicht fortfahren, bevor diese nicht entfernt wurde. Du kannst ihn anschließend wieder erstellen, sobald die Konvertierung abgeschlossen ist.';
 
 $txt['entity_convert_title'] = 'Konvertiere HTML-Entities zu UTF-8 Zeichen';
 $txt['entity_convert_only_utf8'] = 'Die Datenbank sollte im UTF-8 Format vorhanden sein, bevor die HTML-Entities zu UTF-8 konvertiert werden können.';
-$txt['entity_convert_introduction'] = 'Diese Funktion konvertiert alle Zeichen, die als HTML-Entities in der Datenbank gespeichert sind, zu UTF-8. Das ist sinnvoll, wenn Sie Ihr Forum erst kürzlich von einem Zeichensatz wie ISO-8859-1 konvertiert haben und nicht-lateinische Zeichen im Forum benutzt wurden. Der Browser sendet danach alle Zeichen als HTML-Entities, zum Beispiel das HTML-Entity &amp#945;, welches im griechischen den Buchstaben &#945; (Alpha) representiert. Die Konvertierung von Entities zu UTF-8 verbessert die Suche und Sortierung von Text erheblich und reduziert den benötigten Speicher.';
+$txt['entity_convert_introduction'] = 'Diese Funktion konvertiert alle Zeichen, die als HTML-Entities in der Datenbank gespeichert sind, zu UTF-8. Das ist sinnvoll, wenn Du Dein Forum erst kürzlich von einem Zeichensatz wie ISO-8859-1 konvertiert haben und nicht-lateinische Zeichen im Forum benutzt wurden. Der Browser sendet danach alle Zeichen als HTML-Entities, zum Beispiel das HTML-Entity &amp#945;, welches im griechischen den Buchstaben &#945; (Alpha) representiert. Die Konvertierung von Entities zu UTF-8 verbessert die Suche und Sortierung von Text erheblich und reduziert den benötigten Speicher.';
 $txt['entity_convert_proceed'] = 'Weiter';
 
 // Move topics out.
@@ -197,7 +197,7 @@ $txt['move_topics_select_board'] = 'Board auswählen';
 $txt['move_topics_from'] = 'Verschiebe Themen von';
 $txt['move_topics_to'] = 'zu';
 $txt['move_topics_now'] = 'Jetzt verschieben';
-$txt['move_topics_confirm'] = 'Sind Sie sicher, dass Sie ALLE Themen von "%board_from%" zu "%board_to%" verschieben möchten?';
+$txt['move_topics_confirm'] = 'Bist Du sicher, dass Du ALLE Themen von "%board_from%" zu "%board_to%" verschieben möchtest?';
 
 $txt['maintain_reattribute_posts'] = 'Beiträge zuordnen';
 $txt['reattribute_guest_posts'] = 'Gästebeiträge mit folgenden Daten zuordnen';
@@ -207,7 +207,7 @@ $txt['reattribute_current_member'] = 'Beiträge folgendem Mitglied zuordnen';
 $txt['reattribute_increase_posts'] = 'Beiträge der Anzahl des Benutzers hinzufügen';
 $txt['reattribute'] = 'Zuordnen';
 // Don't use entities in the below string.
-$txt['reattribute_confirm'] = 'Sind Sie sicher, dass Sie alle Gästebeiträge mit %type% "%find%" dem Mitglied "%member_to%" zuordnen möchten?';
+$txt['reattribute_confirm'] = 'Bist Du sicher, dass Du alle Gästebeiträge mit %type% "%find%" dem Mitglied "%member_to%" zuordnen möchtest?';
 $txt['reattribute_confirm_username'] = 'dem Benutzernamen';
 $txt['reattribute_confirm_email'] = 'der E-Mail-Adresse';
 $txt['reattribute_cannot_find_member'] = 'Das ausgesuchte Mitglied konnte nicht gefunden werden!';

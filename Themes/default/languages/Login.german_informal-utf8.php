@@ -12,69 +12,69 @@ $txt['agreement_agree_coppa_below'] = 'Ich akzeptiere die Nutzungsbedingungen un
 
 // Registration form.
 $txt['registration_form'] = 'Registrierungs-Formular';
-$txt['need_username'] = 'Sie müssen einen Benutzernamen angeben.';
+$txt['need_username'] = 'Bitte einen Benutzernamen eingeben.';
 $txt['no_password'] = 'Das Passwortfeld ist leer.';
 $txt['incorrect_password'] = 'Das Passwort ist falsch.';
-$txt['choose_username'] = 'Wählen Sie einen Benutzernamen';
+$txt['choose_username'] = 'Wähle einen Benutzernamen';
 $txt['maintain_mode'] = 'Wartungsmodus';
 $txt['registration_successful'] = 'Registrierung erfolgreich';
-$txt['now_a_member'] = 'Erfolgreich! Sie sind nun ein Mitglied des Forums.';
+$txt['now_a_member'] = 'Erfolgreich! Du bist nun ein Mitglied des Forums.';
 // Use numeric entities in the below string.
-$txt['your_password'] = 'und Ihr Passwort ist';
-$txt['valid_email_needed'] = 'Bitte geben Sie eine gültige E-Mail-Adresse ein, (%1$s).';
+$txt['your_password'] = 'und dein Passwort ist';
+$txt['valid_email_needed'] = 'Bitte gib eine gültige E-Mail-Adresse ein, (%1$s).';
 $txt['required_info'] = 'Notwendige Angaben';
-$txt['identification_by_smf'] = 'Wird nur zur Identifizierung von SMF verwendet. Spezialzeichen können Sie nach dem Einloggen verwenden, indem Sie den Benutzernamen im Profil ändern.';
+$txt['identification_by_smf'] = 'Wird nur zur Identifizierung von SMF verwendet. Spezialzeichen kannst du nach dem Einloggen verwenden, indem du den Benutzernamen im Profil änderst.';
 $txt['additional_information'] = 'Zusätzliche Informationen';
 $txt['warning'] = 'Warnung!';
 $txt['only_members_can_access'] = 'Nur registrierte Mitglieder haben Zugriff auf diesen Bereich.';
 $txt['login_below'] = 'Bitte einloggen oder';
-$txt['register_an_account'] = 'registrieren Sie einen Account';
+$txt['register_an_account'] = 'registriere einen Account';
 $txt['login_with_forum'] = 'mit %1$s.';
 // Use numeric entities in the below two strings.
-$txt['may_change_in_profile'] = 'Nach dem Einloggen können Sie es in Ihrem Profil ändern oder folgende Seite benutzen:';
-$txt['your_username_is'] = 'Ihr Benutzername ist: ';
+$txt['may_change_in_profile'] = 'Nach dem Einloggen kannst du es in deinem Profil ändern oder folgende Seite benutzen:';
+$txt['your_username_is'] = 'Dein Benutzername ist: ';
 
-$txt['login_hash_error'] = 'Die Passwortsicherheit wurde aktualisiert. Bitte geben Sie Ihr Passwort erneut ein.';
+$txt['login_hash_error'] = 'Die Passwortsicherheit wurde aktualisiert. Bitte gib dein Passwort erneut ein.';
 
-$txt['ban_register_prohibited'] = 'Sie haben nicht die Erlaubnis, sich in diesem Forum zu registrieren';
+$txt['ban_register_prohibited'] = 'Du hast nicht die Erlaubnis dich in diesem Forum zu registrieren';
 $txt['under_age_registration_prohibited'] = 'Benutzer, die jünger als %d Jahre sind, dürfen sich in diesem Forum nicht registrieren.';
 
 $txt['activate_account'] = 'Kontoaktivierung';
-$txt['activate_success'] = 'Ihr Benutzerkonto wurde erfolgreich aktiviert. Sie können sich jetzt einloggen.';
-$txt['activate_not_completed1'] = 'Ihre E-Mail-Adresse muss vor dem Einloggen überprüft werden.';
-$txt['activate_not_completed2'] = 'Brauchen Sie eine erneute Aktivierungs E-Mail?';
-$txt['activate_after_registration'] = 'Danke für die Registrierung. Sie werden in Kürze eine E-Mail erhalten, mit der Sie Ihr Benutzerkonto aktivieren können. Sollten Sie nach einiger Zeit keine E-Mail erhalten haben, prüfen Sie bitte Ihren Spam-Ordner.';
+$txt['activate_success'] = 'Dein Benutzerkonto wurde erfolgreich aktiviert. Du kannst dich jetzt einloggen.';
+$txt['activate_not_completed1'] = 'Deine E-Mail-Adresse muss vor dem Einloggen überprüft werden.';
+$txt['activate_not_completed2'] = 'Brauchst du eine erneute Aktivierungs E-Mail?';
+$txt['activate_after_registration'] = 'Danke für die Registrierung. Du wirst in Kürze eine E-Mail erhalten, mit der du dein Benutzerkonto aktivieren kannst. Solltest du nach einiger Zeit keine E-Mail erhalten haben, prüfe bitte deinen Spam-Ordner.';
 $txt['invalid_userid'] = 'Der Benutzer existiert nicht';
 $txt['invalid_activation_code'] = 'Ungültiger Aktivierungscode';
 $txt['invalid_activation_username'] = 'Benutzername oder E-Mail';
-$txt['invalid_activation_new'] = 'Wenn Sie sich mit einer falschen E-Mail-Adresse registriert haben, geben Sie hier eine neue Adresse und Ihr Passwort ein.';
+$txt['invalid_activation_new'] = 'Wenn du dich mit einer falschen E-Mail-Adresse registriert hast gib hier eine neue Adresse und dein Passwort ein.';
 $txt['invalid_activation_new_email'] = 'Neue E-Mail-Adresse';
 $txt['invalid_activation_password'] = 'Altes Passwort';
 $txt['invalid_activation_resend'] = 'Aktivierungscode erneut senden';
-$txt['invalid_activation_known'] = 'Wenn Sie Ihren Aktivierungscode wissen, tragen Sie ihn hier ein.';
+$txt['invalid_activation_known'] = 'Wenn du deinen Aktivierungscode weißt trage ihn hier ein.';
 $txt['invalid_activation_retry'] = 'Aktivierungscode';
 $txt['invalid_activation_submit'] = 'Aktivieren';
 
-$txt['coppa_no_concent'] = 'Der Administrator hat noch keine Einwilligung der Eltern/Erziehungsberechtigten für Dein Benutzerkonto erhalten.';
+$txt['coppa_no_concent'] = 'Der Administrator hat noch keine Einwilligung der Eltern/Erziehungsberechtigten für dein Benutzerkonto erhalten.';
 $txt['coppa_need_more_details'] = 'Weitere Details?';
 
-$txt['awaiting_delete_account'] = 'Sie haben Ihr Benutzerkonto gelöscht! Möchten Sie es wiederherstellen, aktivieren Sie die "Wiederherstellen meines Benutzerkontos" Option und versuchen Sie es erneut.';
+$txt['awaiting_delete_account'] = 'Du hast dein Benutzerkonto gelöscht! Möchtest du es wiederherstellen, aktiviere die "Wiederherstellen meines Benutzerkontos" Option und versuche es erneut.';
 $txt['undelete_account'] = 'Wiederherstellen meines Benutzerkontos';
 
 // Use numeric entities in the below three strings.
 $txt['change_password'] = 'Neue Login-Daten';
 $txt['change_password_login'] = 'Ihre Login-Daten von';
-$txt['change_password_new'] = 'haben sich geändert und Ihr Passwort wurde annulliert. Es folgen Ihre neuen Daten.';
+$txt['change_password_new'] = 'haben sich geändert und dein Passwort wurde annulliert. Es folgen deine neuen Daten.';
 
 $txt['in_maintain_mode'] = 'Das Forum ist im Wartungsmodus.';
 
 // These two are used as a javascript alert; please use international characters directly, not as entities.
-$txt['register_agree'] = 'Bitte lesen und akzeptieren Sie die Regeln.';
+$txt['register_agree'] = 'Bitte lies und akzeptiere die Regeln.';
 $txt['register_passwords_differ_js'] = 'Passwörter stimmen nicht überein.';
 
-$txt['approval_after_registration'] = 'Danke für die Registrierung. Der Administrator muss Ihre Registrierung genehmigen, bevor Sie Ihr Benutzerkonto benutzen können. Sie werden in Kürze eine E-Mail mit der Entscheidung erhalten.';
+$txt['approval_after_registration'] = 'Danke für die Registrierung. Der Administrator muss deine Registrierung genehmigen, bevor du dein Benutzerkonto benutzen kannst. Du wirst in Kürze eine E-Mail mit der Entscheidung erhalten.';
 
-$txt['admin_settings_desc'] = 'Hier können Sie verschiedene Einstellungen bezüglich der Registrierung neuer Mitglieder machen.';
+$txt['admin_settings_desc'] = 'Hier kannst du verschiedene Einstellungen bezüglich der Registrierung neuer Mitglieder machen.';
 
 $txt['setting_enableOpenID'] = 'Benutzern die Registrierung mit OpenID erlauben';
 
@@ -97,15 +97,15 @@ $txt['setting_coppaFax'] = 'Faxnummer, an welche die Genehmigung gefaxt werden s
 $txt['setting_coppaPhone'] = 'Kontaktnummer für Fragen zum Mindestalter';
 
 $txt['admin_register'] = 'Registrierung neuer Mitglieder';
-$txt['admin_register_desc'] = 'Hier können Sie neue Mitglieder im Forum registrieren und ihnen bei Bedarf die Details per E-Mail schicken.';
+$txt['admin_register_desc'] = 'Hier kannst du neue Mitglieder im Forum registrieren und ihnen bei Bedarf die Details per E-Mail schicken.';
 $txt['admin_register_username'] = 'Benutzername';
 $txt['admin_register_email'] = 'E-Mail-Adresse';
 $txt['admin_register_password'] = 'Passwort';
 $txt['admin_register_username_desc'] = 'Benutzername für neues Mitglied';
 $txt['admin_register_email_desc'] = 'E-Mail-Adresse des Benutzers';
 $txt['admin_register_password_desc'] = 'Passwort für den Benutzer';
-$txt['admin_register_email_detail'] = 'Schicken Sie ein neues Passwort an den Benutzer';
-$txt['admin_register_email_detail_desc'] = 'E-Mail-Adresse wird benötigt, auch wenn es deaktiviert ist';
+$txt['admin_register_email_detail'] = 'Schicke ein neues Passwort an den Benutzer';
+$txt['admin_register_email_detail_desc'] = 'E-Mail-Adresse wird benötigt, auch wenn der Account deaktiviert ist';
 $txt['admin_register_email_activate'] = 'Benötige Benutzer zur Aktivierung des Kontos';
 $txt['admin_register_group'] = 'Primäre Mitgliedergruppe';
 $txt['admin_register_group_desc'] = 'Primäre Mitgliedergruppe, zu welcher der Benutzer hinzugefügt werden soll';
@@ -129,23 +129,23 @@ $txt['coppa_form_body'] = 'Ich, {PARENT_NAME},<br /><br />erlaube {CHILD_NAME} (
 
 $txt['visual_verification_sound_again'] = 'Erneut abspielen';
 $txt['visual_verification_sound_close'] = 'Fenster schließen';
-$txt['visual_verification_sound_direct'] = 'Haben sie Probleme beim anhören? Versuchen sie den direkten Link dazu.';
+$txt['visual_verification_sound_direct'] = 'Hast du Probleme beim anhören? Versuche den direkten Link dazu.';
 
 // Use numeric entities in the below.
 $txt['registration_username_available'] = 'Benutzername ist verfügbar';
 $txt['registration_username_unavailable'] = 'Benutzername ist nicht verfügbar';
 $txt['registration_username_check'] = 'Verfügbarkeit des Benutzernamen testen';
 $txt['registration_password_short'] = 'Passwort ist zu kurz';
-$txt['registration_password_reserved'] = 'Das Passwort enthält ihren Benutzernamen/ihre E-Mail Adresse';
+$txt['registration_password_reserved'] = 'Das Passwort enthält deinen Benutzernamen/deine E-Mail Adresse';
 $txt['registration_password_numbercase'] = 'Das Passwort muss Groß-/Kleinschreibung und Zahlen enthalten';
 $txt['registration_password_no_match'] = 'Passwörter stimmen nicht überein';
 $txt['registration_password_valid'] = 'Das Passwort ist gültig';
 
-$txt['registration_errors_occurred'] = 'Die folgenden Fehler wurden während Ihrer Registrierung gefunden. Bitte korrigieren Sie diese um fortzufahren:';
+$txt['registration_errors_occurred'] = 'Die folgenden Fehler wurden während deine Registrierung gefunden. Bitte korrigiere sie um fortzufahren:';
 
 $txt['authenticate_label'] = 'Authentifizierungsmethode';
 $txt['authenticate_password'] = 'Passwort';
-$txt['authenticate_openid'] = 'OpenID';
+$txt['authenticate_openid'] = '';
 $txt['authenticate_openid_url'] = 'OpenID Authentifizierung URL';
 
 ?>

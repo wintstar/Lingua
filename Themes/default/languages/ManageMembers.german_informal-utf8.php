@@ -7,7 +7,7 @@ $txt['groups'] = 'Gruppen';
 $txt['viewing_groups'] = 'Mitgliedergruppen anzeigen';
 
 $txt['membergroups_title'] = 'Mitgliedergruppen editieren';
-$txt['membergroups_description'] = 'Mitgliedergruppen sind Gruppen von Benutzern, welche die gleichen Berechtigungen, Zugriffe und das gleiche Erscheinungsbild im Forum haben. Manche Gruppen basieren auf der Zahl der Beiträge. Sie können Mitglieder zu einer Gruppe hinzufügen, indem Sie ihr Profil öffnen und die Benutzerkonto-Einstellungen ändern.';
+$txt['membergroups_description'] = 'Mitgliedergruppen sind Gruppen von Benutzern, welche die gleichen Berechtigungen, Zugriffe und das gleiche Erscheinungsbild im Forum haben. Manche Gruppen basieren auf der Zahl der Beiträge. Du kannst Mitglieder zu einer Gruppe hinzufügen, indem Du ihr Profil öffnest und die Benutzerkonto-Einstellungen änderst.';
 $txt['membergroups_modify'] = 'ändern';
 
 $txt['membergroups_add_group'] = 'Gruppe hinzufügen';
@@ -22,12 +22,12 @@ $txt['membergroups_new_as_inherit'] = 'Vererben von';
 $txt['membergroups_new_as_type'] = 'Vom Typ';
 $txt['membergroups_new_as_copy'] = 'Basierend auf';
 $txt['membergroups_new_copy_none'] = '(keine)';
-$txt['membergroups_can_edit_later'] = 'Sie können diese später verändern.';
+$txt['membergroups_can_edit_later'] = 'Du kannst diese später verändern.';
 
 $txt['membergroups_edit_group'] = 'Gruppe ändern';
 $txt['membergroups_edit_name'] = 'Name der Gruppe';
 $txt['membergroups_edit_inherit_permissions'] = 'Vererbte Berechtigungen';
-$txt['membergroups_edit_inherit_permissions_desc'] = 'Wählen sie "Nein" um der Gruppe ein eigenes Berechtigungprofil zuzuweisen.';
+$txt['membergroups_edit_inherit_permissions_desc'] = 'Wähle "Nein" um der Gruppe ein eigenes Berechtigungprofil zuzuweisen.';
 $txt['membergroups_edit_inherit_permissions_no'] = 'Nein - benutze eigene Berechtigungen';
 $txt['membergroups_edit_inherit_permissions_from'] = 'Vererbt von';
 $txt['membergroups_edit_hidden'] = 'Sichtbarkeit';
@@ -35,7 +35,7 @@ $txt['membergroups_edit_hidden_no'] = 'Sichtbar';
 $txt['membergroups_edit_hidden_boardindex'] = 'Sichtbar - Außer im Gruppenschlüssel';
 $txt['membergroups_edit_hidden_all'] = 'Unsichtbar';
 // Do not use numeric entities in the below string.
-$txt['membergroups_edit_hidden_warning'] = 'Sind Sie sicher, dass diese Gruppe nicht als primäre Gruppe zugeordnet werden kann?\\n\\nWenn Sie die Einstellung tätigen, kann diese Gruppe nur noch als zusätzliche Mitgliedergruppe zugewiesen werden. Bei alle Benutzerkonten, die sie als primäre Gruppe eingestellt haben, wird sie zu einer zusaätzliche Gruppe geändert.';
+$txt['membergroups_edit_hidden_warning'] = 'Bist Du sicher, dass diese Gruppe nicht als primäre Gruppe zugeordnet werden kann?\\n\\nWenn Du die Einstellung tätigst, kann diese Gruppe nur noch als zusätzliche Mitgliedergruppe zugewiesen werden. Bei allen Benutzerkonten, die diese als primäre Gruppe eingestellt haben, wird sie zu einer zusätzliche Gruppe geändert.';
 $txt['membergroups_edit_desc'] = 'Gruppenbeschreibung';
 $txt['membergroups_edit_group_type'] = 'Gruppen-Typ';
 $txt['membergroups_edit_select_group_type'] = 'Gruppen-Typ auswählen';
@@ -48,12 +48,12 @@ $txt['membergroups_min_posts'] = 'Benötigte Beiträge';
 $txt['membergroups_online_color'] = 'Farbe in Onlineliste';
 $txt['membergroups_star_count'] = 'Anzahl der Sterne';
 $txt['membergroups_star_image'] = 'Name des Sternenbildes';
-$txt['membergroups_star_image_note'] = 'Sie können \'$language\' für die Benutzersprache nehmen';
+$txt['membergroups_star_image_note'] = 'Du kannst \'$language\' für die Benutzersprache nehmen';
 $txt['membergroups_max_messages'] = 'Max. Private Mitteilungen';
 $txt['membergroups_max_messages_note'] = '0 = unlimitiert';
 $txt['membergroups_edit_save'] = 'Speichern';
 $txt['membergroups_delete'] = 'Löschen';
-$txt['membergroups_confirm_delete'] = 'Sind Sie sicher, dass Sie diese Gruppe löschen möchten?';
+$txt['membergroups_confirm_delete'] = 'Bist Du sicher, dass Du diese Gruppe löschen möchtest?';
 
 $txt['membergroups_members_title'] = 'Alle Mitglieder der Gruppe anzeigen';
 $txt['membergroups_members_group_members'] = 'Gruppenmitglieder';
@@ -67,12 +67,12 @@ $txt['membergroups_members_additional_only'] = 'Nur als weitere Gruppen hinzufü
 $txt['membergroups_members_group_moderators'] = 'Gruppenmoderatoren';
 $txt['membergroups_members_description'] = 'Beschreibung';
 // Use javascript escaping in the below.
-$txt['membergroups_members_deadmin_confirm'] = 'Sind Sie sicher, dass Sie sich selbst von der Gruppe der Administratoren entfernen wollen?';
+$txt['membergroups_members_deadmin_confirm'] = 'Bist Du sicher, dass Du Dich selbst von der Gruppe der Administratoren entfernen willst?';
 
 $txt['membergroups_postgroups'] = 'Beitragsgruppen';
 $txt['membergroups_settings'] = 'Einstellungen';
 $txt['groups_manage_membergroups'] = 'Gruppen, die Mitgliedergruppen verändern dürfen';
-$txt['membergroups_select_permission_type'] = 'Wählen Sie das Berechtigungsprofil';
+$txt['membergroups_select_permission_type'] = 'Wähle das Berechtigungsprofil';
 $txt['membergroups_images_url'] = '{Theme URL}/images/';
 $txt['membergroups_select_visible_boards'] = 'Boards anzeigen';
 $txt['membergroups_members_top'] = 'Mitglieder';
@@ -116,7 +116,7 @@ $txt['admin_browse_filter_type_4'] = 'Nicht genehmigten, gelöschten Benutzerkon
 $txt['admin_browse_filter_type_5'] = 'Nicht genehmigten, altersbeschränkten Benutzerkonten';
 
 $txt['admin_browse_outstanding'] = 'Aussenstehende Mitglieder';
-$txt['admin_browse_outstanding_days_1'] = 'Alle Mitglieder, welche länger registriert sind wie';
+$txt['admin_browse_outstanding_days_1'] = 'Alle Mitglieder, welche länger registriert sind als';
 $txt['admin_browse_outstanding_days_2'] = 'Tage';
 $txt['admin_browse_outstanding_perform'] = 'Folgende Aktionen ausführen';
 $txt['admin_browse_outstanding_go'] = 'Ausführen';

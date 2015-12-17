@@ -2,9 +2,9 @@
 // Version: 2.0; Reports
 
 // Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['generate_reports_desc'] = 'Hier können Sie verschiedene Berichte erstellen, die bei der Administration des Forums helfen sollen. Wählen Sie einfach eine der untenstehenden Optionen aus.';
+$txt['generate_reports_desc'] = 'Hier kannst du verschiedene Berichte erstellen, die bei der Administration des Forums helfen sollen. Wähle einfach eine der untenstehenden Optionen aus.';
 $txt['generate_reports_continue'] = 'Weiter';
-$txt['generate_reports_type'] = 'Wählen Sie einen Bericht';
+$txt['generate_reports_type'] = 'Wähle einen Bericht';
 $txt['gr_type_boards'] = 'Boards';
 $txt['gr_type_desc_boards'] = 'Dieser Bericht zeigt die aktuellen Einstellungen und Zugriffsberechtigungen für jedes Board in Ihrem Forum.';
 $txt['gr_type_board_perms'] = 'Board-Berechtigungen';
@@ -130,7 +130,7 @@ $txt['group_perms_name_view_mlist'] = 'Mitgliederliste anschauen';
 $txt['group_perms_name_view_stats'] = 'Forumstatistiken anschauen';
 $txt['group_perms_name_who_view'] = 'Wer ist online anschauen';
 
-$txt['report_error_too_many_staff'] = 'Sie haben zu viele leitende Mitglieder. Der Report funktioniert nicht mit mehr wie 300 leitenden Mitgliedern!';
+$txt['report_error_too_many_staff'] = 'Du hast zu viele leitende Mitglieder. Der Report funktioniert nicht mit mehr wie 300 leitenden Mitgliedern!';
 $txt['report_staff_position'] = 'Position';
 $txt['report_staff_moderates'] = 'Moderiert';
 $txt['report_staff_posts'] = 'Beiträge';

@@ -16,11 +16,11 @@ $txt['other'] = 'Andere';
 
 $txt['paid_username'] = 'Benutzername';
 
-$txt['paid_subscriptions_desc'] = 'Hier können Sie zu bezahlende Abonnements hinzufügen, löschen und ändern.';
+$txt['paid_subscriptions_desc'] = 'Hier kannst Du zu bezahlende Abonnements hinzufügen, löschen und ändern.';
 $txt['paid_subs_settings'] = 'Einstellungen';
-$txt['paid_subs_settings_desc'] = 'Hier können Sie die für Benutzer verfügbaren Bezahlungsmöglichkeiten ändern.';
+$txt['paid_subs_settings_desc'] = 'Hier kannst Du die für Benutzer verfügbaren Bezahlungsmöglichkeiten ändern.';
 $txt['paid_subs_view'] = 'Abonnements anschauen';
-$txt['paid_subs_view_desc'] = 'Hier können Sie alle für sich verfügbaren Abonnements anschauen.';
+$txt['paid_subs_view_desc'] = 'Hier kannst Du alle für Dich verfügbaren Abonnements anschauen.';
 
 // Setting type strings.
 $txt['paid_enabled'] = 'Bezahlte Abonnements aktivieren';
@@ -30,8 +30,8 @@ $txt['paid_email_desc'] = 'Den Administrator informieren, wenn sich ein Abonneme
 $txt['paid_email_to'] = 'E-Mail Adresse zur Kontaktaufnahme';
 $txt['paid_email_to_desc'] = 'Eine durch Kommas getrennte Liste mit E-Mail-Adressen, an die, zusätzlich zu Forum Administratoren, Benachrichtigungen versandt werden.';
 $txt['paidsubs_test'] = 'Testmodus aktivieren';
-$txt['paidsubs_test_desc'] = 'Dies versetzt die Bezahl-Abo Mod in den "Test"-Modus, welcher, wann immer dies möglich ist, Sandbox-Methoden (etwa wie bei PayPal) verwendet. Aktivieren Sie dies nur wenn Sie wissen was Sie tun!';
-$txt['paidsubs_test_confirm'] = 'Sind Sie sicher, dass Sie den Testmodus aktivieren möchten?';
+$txt['paidsubs_test_desc'] = 'Dies versetzt die Bezahl-Abo Mod in den "Test"-Modus, welcher, wann immer dies möglich ist, Sandbox-Methoden (etwa wie bei PayPal) verwendet. Aktiviere dies nur, wenn Du weisst, was Du tust!';
+$txt['paidsubs_test_confirm'] = 'Bist Du sicher, dass Du den Testmodus aktivieren möchtest?';
 $txt['paid_email_no'] = 'Keine Benachrichtigungen versenden';
 $txt['paid_email_error'] = 'Informieren, wenn Abonnement scheitert';
 $txt['paid_email_all'] = 'Über alle Abonnementänderungen informieren';
@@ -43,29 +43,29 @@ $txt['paid_currency_symbol_desc'] = 'Verwende \'%1.2f\' um festzulegen wie Zahle
 $txt['paypal_email'] = 'PayPal E-Mail-Adresse';
 $txt['paypal_email_desc'] = 'Leer lassen, wenn PayPal nicht genutzt werden soll.';
 $txt['worldpay_id'] = 'WorldPay Installations-ID';
-$txt['worldpay_id_desc'] = 'Die Installations-ID, welche von WorldPay generiert wurde. Lassen Sie diese frei, falls sie WorldPay nicht verwenden.';
+$txt['worldpay_id_desc'] = 'Die Installations-ID, welche von WorldPay generiert wurde. Lasse diese frei, falls Du WorldPay nicht verwendest.';
 $txt['worldpay_password'] = 'WorldPay Rückruf-/Rückfragen-Password';
-$txt['worldpay_password_desc'] = 'Wenn Sie dieses Passwort in WorldPay setzen stellen Sie sicher, dass es nicht das selbe Passwort wie Ihr WorldPay Administrations Account Passwort ist.';
+$txt['worldpay_password_desc'] = 'Wenn Du dieses Passwort in WorldPay setzt, so stelle sicher, dass es nicht das selbe Passwort ist wie Dein WorldPay Administrations Account Passwort.';
 $txt['authorize_id'] = 'Authorize.net Installations ID';
-$txt['authorize_id_desc'] = 'Die Installations-ID, welche von Authorize.net generiert wurde. Lassen Sie diese leer, wenn sie Authorize.net nicht verwenden.';
+$txt['authorize_id_desc'] = 'Die Installations-ID, welche von Authorize.net generiert wurde. Lasse diese leer, wenn Du Authorize.net nicht verwendest.';
 $txt['authorize_transid'] = 'Authorize.Net Transaktions-ID';
 $txt['2co_id'] = '2co.com Installations-ID';
-$txt['2co_id_desc'] = 'Die Installations-ID welche von 2co.com generiert wurde. Lassen Sie dieses Feld frei, wenn Sie 2co.com nicht verwenden.';
+$txt['2co_id_desc'] = 'Die Installations-ID welche von 2co.com generiert wurde. Lasse dieses Feld frei, wenn Du 2co.com nicht verwendest.';
 $txt['2co_password'] = '2co.com Geheimwort';
-$txt['2co_password_desc'] = 'Ihr geheimes 2checkout Wort.';
+$txt['2co_password_desc'] = 'Dein geheimes 2checkout Wort.';
 $txt['nochex_email'] = 'Nochex E-Mail-Adresse';
-$txt['nochex_email_desc'] = 'E-Mail Adresse eines Merchant Accounts bei Nochex. Lassen Sie diese leer, wenn Sie Nochex nicht verwenden.';
+$txt['nochex_email_desc'] = 'E-Mail Adresse eines Merchant Accounts bei Nochex. Lasse diese leer, wenn Du Nochex nicht verwendest.';
 $txt['paid_settings_save'] = 'Speichern';
 
 $txt['paid_note'] = '<strong class="alert">Hinweis:</strong>
-Damit Abos für Ihre Benutzer automatisch  aktualisiert werden müssen Sie eine Rückkehr-Adresse für jede Ihrer Bezahlmethoden angeben.
-Für all Ihre Bezahlarten sollte diese gesetzt werden auf:
+Damit Abos für Ihre Benutzer automatisch  aktualisiert werden musst Du eine Rückkehr-Adresse für jede Deiner Bezahlmethoden angeben.
+Für alle Deine Bezahlarten sollte diese gesetzt werden auf:
 
 	• <strong>' . $boardurl . '/subscriptions.php</strong><br /><br />
 
 
-	Sie können den Link für PayPal direkt ändern indem Sie <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">hier</a> klicken.<br/>
-	Für die anderen Gateways (sofern installiert) können Sie sie normalerweise in Ihrem Kunden-Bereich, üblicherweise unter dem Begriff "Rückkehr URL", "Return URL" oder "Callback URL".';
+	Du kannst den Link für PayPal direkt ändern indem Du <a href="https://www.paypal.com/us/cgi-bin/webscr?cmd=_profile-ipn-notify" target="_blank">hier</a> klickst.<br/>
+	Für die anderen Gateways (sofern installiert) kannst Du sie normalerweise in Ihrem Kunden-Bereich, üblicherweise unter dem Begriff "Rückkehr URL", "Return URL" oder "Callback URL".';
 
 $txt['paypal_additional_emails'] = 'Primary PayPal email address';
 $txt['paypal_additional_emails_desc'] = 'If different (for business account)';
@@ -80,7 +80,7 @@ $txt['paid_pending'] = 'anstehende Zahlungen';
 $txt['paid_finished'] = 'Beendet';
 $txt['paid_total'] = 'Gesamt';
 $txt['paid_is_active'] = 'Aktiviert';
-$txt['paid_none_yet'] = 'Sie haben noch keine Abonnements bestellt.';
+$txt['paid_none_yet'] = 'Du hast noch keine Abonnements bestellt.';
 $txt['paid_payments_pending'] = 'Ausstehende Zahlung';
 $txt['paid_order'] = 'Bestellen';
 
@@ -115,14 +115,14 @@ $txt['paid_mod_add_groups'] = 'Weitere Gruppen nach Bestellung';
 $txt['paid_mod_add_groups_desc'] = 'Weitere Gruppe, welche dem Benutzer nach Bestellung zugewiesen wird.';
 $txt['paid_mod_no_group'] = 'Nicht ändern';
 $txt['paid_mod_edit_note'] = 'Diese Gruppe hat existierende Abonnenten, daher können die Einstellungen nicht geändert werden!';
-$txt['paid_mod_delete_warning'] = '<strong>WARNUNG</strong><br /><br />Sollten Sie dieses Abonnement löschen, verlieren alle Abonnenten ihre durch dieses Abonnement zugewiesenen Berechtigungen! Sollten Sie nicht sicher sein, empfehlen wir die Deaktivierung des betreffenden Abonnements, statt es zu löschen.<br />';
+$txt['paid_mod_delete_warning'] = '<strong>WARNUNG</strong><br /><br />Solltest Du dieses Abonnement löschen, verlieren alle Abonnenten ihre durch dieses Abonnement zugewiesenen Berechtigungen! Solltest Du nicht sicher sein, empfehlen wir die Deaktivierung des betreffenden Abonnements, statt es zu löschen.<br />';
 $txt['paid_mod_repeatable'] = 'Automatische Erneuerung durch den Benutzer erlauben';
 $txt['paid_mod_allow_partial'] = 'Teil-Abonnement erlauben';
 $txt['paid_mod_allow_partial_desc'] = 'Ist diese Option aktiviert, erhalten die Benutzer, die weniger zahlen, nur einen Teil der Leistungen, die das Abonnement verspricht.';
 $txt['paid_mod_fixed_price'] = 'Abonnement mit Festpreis und festgelegter Dauer';
 $txt['paid_mod_flexible_price'] = 'Abonnementpreis variiert nach bestellter Dauer';
 $txt['paid_mod_price_breakdown'] = 'Flexibler Preisnachlass';
-$txt['paid_mod_price_breakdown_desc'] = 'Hier können Sie festlegen wie viel das Abonnement abhängig von der Dauer des Abonnements kosten soll. Beispiel: Kostet ein Monat 12€, so können Sie für ein Jahr einen Preis von 100€ angeben. Möchten Sie für eine bestimmte Dauer keinen Preis definieren, so lassen sie dieses Feld frei.';
+$txt['paid_mod_price_breakdown_desc'] = 'Hier kannst Du festlegen wie viel das Abonnement abhängig von der Dauer des Abonnements kosten soll. Beispiel: Kostet ein Monat 12€, so kannst Du für ein Jahr einen Preis von 100€ angeben. Möchten Sie für eine bestimmte Dauer keinen Preis definieren, so lasse dieses Feld frei.';
 $txt['flexible'] = 'Flexibel';
 
 $txt['paid_per_day'] = 'Preis pro Tag';
@@ -144,8 +144,8 @@ $txt['delete_selected'] = 'Ausgewählte löschen';
 $txt['complete_selected'] = 'Ausgewählte abschließen';
 
 // !!! These strings are used in conjunction with JavaScript.  Use numeric entities.
-$txt['delete_are_sure'] = 'Are you sure you want to delete all record of the selected subscriptions?';
-$txt['complete_are_sure'] = 'Sind Sie sicher, dass Sie die ausgewählten Abonnements vervollständigen möchten?';
+$txt['delete_are_sure'] = 'Bist Du sicher, dass Du all Einträge der ausgewählten Abonnements löschen willst?';
+$txt['complete_are_sure'] = 'Bist Du sicher, dass Du die ausgewählten Abonnements vervollständigen möchten?';
 
 $txt['start_date'] = 'Startdatum';
 $txt['end_date'] = 'Enddatum';
@@ -156,36 +156,36 @@ $txt['one_username'] = 'Bitte nur einen Benutzername eingeben.';
 $txt['hour'] = 'Stunde';
 $txt['minute'] = 'Minute';
 $txt['error_member_not_found'] = 'Der eingegebene Benutzer konnte nicht gefunden werden';
-$txt['member_already_subscribed'] = 'Dieser Benutzer ist schon Abonnent dieses Abonnements. Bitte ändern Sie sein existierendes Abonnement.';
+$txt['member_already_subscribed'] = 'Dieser Benutzer ist schon Abonnent dieses Abonnements. Bitte ändere sein existierendes Abonnement.';
 $txt['search_sub'] = 'Benutzer finden';
 
 // Make payment.
 $txt['paid_confirm_payment'] = 'Zahlung bestätigen';
-$txt['paid_confirm_desc'] = 'Um mit der Zahlung fortzufahren, prüfen Sie die Details und klicken Sie auf "Bezahlen"';
+$txt['paid_confirm_desc'] = 'Um mit der Zahlung fortzufahren, prüfe die Details und klicke auf "Bezahlen"';
 $txt['paypal'] = 'PayPal';
-$txt['paid_confirm_paypal'] = 'Um mit <a href="http://www.paypal.de/">PayPal</a> zu bezahlen, klicken Sie bitte den folgenden Button. Sie werden auf die Seite von PayPal weitergeleitet, um die Zahlung abzuschließen.';
+$txt['paid_confirm_paypal'] = 'Um mit <a href="http://www.paypal.de/">PayPal</a> zu bezahlen, klicke bitte den folgenden Button. Du wirst auf die Seite von PayPal weitergeleitet, um die Zahlung abzuschließen.';
 $txt['paid_paypal_order'] = 'Mit PayPal bezahlen';
 $txt['worldpay'] = 'WorldPay';
-$txt['paid_confirm_worldpay'] = 'Um mit <a href="http://www.worldpay.com">WorldPay</a> zu bezahlen, klicken Sie bitte den folgenden Button. Sie werden auf die Seite von WorldPay weitergeleitet, um die Zahlung abzuschließen.';
+$txt['paid_confirm_worldpay'] = 'Um mit <a href="http://www.worldpay.com">WorldPay</a> zu bezahlen, klicke bitte den folgenden Button. Du wirst auf die Seite von WorldPay weitergeleitet, um die Zahlung abzuschließen.';
 $txt['paid_worldpay_order'] = 'Mit WorldPay bezahlen';
 $txt['nochex'] = 'Nochex';
-$txt['paid_confirm_nochex'] = 'Um mit <a href="http://www.nochex.com">Nochex</a> zu bezahlen, klicken Sie bitte den folgenden Button. Sie werden auf die Seite von Nochex weitergeleitet, um die Zahlung abzuschließen.';
+$txt['paid_confirm_nochex'] = 'Um mit <a href="http://www.nochex.com">Nochex</a> zu bezahlen, klicke bitte den folgenden Button. Du wirst auf die Seite von Nochex weitergeleitet, um die Zahlung abzuschließen.';
 $txt['paid_nochex_order'] = 'Mit Nochex bezahlen';
 $txt['authorize'] = 'Authorize.Net';
-$txt['paid_confirm_authorize'] = 'Um mit <a href="http://www.authorize.net">Authorize.Net</a> zu bezahlen, klicken Sie bitte den folgenden Button. Sie werden auf die Seite von Authorize.Net weitergeleitet, um die Zahlung abzuschließen.';
+$txt['paid_confirm_authorize'] = 'Um mit <a href="http://www.authorize.net">Authorize.Net</a> zu bezahlen, klicke bitte den folgenden Button. Du wirst auf die Seite von Authorize.Net weitergeleitet, um die Zahlung abzuschließen.';
 $txt['paid_authorize_order'] = 'Mit Authorize.Net bezahlen';
 $txt['2co'] = '2checkout';
-$txt['paid_confirm_2co'] = 'Um mit <a href="http://www.2com.com">2co.com</a> zu bezahlen, klicken Sie bitte den unten folgenden Button. Sie werden auf die Seite von 2co.com weitergeleitet, um die Zahlung zu tätigen.';
+$txt['paid_confirm_2co'] = 'Um mit <a href="http://www.2com.com">2co.com</a> zu bezahlen, klicke bitte den untenstehenden Button. Du wirst auf die Seite von 2co.com weitergeleitet, um die Zahlung zu tätigen.';
 $txt['paid_2co_order'] = 'Mit 2co.com bezahlen';
 $txt['paid_done'] = 'Zahlung beendet';
-$txt['paid_done_desc'] = 'Danke für Ihre Zahlung. Wenn die Transaktion bestätigt ist, wird das Abonnement aktiviert.';
+$txt['paid_done_desc'] = 'Danke für Deine Zahlung. Wenn die Transaktion bestätigt ist, wird das Abonnement aktiviert.';
 $txt['paid_sub_return'] = 'Zu Abonnements zurückkehren';
-$txt['paid_current_desc'] = 'Hier ist eine Liste Ihrer vergangenen und aktuellen Abonnements. Um ein laufendes Abonnements zu verlängern, wählen Sie es aus der obenstehenden Liste aus.';
+$txt['paid_current_desc'] = 'Hier ist eine Liste Deiner vergangenen und aktuellen Abonnements. Um ein laufendes Abonnements zu verlängern, wähle es aus der obenstehenden Liste aus.';
 $txt['paid_admin_add'] = 'Abonnement hinzufügen';
 
-$txt['paid_not_set_currency'] = 'Sie haben Ihre Währung noch nicht eingestellt. Bitte holen Sie das nach, bevor Sie fortfahren.';
-$txt['paid_no_cost_value'] = 'Sie müssen einen Preis und die Dauer des Abonnements eingeben.';
-$txt['paid_all_freq_blank'] = 'Sie müssen einen Preis für mindestens eine der vier Zeitspannen eingeben.';
+$txt['paid_not_set_currency'] = 'Du hast Deine Währung noch nicht eingestellt. Bitte hole das nach, bevor Du fortfährst.';
+$txt['paid_no_cost_value'] = 'Du  musst einen Preis und die Dauer des Abonnements eingeben.';
+$txt['paid_all_freq_blank'] = 'Du musst einen Preis für mindestens eine der vier Zeitspannen eingeben.';
 
 // Some error strings.
 $txt['paid_no_data'] = 'Es wurden keine gültigen Daten an das Script gesendet.';
@@ -199,7 +199,7 @@ $txt['paid_could_not_find_member'] = 'Der bezahlte-Abo-Verwalter konnte das Mitg
 $txt['paid_count_not_find_subscription'] = 'Der bezahlte-Abo-Verwalter konnte das Abo für das Mitglied mit der ID %1$s und Abo-ID %2$s nicht finden.';
 $txt['paid_count_not_find_subscription_log'] = 'Der bezahlte-Abo-Verwalter konnte den Abo Log-Eintrag für das Mitglied mit der ID %1$s und der Abo ID %2$s nicht finden.';
 $txt['paid_count_not_find_outstanding_payment'] = 'Konnte den Eintrag für die ausstehende Zahlung für das Mitglied mit der ID: %1$s und der Abo ID: %2$s nicht finden. Daher ignoriert.';
-$txt['paid_admin_not_setup_gateway'] = 'Der Administrator hat die Einstellungen für bezahlte Abonnements noch nicht festgelegt - bitte versuchen Sie es später nochmal.';
+$txt['paid_admin_not_setup_gateway'] = 'Der Administrator hat die Einstellungen für bezahlte Abonnements noch nicht festgelegt - bitte versuche es später nochmal.';
 $txt['paid_make_recurring'] = 'Automatisch wiederholende Zahlung erlauben';
 
 $txt['subscriptions'] = 'Abonnements';
@@ -209,7 +209,7 @@ $txt['paid_subs_none'] = 'Es sind momentan keine bezahlbaren Abonnements verfüg
 
 $txt['paid_current'] = 'Vorhandene Abonnements';
 $txt['pending_payments'] = 'Ausstehende Zahlungen';
-$txt['pending_payments_desc'] = 'Dieses Mitglied hat die Zahlung für dieses Abonnement getätigt, die Bestätigung liegt jedoch noch nicht vor. Sollten Sie sicher sein, dass die Zahlung empfangen wurde, klicken Sie auf "Akzeptieren". Alternativ wählen Sie "Entfernen", um alle Daten zu dieser Zahlung zu löschen.';
+$txt['pending_payments_desc'] = 'Dieses Mitglied hat die Zahlung für dieses Abonnement getätigt, die Bestätigung liegt jedoch noch nicht vor. Solltest Du sicher sein, dass die Zahlung empfangen wurde, klicke auf "Akzeptieren". Alternativ wähle "Entfernen", um alle Daten zu dieser Zahlung zu löschen.';
 $txt['pending_payments_value'] = 'Wert';
 $txt['pending_payments_accept'] = 'Akzeptieren';
 $txt['pending_payments_remove'] = 'Entfernen';

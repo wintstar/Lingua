@@ -33,9 +33,9 @@ $txt['delete_list'] = 'Liste der Modifikationen löschen';
 $txt['php_safe_mode'] = 'Ihr Server benutzt PHP im SAFE MODE (Sicherheits-Modus). Diese Funktion ist leider nicht kompatibel dazu.';
 $txt['lets_try_anyway'] = 'Trotzdem versuchen.';
 
-$txt['package_manager_desc'] = 'Mit dem Paketmanager können Sie einfach neue Modifikationen herunterladen und installieren.';
-$txt['installed_packages_desc'] = 'Sie können diesen Bereich dazu benutzen, die installierten Pakete anzuschauen oder nicht mehr benötigte Pakete zu deinstallieren..';
-$txt['download_packages_desc'] = 'Hier können Sie neue Pakete von einem Paketserver herunterladen oder ein Paket direkt zum Forum hochladen.';
+$txt['package_manager_desc'] = 'Mit dem Paketmanager kannst du einfach neue Modifikationen herunterladen und installieren.';
+$txt['installed_packages_desc'] = 'Du kannst diesen Bereich dazu benutzen, die installierten Pakete anzuschauen oder nicht mehr benötigte Pakete zu deinstallieren..';
+$txt['download_packages_desc'] = 'Hier kannst du neue Pakete von einem Paketserver herunterladen oder ein Paket direkt zum Forum hochladen.';
 
 $txt['create_package'] = 'Neues Paket erstellen';
 $txt['download_new_package'] = 'Neue Pakete herunterladen';
@@ -51,8 +51,8 @@ $txt['remove'] = 'Entfernen';
 $txt['package_type'] = 'Paket-Typ';
 $txt['archiving'] = 'Archiviere';
 $txt['extracting'] = 'Extrahiere';
-$txt['avatars_extracted'] = 'Die Benutzerbilder wurden entpackt, Sie können diese nun benutzen.';
-$txt['language_extracted'] = 'Das Sprachpaket wurde entpackt. Sie können es nun benutzen, indem Sie es in den Profileinstellungen aktivieren.';
+$txt['avatars_extracted'] = 'Die Benutzerbilder wurden entpackt, du kannst diese nun benutzen.';
+$txt['language_extracted'] = 'Das Sprachpaket wurde entpackt. Du kannst es nun benutzen, indem du es in den Profileinstellungen aktivierest.';
 
 $txt['mod_name'] = 'Name der Modifikation';
 $txt['mod_version'] = 'Mod Version';
@@ -66,10 +66,10 @@ $txt['package_installed_key'] = 'Installierte Modifikationen:';
 $txt['package_installed_current'] = 'Aktuelle Version';
 $txt['package_installed_old'] = 'Alte Version';
 $txt['package_installed_warning1'] = 'Dieses Paket ist schon installiert, keine Aktualisierung gefunden!';
-$txt['package_installed_warning2'] = 'Sie sollten die alte Version deinstallieren, um Probleme zu vermeiden oder den Autor nach einer Aktualisierung fragen.';
-$txt['package_installed_warning3'] = 'Bitte machen Sie regelmäßig Sicherungen Ihrer Dateien und der Datenbank, bevor Sie neue Modifikationen installieren - besonders bei Beta Versionen.';
+$txt['package_installed_warning2'] = 'Du solltest die alte Version deinstallieren, um Probleme zu vermeiden oder den Autor nach einer Aktualisierung fragen.';
+$txt['package_installed_warning3'] = 'Bitte mache regelmäßig Sicherungen deinen Dateien und der Datenbank, bevor du neue Modifikationen installierest - besonders bei Beta Versionen.';
 $txt['package_installed_extract'] = 'Entpacke Paket';
-$txt['package_installed_done'] = 'Das Paket wurde installiert. Sie sollten nun in der Lage sein, die neuen Funktionen zu nutzen.';
+$txt['package_installed_done'] = 'Das Paket wurde installiert. Du solltest nun in der Lage sein, die neuen Funktionen zu nutzen.';
 $txt['package_installed_redirecting'] = 'Weiterleiten...';
 $txt['package_installed_redirect_go_now'] = 'Weiterleitung erfolgt';
 $txt['package_installed_redirect_cancel'] = 'Zurück zum Paketmanager';
@@ -85,7 +85,7 @@ $txt['package_install_action'] = 'Aktion';
 $txt['package_install_desc'] = 'Beschreibung';
 $txt['install_actions'] = 'Installationsbefehle';
 $txt['perform_actions'] = 'Die Installation dieses Paketes führt folgende Aktionen aus:';
-$txt['corrupt_compatible'] = 'Das Paket welches Sie versuchen herunterzuladen oder zu installieren ist entweder beschädigt oder mit dieser Version von SMF nicht kompatibel.';
+$txt['corrupt_compatible'] = 'Das Paket welches du versucht hast herunterzuladen oder zu installieren ist entweder beschädigt oder mit dieser Version von SMF nicht kompatibel.';
 $txt['package_create'] = 'Erstellen';
 $txt['package_move'] = 'Verschieben';
 $txt['package_delete'] = 'Löschen';
@@ -99,18 +99,18 @@ $txt['execute_database_changes'] = 'Datenbank anpassen';
 $txt['package_install_actions'] = 'Installationsanweisungen für';
 $txt['package_will_fail_title'] = 'Fehler bei Paketinstallation';
 $txt['package_will_fail_warning'] = 'Es wurde mindestens ein Fehler beim Test der Installation des Paketes gefunden.
-	Es wird <strong>dringend</strong> empfohlen, nicht mit der Installation fortzufahren, wenn Sie sich nicht ausreichend auskennen oder keine aktuelle Sicherung gemacht haben.
+	Es wird <strong>dringend</strong> empfohlen, nicht mit der Installation fortzufahren, wenn du dich nicht ausreichend auskennst oder keine aktuelle Sicherung gemacht hast.
 	Diese Fehlermeldung kann auf einen Konflikt zwischen dem zu installierenden und einem existierenden Paket hinweisen, auf einen Fehler im Paket selbst oder auf eine Inkompatibilität zwischen dem Paket und der SMF Version.';
 // Don't use entities in the below string.
-$txt['package_will_fail_popup'] = 'Sind Sie sicher, dass Sie mit der Installation fortfahren möchten, obwohl das Paket nicht fehlerfrei installiert werden kann?';
-$txt['package_will_fail_popup_uninstall'] = 'Sind Sie sicher, dass Sie die Deinstallation der Modifikation fortsetzen wollen, obwohl es zu Fehlern kommen wird?';
+$txt['package_will_fail_popup'] = 'Bist du sicher, dass du mit der Installation fortfahren möchten, obwohl das Paket nicht fehlerfrei installiert werden kann?';
+$txt['package_will_fail_popup_uninstall'] = 'Bist du sicher, dass du die Deinstallation der Modifikation fortsetzen möchtest, obwohl es zu Fehlern kommen wird?';
 $txt['package_install_now'] = 'Jetzt installieren';
 $txt['package_uninstall_now'] = 'Jetzt deinstallieren';
 $txt['package_other_themes'] = 'In ein anderes Theme installieren';
 $txt['package_other_themes_uninstall'] = 'In anderen Themes deinstallieren';
-$txt['package_other_themes_desc'] = 'Um diese Modifikation in anderen Themes statt dem Standard-Theme zu benutzen, muss der Paketmanager weitere Änderungen in den anderen Themes durchführen. Wenn sie das möchten, wählen sie die Themes aus der folgenden Liste.';
+$txt['package_other_themes_desc'] = 'Um diese Modifikation in anderen Themes statt dem Standard-Theme zu benutzen, muss der Paketmanager weitere Änderungen in den anderen Themes durchführen. Wenn du dass möchtest, wähle die Themes aus der folgenden Liste.';
 // Don't use entities in the below string.
-$txt['package_theme_failure_warning'] = 'Mindestens ein Fehler wurde bei der Testinstallation gefunden. Sind sie sicher, dass sie die Installation fortführen möchten?';
+$txt['package_theme_failure_warning'] = 'Mindestens ein Fehler wurde bei der Testinstallation gefunden. Bist du sicher, dass du die Installation fortführen möchten?';
 
 $txt['package_bytes'] = 'Bytes';
 
@@ -122,10 +122,10 @@ $txt['package_action_skipping'] = '<strong>Datei überspringen</strong>';
 
 $txt['package_uninstall_actions'] = 'Aktionen beim deinstallieren';
 $txt['package_uninstall_done'] = 'Das Paket wurde deinstalliert und sollte nicht mehr funktionieren.';
-$txt['package_uninstall_cannot'] = 'Dieses Paket kann nicht deinstalliert werden, da es keine Deinstallationsanweisungen enthält<br /><br />Bitte kontaktieren Sie den Autor für weitere Hilfe.';
+$txt['package_uninstall_cannot'] = 'Dieses Paket kann nicht deinstalliert werden, da es keine Deinstallationsanweisungen enthält<br /><br />Bitte kontaktiere den Autor für weitere Hilfe.';
 
 $txt['package_install_options'] = 'Installationseinstellungen';
-$txt['package_install_options_ftp_why'] = 'Hier können Sie die Einstellungen des Paket-Managers ändern. Es ist einfacher den FTP-Server zu benutzen, als die Schreibberechtigungen der Dateien per Hand zu ändern.';
+$txt['package_install_options_ftp_why'] = 'Hier kannst du die Einstellungen des Paket-Managers ändern. Es ist einfacher den FTP-Server zu benutzen, als die Schreibberechtigungen der Dateien per Hand zu ändern.';
 $txt['package_install_options_ftp_server'] = 'FTP-Server';
 $txt['package_install_options_ftp_port'] = 'Port';
 $txt['package_install_options_ftp_user'] = 'Benutzername';
@@ -146,7 +146,7 @@ $txt['package_ftp_test_success'] = 'FTP Verbindung hergestellt.';
 $txt['package_ftp_test_failed'] = 'Verbindung konnte nicht hergestellt werden.';
 
 // For a break, use \\n instead of <br />... and don't use entities.
-$txt['package_delete_bad'] = 'Das Paket - was Sie löschen möchten - ist momentan installiert! Wenn Sie es jetzt löschen, können Sie es später nicht deinstallieren.\\n\\nSind Sie sicher?';
+$txt['package_delete_bad'] = 'Das Paket - was du löschen möchtest - ist momentan installiert! Wenn du es jetzt löscht, kannst du es später nicht deinstallieren.\\n\\nBist du sicher?';
 
 $txt['package_examine_file'] = 'Betrachte Dateien im Paket';
 $txt['package_file_contents'] = 'Inhalt der Datei';
@@ -159,11 +159,11 @@ $txt['package_uploaded_successfully'] = 'Das Paket wurde erfolgreich hochgeladen
 
 $txt['package_modification_malformed'] = 'Defekte oder ungültige Modifikationsdatei.';
 $txt['package_modification_missing'] = 'Die Datei konnte nicht gefunden werden.';
-$txt['package_no_zlib'] = 'Ihre PHP Konfiguration unterstützt kein <strong>zlib</strong>. Ohne diese Funktion funktioniert der Paketmanager nicht. Bitte kontaktieren Sie Ihren Serveranbieter für mehr Informationen.';
+$txt['package_no_zlib'] = 'Ihre PHP Konfiguration unterstützt kein <strong>zlib</strong>. Ohne diese Funktion funktioniert der Paketmanager nicht. Bitte kontaktiere deinen Serveranbieter für mehr Informationen.';
 
 $txt['package_cleanperms_title'] = 'FTP Dateiberechtigungen';
-$txt['package_cleanperms_desc'] = 'Mit dieser Funktion können Sie die Dateiberechtigungen auf dem FTP-Server so verändern, dass die Sicherheit erhöht wird oder Berechtigungsprobleme behoben werden, die bei der Installation von Paketen auftreten können.';
-$txt['package_cleanperms_type'] = 'Ändern Sie die Dateiberechtigungen';
+$txt['package_cleanperms_desc'] = 'Mit dieser Funktion kannst du die Dateiberechtigungen auf dem FTP-Server so verändern, dass die Sicherheit erhöht wird oder Berechtigungsprobleme behoben werden, die bei der Installation von Paketen auftreten können.';
+$txt['package_cleanperms_type'] = 'Ändere die Dateiberechtigungen';
 $txt['package_cleanperms_standard'] = 'Nur die Standard-Dateien sind überschreibbar.';
 $txt['package_cleanperms_free'] = 'Alle Dateien sind überschreibbar.';
 $txt['package_cleanperms_restrictive'] = 'Die min. benötigte Anzahl der Dateien ist überschreibbar.';
@@ -185,7 +185,7 @@ $txt['package_advanced_options'] = 'Erweiterte Optionen';
 $txt['package_apply'] = 'Hinzufügen';
 $txt['package_emulate'] = 'Emulierte Version';
 $txt['package_emulate_revert'] = 'Standard';
-$txt['package_emulate_desc'] = 'Manchmal sind Pakete auf frühere Version von SMF beschränkt, jedoch trotzdem noch kompatibel. Hiermit können sie dem Paketmanager eine andere SMF Version "vorspielen".';
+$txt['package_emulate_desc'] = 'Manchmal sind Pakete auf frühere Version von SMF beschränkt, jedoch trotzdem noch kompatibel. Hiermit kannst du dem Paketmanager eine andere SMF Version "vorspielen".';
 
 // Operations.
 $txt['operation_find'] = 'Suchen';
@@ -196,7 +196,7 @@ $txt['operation_title'] = 'Operationen';
 $txt['operation_ignore'] = 'Fehler ignorieren';
 $txt['operation_invalid'] = 'Die ausgewählte Operation ist ungültig.';
 
-$txt['package_file_perms_desc'] = 'Sie können diesen Bereich dazu nutzen, um den Schreibschutz von wichtigen Dateien und Ordnern innerhalb des Forenverzeichnisses zu prüfen. Bitte beachten Sie, dass dies nur bestimmte Dateien und Ordner betrifft - für weitere Optionen sollten Sie ein FTP-Programm benutzen.';
+$txt['package_file_perms_desc'] = 'Du kannst diesen Bereich dazu nutzen, um den Schreibschutz von wichtigen Dateien und Ordnern innerhalb des Forenverzeichnisses zu prüfen. Bitte beachte, dass dies nur bestimmte Dateien und Ordner betrifft - für weitere Optionen solltest du ein FTP-Programm benutzen.';
 $txt['package_file_perms_name'] = 'Ordner-/Dateiname';
 $txt['package_file_perms_status'] = 'Aktueller Status';
 $txt['package_file_perms_new_status'] = 'Neuer Status';
@@ -212,27 +212,27 @@ $txt['package_file_perms_more_files'] = 'Mehr Dateien';
 
 $txt['package_file_perms_change'] = 'Dateiberechtigungen ändern';
 $txt['package_file_perms_predefined'] = 'Definierte Berechtigungsprofile benutzen';
-$txt['package_file_perms_predefined_note'] = 'Beachten Sie, dass die definierten Berechtigungsprofile nur den wichtigen SMF-Verzeichnissen und -Ordnern zugewiesen werden.';
+$txt['package_file_perms_predefined_note'] = 'Beachte, dass die definierten Berechtigungsprofile nur den wichtigen SMF-Verzeichnissen und -Ordnern zugewiesen werden.';
 $txt['package_file_perms_apply'] = 'Individuelle Dateiberechtigungen wie oben eingestellt hinzufügen.';
 $txt['package_file_perms_custom'] = 'Wenn "Eigene" gewählt wurde, folgendes CHMOD benutzen';
 $txt['package_file_perms_pre_restricted'] = 'Beschränkt - nur wenige Dateien beschreibbar';
 $txt['package_file_perms_pre_standard'] = 'Standard - wichtige Dateien beschreibbar';
 $txt['package_file_perms_pre_free'] = 'Alle - alle Dateien beschreibbar';
-$txt['package_file_perms_ftp_details'] = 'Auf den meisten Servern können Dateiberechtigungen nur über einen FTP-Zugang geändert werden. Bitte geben Sie Ihre FTP-Daten ein';
-$txt['package_file_perms_ftp_retain'] = 'Beachten Sie, dass SMF das Passwort nur zeitweise speichert, um die Durchführungen des Paketmanagers zu ermöglichen.';
+$txt['package_file_perms_ftp_details'] = 'Auf den meisten Servern können Dateiberechtigungen nur über einen FTP-Zugang geändert werden. Bitte gib deine FTP-Daten ein';
+$txt['package_file_perms_ftp_retain'] = 'Beachte, dass SMF das Passwort nur zeitweise speichert, um die Durchführungen des Paketmanagers zu ermöglichen.';
 $txt['package_file_perms_go'] = 'Änderungen durchführen';
 
 $txt['package_file_perms_applying'] = 'Änderungen anwenden';
 $txt['package_file_perms_items_done'] = '%1$d von %2$d Aufgaben abgeschlossen';
-$txt['package_file_perms_skipping_ftp'] = '<strong>Warnung:</strong> Es konnte keine Verbindung mit dem FTP-Server hergestellt werden. Es wird versucht, die Berechtigungen trotzdem zu ändern. Dies wird <em>wahrscheinlich</em> misslingen - bitte prüfen Sie die Ergebnisse und versuchen es erneut mit den richtigen FTP-Daten.';
+$txt['package_file_perms_skipping_ftp'] = '<strong>Warnung:</strong> Es konnte keine Verbindung mit dem FTP-Server hergestellt werden. Es wird versucht, die Berechtigungen trotzdem zu ändern. Dies wird <em>wahrscheinlich</em> misslingen - bitte prüfe die Ergebnisse und versuche es erneut mit den richtigen FTP-Daten.';
 
 $txt['package_file_perms_dirs_done'] = '%1$d von %2$d Verzeichnissen abgeschlossen';
 $txt['package_file_perms_files_done'] = '%1$d von %2$d Dateien im aktuellen Verzeichnis abgeschlossen';
 
-$txt['chmod_value_invalid'] = 'Sie haben einen falschen CHMOD-Wert angegeben. CHMOD-Werte müssen sich zwischen 0444 und 0777 befinden';
+$txt['chmod_value_invalid'] = 'Du hast einen falschen CHMOD-Wert angegeben. CHMOD-Werte müssen sich zwischen 0444 und 0777 befinden';
 
 $txt['package_restore_permissions'] = 'Dateiberechtigungen wiederherstellen';
-$txt['package_restore_permissions_desc'] = 'Die folgenden Dateiberechtigungen wurden von SMF verändert, um die ausgewählten Pakete zu installieren. Sie können die originalen Berechtigungen wieder zurückstellen, indem Sie auf "Wiederherstellen" klicken.';
+$txt['package_restore_permissions_desc'] = 'Die folgenden Dateiberechtigungen wurden von SMF verändert, um die ausgewählten Pakete zu installieren. Du kannst die originalen Berechtigungen wieder zurückstellen, indem du auf "Wiederherstellen" klickst.';
 $txt['package_restore_permissions_restore'] = 'Wiederherstellen';
 $txt['package_restore_permissions_filename'] = 'Dateiname';
 $txt['package_restore_permissions_orig_status'] = 'Originalstatus';
@@ -243,16 +243,16 @@ $txt['package_restore_permissions_post_change'] = '%2$s (%3$s - vorher %2$s)';
 $txt['package_restore_permissions_action_skipped'] = '<em>Übersprungen</em>';
 $txt['package_restore_permissions_action_success'] = '<span style="color: green;">Erfolgreich</span>';
 $txt['package_restore_permissions_action_failure'] = '<span class="error">Fehlgeschlagen</span>';
-$txt['package_restore_permissions_action_done'] = 'SMF hat versucht, die Berechtigungen der ausgewählten Dateien zurückzusetzen - das Ergebnis sehen Sie unten. Für eine detaillierte Ansicht der Berechtigungen schauen Sie bitte in den Bereich <a href="%1$s">Dateiberechtigungen</a>.';
+$txt['package_restore_permissions_action_done'] = 'SMF hat versucht, die Berechtigungen der ausgewählten Dateien zurückzusetzen - das Ergebnis siehst du unten. Für eine detaillierte Ansicht der Berechtigungen siehe bitte in den Bereich <a href="%1$s">Dateiberechtigungen</a>.';
 
 $txt['package_file_perms_warning'] = 'Bitte beachten';
-$txt['package_file_perms_warning_desc'] = '	<li>Seien Sie vorsichtig, wenn Sie die Dateiberechtigungen von dieser Sektion aus ändern – falsche Einstellungen können Ihr Forum funktionsunfähig machen!</li>
+$txt['package_file_perms_warning_desc'] = '	<li>Sei vorsichtig, wenn du die Dateiberechtigungen von dieser Sektion aus änderst – falsche Einstellungen können dein Forum funktionsunfähig machen!</li>
 	<li>Auf manchen Serverkonfigurationen können falsche Berechtigungen den Betrieb von SMF verhindern.</li>
 	<li>Bestimmte Verzeichnisse wie <em>attachments</em> müssen beschreibbar sein, um diese Funktionalität zu garantieren.</li>
 	<li>Diese Einschränkung trifft hauptsächlich auf nicht Windows basierte Server zu. Dort wird es nicht wie erwartet funktionieren.</li>
-	<li>Bevor Sie die Änderungen durchführen, seien Sie sicher, dass Sie einen FTP-Zugang und ein FTP-Programm haben, um im schlimmsten Fall die Berechtigungen wiederherstellen zu können.</li>';
+	<li>Bevor du die Änderungen durchführst, stelle sicher, dass du einen FTP-Zugang und ein FTP-Programm hast, um im schlimmsten Fall die Berechtigungen wiederherstellen zu können.</li>';
 
-$txt['package_confirm_view_package_content'] = 'Sind Sie sicher, dass Sie den Paketinhalt von hier ansehen möchten?<br /><br />%1$s';
+$txt['package_confirm_view_package_content'] = 'Bist du sicher, dass du den Paketinhalt von hier ansehen möchtest?<br /><br />%1$s';
 $txt['package_confirm_proceed'] = 'Fortsetzen';
 $txt['package_confirm_go_back'] = 'Gehe Zurück';
 

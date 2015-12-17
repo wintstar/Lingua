@@ -46,7 +46,7 @@ $txt['scheduled_task_edit_pick_unit'] = 'Zeitraum wählen';
 $txt['scheduled_task_edit_interval'] = 'Intervall';
 $txt['scheduled_task_edit_start_time'] = 'Startzeit';
 $txt['scheduled_task_edit_start_time_desc'] = 'Zeit zum Start der ersten Instanz (Stunden:Minuten)';
-$txt['scheduled_task_time_offset'] = 'Bitte beachten Sie, dass Sie die Startzeit entsprechend der Serverzeit einstellen. Aktuelle Serverzeit: %1$s';
+$txt['scheduled_task_time_offset'] = 'Bitte beachte, dass Du die Startzeit entsprechend der Serverzeit einstellst. Aktuelle Serverzeit: %1$s';
 
 $txt['scheduled_view_log'] = 'Protokoll anzeigen';
 $txt['scheduled_log_empty'] = 'Momentan sind keine Einträge gespeichert.';

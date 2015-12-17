@@ -2,10 +2,10 @@
 // Version: 2.0; ManageCalendar
 
 // Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['calendar_desc'] = 'Hier können Sie alle Einstellungen des Kalenders verändern.';
+$txt['calendar_desc'] = 'Hier kannst Du alle Einstellungen des Kalenders verändern.';
 
 // Calendar Settings
-$txt['calendar_settings_desc'] = 'Hier können Sie den Kalender und die gewünschten Funktionen aktivieren bzw. deaktvieren.';
+$txt['calendar_settings_desc'] = 'Hier kannst Du den Kalender und die gewünschten Funktionen aktivieren bzw. deaktvieren.';
 $txt['save_settings'] = 'Einstellungen speichern';
 $txt['groups_calendar_view'] = 'Gruppen, die den Kalender anschauen dürfen';
 $txt['groups_calendar_post'] = 'Gruppen, die neue Ereignisse erstellen dürfen';
@@ -30,11 +30,11 @@ $txt['setting_cal_maxspan'] = 'Max. Ereignisdauer';
 $txt['setting_cal_showInTopic'] = 'Verlinkte Ereignisse im Thema anzeigen';
 
 // Adding/Editing/Viewing Holidays
-$txt['manage_holidays_desc'] = 'Hier können Sie Feiertage in den Kalender einfügen oder löschen.';
+$txt['manage_holidays_desc'] = 'Hier kannst Du Feiertage in den Kalender einfügen oder löschen.';
 $txt['current_holidays'] = 'Aktuelle Feiertage';
 $txt['holidays_title'] = 'Feiertage';
 $txt['holidays_title_label'] = 'Titel';
-$txt['holidays_delete_confirm'] = 'Sind Sie sicher, dass Sie diese Feiertage löschen möchten?';
+$txt['holidays_delete_confirm'] = 'Bist Du sicher, dass Du diese Feiertage löschen möchten?';
 $txt['holidays_add'] = 'Neue Feiertage hinzufügen';
 $txt['holidays_edit'] = 'Feiertage editieren';
 $txt['holidays_button_add'] = 'Hinzufügen';
