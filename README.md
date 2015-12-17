@@ -5,6 +5,9 @@ The software is licensed under [BSD 3-clause license](http://www.opensource.org/
 File                  |Finish %
 ----------------------|--------
 Admin                 | 55
+Alerts                | 0
+Drafts                | 0
+Editor                | 0
 EmailTemplates        | 0
 Errors                | 0
 Help                  | 0
