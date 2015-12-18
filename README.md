@@ -23,9 +23,9 @@ ManagePermissions     | 0
 ManageScheduledTasks  | 0
 ManageSettings        | 0
 ManageSmileys         | 0
-Manual                | 0
+Manual                | 100
 ModerationCenter      | 0
-Modifications         | 0
+Modifications         | 100
 Modlog                | 0
 Packages              | 0
 PersonalMessage       | 0
@@ -33,7 +33,7 @@ Post                  | 0
 Profile               | 0
 Reports               | 0
 Search                | 0
-Settings              | 0
+Settings              | 100
 Stats                 | 0
 Themes                | 0
 Who                   | 0

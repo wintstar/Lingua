@@ -1,14 +1,14 @@
 <?php
-// Version: 2.0; Manual
+// Version: 2.0; Manual -- 2.1* German translate Update by www.Scaricare.de
 
 /* Everything in this file is for the Simple Machines help manual
    If you are looking at translating the manual into another language
    please visit the Simple Machines website for tools to assist! */
+
 $txt['manual_smf_user_help'] = 'SMF Benutzerhilfe';
 
 $txt['manual_welcome'] = 'Willkommen bei %s, powered by Simple Machines&reg; Forum (SMF) software!';
-$txt['manual_introduction'] = 'SMF ist eine elegante, effiziente, leistungsfähige und kostenlose Forum Software die auf dieser Website läuft. SMF erlaubt Benutzern in Diskussionsthemen zu einem bestimmten Thema in einer zuverlässigen und geordneter Form zu kommunizieren. Darüber hinaus bietet SMF eine Reihe von leistungsfähigen Funktionen, die Anwender in Anspruch nehmen können. Hilfe für viele der SMF Funktionen kann entweder durch Klicken auf das Fragezeichen neben dem entsprechenden Abschnitt, oder durch Auswahl eines der Links auf dieser Seite gefunden werden. Diese Links führen Dich zu der zentral gelegenen SMF Dokumentation auf der offiziellen Simple Machines Website.
-';
+$txt['manual_introduction'] = 'SMF ist eine elegante, effiziente, leistungsfähige und kostenlose Forum Software die auf dieser Website läuft. SMF erlaubt Benutzern in Diskussionsthemen zu einem bestimmten Thema in einer zuverlässigen und geordneter Form zu kommunizieren. Darüber hinaus bietet SMF eine Reihe von leistungsfähigen Funktionen, die Anwender in Anspruch nehmen können. Hilfe für viele der SMF Funktionen kann entweder durch Klicken auf das Fragezeichen neben dem entsprechenden Abschnitt, oder durch Auswahl eines der Links auf dieser Seite gefunden werden. Diese Links führen Dich zu der zentral gelegenen SMF Dokumentation auf der offiziellen Simple Machines Website.';
 $txt['manual_docs_and_credits'] = 'Für weitere Informationen über SMF nutze bitte das <a href="%1$s" target="_blank" class="new_win">Simple Machines Dokumentation Wiki</a> und überprüfe die <a href="%2$s">Credits</a> um herauszufinden, wer SMF zu dem gemacht hat, was es heute ist.';
 
 $txt['manual_section_registering_title'] = 'Registrierung';
@@ -33,4 +33,5 @@ $txt['manual_section_memberlist_desc'] = 'Die Mitgliederliste zeigt alle Mitglie
 $txt['manual_section_calendar_desc'] = 'Benutzer können Veranstaltungen, Feiertage und Geburtstage mit dem Kalender im Auge behalten.';
 $txt['manual_section_features_desc'] = 'Hier ist eine Liste der beliebtesten Merkmale von SMF.';
 
+$txt['agreement_disabled'] = 'Nutzungsbedingungen deaktiviert.';
 ?>
