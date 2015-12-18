@@ -16,14 +16,14 @@ $txt['admin_members_list'] = 'Hier ist eine Liste der Benutzer, welche im Forum 
 $txt['admin_next'] = 'Nächster';
 $txt['admin_censored_words'] = 'Zensierte Wörter';
 $txt['admin_censored_where'] = 'Schreibe das zu zensierende Wort auf die linke, das Wort was angezeigt werden soll auf die rechte Seite.';
-$txt['admin_censored_desc'] = 'Aufgrund der Öffentlichkeit eines Forums hast Du die Möglichkeit, einige Wörter zu verbieten. Auf dieser Seite kannst Du die Wörter eintragen, welche nicht von den Mitgliedern benutzt werden dürfen.<br />Lösche den Inhalt eines Textfeldes, um das Wort zu entfernen.';
+$txt['admin_censored_desc'] = 'Aufgrund der Öffentlichkeit eines Forums hast du die Möglichkeit, einige Wörter zu verbieten. Auf dieser Seite kannst du die Wörter eintragen, welche nicht von den Mitgliedern benutzt werden dürfen.<br />Lösche den Inhalt eines Textfeldes, um das Wort zu entfernen.';
 $txt['admin_reserved_names'] = 'Reservierte Namen';
 $txt['admin_template_edit'] = 'Forum-Template editieren';
 $txt['admin_modifications'] = 'Modifikation - Einstellungen';
 $txt['admin_server_settings'] = 'Servereinstellungen';
 $txt['admin_reserved_set'] = 'Reservierte Namen';
 $txt['admin_reserved_line'] = 'Ein Wort pro Zeile.';
-$txt['admin_basic_settings'] = 'Hier kannst Du die Angaben zu Deinem Server verändern. Sei sehr vorsichtig mit diesen Angaben, da sie das Forum unter Umständen funktionsuntüchtig machen können.';
+$txt['admin_basic_settings'] = 'Hier kannst du die Angaben zu deinem Server verändern. Sei sehr vorsichtig mit diesen Angaben, da sie das Forum unter Umständen funktionsuntüchtig machen können.';
 $txt['admin_maintain'] = 'Wartungsmodus aktivieren';
 $txt['admin_title'] = 'Name des Forums';
 $txt['cookie_name'] = 'Name des Cookies';
@@ -57,7 +57,7 @@ $txt['admin_match_whole'] = 'Komplette Übereinstimmung. Nicht aktivieren, um au
 $txt['admin_match_case'] = 'Groß-/Kleinschreibung beachten. Falls nicht aktiviert, ist die Suche unabhängig von Groß-/Kleinschreibung.';
 $txt['admin_check_user'] = 'Benutzernamen überprüfen.';
 $txt['admin_check_display'] = 'Anzeigenamen überprüfen.';
-$txt['admin_newsletter_send'] = 'Hier kannst Du den Mitgliedern eine E-Mail schreiben. Die E-Mail-Adressen der ausgewählten Mitglieder(-gruppen) werden unten angezeigt. Du kannst beliebige E-Mail-Adressen hinzufügen oder entfernen.<br /> Mehrere Adressen wie folgt auflisten: \'Adresse1; Adresse2\'.';
+$txt['admin_newsletter_send'] = 'Hier kannst du den Mitgliedern eine E-Mail schreiben. Die E-Mail-Adressen der ausgewählten Mitglieder(-gruppen) werden unten angezeigt. du kannst beliebige E-Mail-Adressen hinzufügen oder entfernen.<br /> Mehrere Adressen wie folgt auflisten: \'Adresse1; Adresse2\'.';
 $txt['admin_fader_delay'] = 'Verzögerung zwischen Ausblendungen des News Fader';
 $txt['additional_options_collapsable'] = 'Zusammenklappbare zusätzliche Beitrags-Optionen aktivieren';
 $txt['zero_for_no_limit'] = '(0 für keine Begrenzung)';
@@ -70,20 +70,20 @@ $txt['registration_agreement'] = 'Nutzungsbedingungen editieren';
 $txt['registration_agreement_desc'] = 'Die Nutzungsbedingungen werden nur angezeigt, wenn sie bei der Registrierung akzeptiert werden müssen.';
 $txt['errors_list'] = 'Liste der Fehler';
 $txt['errors_found'] = 'Folgende Fehler sind im Forum aufgetreten (leer wenn keine)';
-$txt['errors_fix'] = 'Möchtest Du diese Fehler reparieren?';
+$txt['errors_fix'] = 'Möchtest du diese Fehler reparieren?';
 $txt['errors_do_recount'] = 'Alle Fehler behoben – ein Altmaterial-Bereich wurde erstellt. Bitte klicke den unten folgenden Button um einige Hauptstatistiken neu auszuzählen.';
 $txt['errors_recount_now'] = 'Statistiken neu berechnen';
 $txt['errors_fixing'] = 'Repariere Fehler im Forum';
-$txt['errors_fixed'] = 'Alle Fehler beseitigt! Du solltest die Kategorien, Boards und Themen überprüfen.';
+$txt['errors_fixed'] = 'Alle Fehler beseitigt! du solltest die Kategorien, Boards und Themen überprüfen.';
 $txt['attachments_avatars'] = 'Dateien verwalten';
-$txt['attachments_desc'] = 'Hier kannst Du Einstellungen zu den Dateianhängen und Avataren machen, diese nach Datum und Größe löschen, Statistiken anschauen und die Wartung durchführen.';
+$txt['attachments_desc'] = 'Hier kannst du Einstellungen zu den Dateianhängen und Avataren machen, diese nach Datum und Größe löschen, Statistiken anschauen und die Wartung durchführen.';
 $txt['attachment_stats'] = 'Statistiken für Dateien';
 $txt['attachment_integrity_check'] = 'Anhangs Integritätscheck';
 $txt['attachment_integrity_check_desc'] = 'Diese Funktion prüft die Integrität und Größe der Anhänge und Dateinamen welche in der Datenbank gelistet sind und behebt, falls notwendig, Fehler wenn sie auftreten.';
 $txt['attachment_check_now'] = 'Prüfung jetzt starten';
 $txt['attachment_pruning'] = 'Dateianhänge säubern';
 $txt['attachment_pruning_message'] = 'Nachricht, welche zum Beitrag hinzugefügt werden soll';
-$txt['attachment_pruning_warning'] = 'Bist Du sicher, dass Du diese Anhänge löschen möchtest?\\nDas kann nicht rückgängig gemacht werden.';
+$txt['attachment_pruning_warning'] = 'Bist du sicher, dass du diese Anhänge löschen möchtest?\\nDas kann nicht rückgängig gemacht werden.';
 
 $txt['attachment_total'] = 'Dateianhänge insgesamt';
 $txt['attachmentdir_size'] = 'Größe des Upload-Verzeichnis';
@@ -106,8 +106,8 @@ $txt['remove_all'] = 'Protokoll leeren';
 $txt['approve_new_members'] = 'Administrator muss neue Mitglieder genehmigen';
 $txt['agreement_not_writable'] = 'Warnung - agreement.txt ist NICHT überschreibbar, die Änderungen werden NICHT gespeichert.';
 
-$txt['version_check_desc'] = 'Zeigt die Dateiversionen Deines Forums gegenüber der aktuellen Version. Wenn einige der Dateien älter sind, solltest Du die neueste Version von <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a> herunterladen und installieren.';
-$txt['version_check_more'] = '(ausführlicher)';
+$txt['version_check_desc'] = 'Zeigt die Dateiversionen deines Forums gegenüber der aktuellen Version. Wenn einige der Dateien älter sind, solltest du die neueste Version von <a href="http://www.simplemachines.org/" target="_blank">www.simplemachines.org</a> herunterladen und installieren.';
+$txt['version_check_more'] = '(Ausführlicher)';
 
 $txt['lfyi'] = 'Verbindung zu simplemachines.org nicht möglich.';
 
@@ -135,7 +135,7 @@ $txt['security_wrong'] = 'Administrator Anmelde Versuch!' . "\n" . 'Verweis von:
 $txt['email_preview_warning'] = 'Die Vorschau ist nicht 100% genau. Um die Funktionalität der Seite zu erhalten, werden nur die grundlegenden Html-Tags dargestellt.';
 $txt['email_as_html'] = 'Sendet E-Mail im HTML Format (HTML Code in der E-Mail möglich)';
 $txt['email_parsed_html'] = 'Fügt &lt;br /&gt; und &amp;nbsp; in die Nachricht ein';
-$txt['email_variables'] = 'In dieser Mitteilung kkannst Du "Variablen" benutzen. Klicke <a href="' . $scripturl . '?action=helpadmin;help=emailmembers" onclick="return reqWin(this.href);" class="help">hier</a> für mehr Informationen.';
+$txt['email_variables'] = 'In dieser Mitteilung kkannst du "Variablen" benutzen. Klicke <a href="' . $scripturl . '?action=helpadmin;help=emailmembers" onclick="return reqWin(this.href);" class="help">hier</a> für mehr Informationen.';
 $txt['email_force'] = 'Sendet die Nachricht auch zu Benutzern, welche das Empfangen von Ankündigungen deaktiviert haben.';
 $txt['email_as_pms'] = 'Sendet die Nachricht als Private Mitteilung zu den ausgewählten Benutzern.';
 $txt['email_continue'] = 'Weiter';
@@ -150,7 +150,7 @@ $txt['ban_email'] = 'E-Mail-Adressen bannen: (z.B. badguy@somewhere.com) - ein E
 $txt['ban_username'] = 'Benutzernamen bannen: (z.B. l33tuser) - ein Eintrag pro Zeile';
 
 $txt['ban_errors_detected'] = 'Die folgenden Fehler oder Störungen sind aufgetreten, beim Speichern oder bearbeiten des Bann';
-$txt['ban_description'] = 'Hier kannst Du Mitglieder nach IP-Adresse, Hostnamen, Benutzernamen oder E-Mail bannen.';
+$txt['ban_description'] = 'Hier kannst du Mitglieder nach IP-Adresse, Hostnamen, Benutzernamen oder E-Mail bannen.';
 $txt['ban_add_new'] = 'Neuen Bann hinzufügen';
 $txt['ban_banned_entity'] = 'Zu bannende Person';
 $txt['ban_on_ip'] = 'Nach IP bannen (z.B. 192.168.10-20.*)';
@@ -178,12 +178,12 @@ $txt['ban_reason_desc'] = 'Grund des Banns, welcher dem Benutzer angezeigt wird.
 $txt['ban_notes_desc'] = 'Notizen, welche anderen Führungsmitgliedern helfen sollen.';
 $txt['ban_remove_selected'] = 'Ausgewählte entfernen';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['ban_remove_selected_confirm'] = 'Bist Du sicher, dass Du die ausgewählten, gesperrten Mitglieder entfernen möchtest?';
+$txt['ban_remove_selected_confirm'] = 'Bist du sicher, dass du die ausgewählten, gesperrten Mitglieder entfernen möchtest?';
 $txt['ban_modify'] = 'Ändern';
 $txt['ban_name'] = 'Name';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_edit'] = 'Bann editieren';
-$txt['ban_add_notes'] = '<strong>Achtung</strong>: Nachdem Du den oben stehenden Bann erstellt hast, kannst Du später weitere Merkmale hinzufügen, z.B. IP-Adressen, Hostnamen und E-Mail-Adressen.';
+$txt['ban_add_notes'] = '<strong>Achtung</strong>: Nachdem du den oben stehenden Bann erstellt hast, kannst du später weitere Merkmale hinzufügen, z.B. IP-Adressen, Hostnamen und E-Mail-Adressen.';
 $txt['ban_expired'] = 'Abgelaufen/Deaktiviert';
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['ban_restriction_empty'] = 'Keine Einschränkungen ausgewählt!';
@@ -198,7 +198,7 @@ $txt['ban_remove_selected_triggers'] = 'Ausgewählte Merkmale entfernen';
 $txt['ban_no_entries'] = 'Es sind momentan keine aktiven Bans vorhanden.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['ban_remove_selected_triggers_confirm'] = 'Bist Du sicher, dass Du die ausgewählten Merkmale entfernen möchtest?';
+$txt['ban_remove_selected_triggers_confirm'] = 'Bist du sicher, dass du die ausgewählten Merkmale entfernen möchtest?';
 $txt['ban_trigger_browse'] = 'Merkmale durchsuchen';
 $txt['ban_trigger_browse_description'] = 'Diese Seite zeigt alle Bann-Merkmale sortiert nach IP-Adressen, Hostnamen, E-Mail-Adressen und Benutzernamen.';
 
@@ -210,9 +210,9 @@ $txt['ban_log_email'] = 'E-Mail-Adresse';
 $txt['ban_log_member'] = 'Mitglied';
 $txt['ban_log_date'] = 'Datum';
 $txt['ban_log_remove_all'] = 'Protokoll leeren';
-$txt['ban_log_remove_all_confirm'] = 'Bist Du sicher, dass Du alle Einträge löschen möchtest?';
+$txt['ban_log_remove_all_confirm'] = 'Bist du sicher, dass du alle Einträge löschen möchtest?';
 $txt['ban_log_remove_selected'] = 'Ausgewählte entfernen';
-$txt['ban_log_remove_selected_confirm'] = 'Bist Du sicher, dass Du alle ausgewählten Einträge löschen möchtest?';
+$txt['ban_log_remove_selected_confirm'] = 'Bist du sicher, dass du alle ausgewählten Einträge löschen möchtest?';
 $txt['ban_no_triggers'] = 'Keine Bann-Merkmale';
 
 $txt['settings_not_writable'] = 'Diese Einstellungen können nicht geändert werden, da Settings.php nicht überschreibbar ist.';
@@ -227,7 +227,7 @@ $txt['maintain_done'] = 'Der Wartungsauftrag \'%1$s\' wurde erfolgreich ausgefü
 $txt['maintain_no_errors'] = 'Herzlichen Glückwunsch, es wurden keine Fehler gefunden. Vielen Dank für die Überprüfung.';
 
 $txt['maintain_tasks'] = 'Geplante Aufgaben';
-$txt['maintain_tasks_desc'] = 'Hier kannst Du alle geplanten Aufgaben von SMF verwalten.';
+$txt['maintain_tasks_desc'] = 'Hier kannst du alle geplanten Aufgaben von SMF verwalten.';
 
 $txt['scheduled_log'] = 'Aufgaben Protokoll';
 $txt['scheduled_log_desc'] = 'Dieses Protokoll zeigt alle geplanten Aufgaben, die auf deinem Forum, ausgeführt wurden.';
@@ -291,7 +291,7 @@ $txt['search_for'] = 'Suche nach';
 $txt['search_match'] = 'Übereinstimmung';
 $txt['member_part_of_these_membergroups'] = 'Benutzer ist Teil folgender Mitgliedergruppen';
 $txt['membergroups'] = 'Mitgliedergruppen';
-$txt['confirm_delete_members'] = 'Bist Du sicher, dass Du die ausgewählten Mitglieder löschen möchtest?';
+$txt['confirm_delete_members'] = 'Bist du sicher, dass du die ausgewählten Mitglieder löschen möchtest?';
 
 $txt['support_credits_title'] = 'Support und Credits';
 $txt['support_title'] = 'Support Informationen';
@@ -305,7 +305,7 @@ $txt['support_versions_imagemagick'] = 'ImageMagick Version';
 $txt['support_versions'] = 'Versionsinformation';
 $txt['support_resources'] = 'Support Ressourcen';
 $txt['support_resources_p1'] = 'Unsere <a href="%1$s">Online Handbuch</a> ist die Hauptdokumentation für das SMF. Die SMF Online Handbuch beinhaltet viele Dokumente, die Support-Fragen beantworten und <a href="%2$s">Features</a>, <a href="%3$s">Settings</a>, <a href="%4$s">Themes</a>, <a href="%5$s">Packages</a> usw. näher erklären. Das Online Handbuch dokumentiert jeden Bereich des SMF und sollte die meisten Fragen schnell beantworten.';
-$txt['support_resources_p2'] = 'Wenn Deine Fragen durch das Online Handbuch nicht beantwortet werden, kannst Du die <a href="%1$s">Support Community</a> durchsuchen oder entweder im <a href="%2$s">englischen</a> oder einem unserer vielen <a href="%3$s">internationalen Support-Foren</a> nach Hilfe fragen. Die SMF Community kann für <a href="%4$s">Support</a>, <a href="%5$s">Anpassung</a>, und viele weitere Dinge wie das diskutieren über SMF, einen Host zu finden, oder das Klären administrative Fragen verwendet werden.';
+$txt['support_resources_p2'] = 'Wenn deine Fragen durch das Online Handbuch nicht beantwortet werden, kannst du die <a href="%1$s">Support Community</a> durchsuchen oder entweder im <a href="%2$s">englischen</a> oder einem unserer vielen <a href="%3$s">internationalen Support-Foren</a> nach Hilfe fragen. Die SMF Community kann für <a href="%4$s">Support</a>, <a href="%5$s">Anpassung</a>, und viele weitere Dinge wie das diskutieren über SMF, einen Host zu finden, oder das Klären administrative Fragen verwendet werden.';
 
 $txt['membergroups_members'] = 'Normale Mitglieder';
 $txt['membergroups_guests'] = 'Unregistrierte Gäste';
@@ -318,8 +318,8 @@ $txt['permitgroups_moderator'] = 'Moderator';
 $txt['permitgroups_maintenance'] = 'Wartungsmodus';
 $txt['permitgroups_inherit'] = 'Vererbt';
 
-$txt['confirm_delete_attachments_all'] = 'Bist Du sicher, dass Du alle Dateianhänge löschen möchtest?';
-$txt['confirm_delete_attachments'] = 'Bist Du sicher, dass Du den ausgewählten Dateianhang löschen möchtest?';
+$txt['confirm_delete_attachments_all'] = 'Bist du sicher, dass du alle Dateianhänge löschen möchtest?';
+$txt['confirm_delete_attachments'] = 'Bist du sicher, dass du den ausgewählten Dateianhang löschen möchtest?';
 $txt['attachment_manager_browse_files'] = 'Dateien durchsuchen';
 $txt['attachment_manager_repair'] = 'Wartung';
 $txt['attachment_manager_avatars'] = 'Avatare';
@@ -376,7 +376,7 @@ $txt['attach_dir_empty'] = 'Leer';
 $txt['attach_dir_ok'] = 'OK';
 $txt['attach_dir_basedir'] = 'Basisverzeichnis';
 $txt['attach_dir_desc'] = 'Erstelle neue Verzeichnisse oder ändere das aktuelle Verzeichnis unten.<br>Um ein neues Verzeichnis innerhalb der Forum-Verzeichnisstruktur zu erstellen, verwende einfach den Namen des Verzeichnis.<br>Um ein Verzeichnis zu entfernen, leere das Eingabefeld des Pfad. Nur leere Verzeichnisse können entfernt werden. Um festzustellen, ob ein Verzeichnis leer ist, suche nach Dateien oder Unterverzeichnisse in Klammern neben der Anzahl der Dateien.<br>Zum Umbenennen eines Verzeichnisses, ändere einfach den Namen im Eingabefeld ein. Nur Verzeichnisse ohne Unterverzeichnisse können umbenannt werden. Verzeichnisse können umbenannt werden, solange diese kein Unterverzeichnis enthalten.';
-$txt['attach_dir_base_desc'] = 'Unten kannst du das aktuelle Basisverzeichnis ändern oder eine neues erstellen. Neue Basisverzeichnisse sind auch dem Upload-Verzeichnis Liste hinzugefügt. Du kannst auch ein vorhandenes Verzeichnis als Basisverzeichnis benennen.';
+$txt['attach_dir_base_desc'] = 'Unten kannst du das aktuelle Basisverzeichnis ändern oder eine neues erstellen. Neue Basisverzeichnisse sind auch dem Upload-Verzeichnis Liste hinzugefügt. du kannst auch ein vorhandenes Verzeichnis als Basisverzeichnis benennen.';
 $txt['attach_dir_save_problem'] = 'Hoppla, es scheint ein Problem zu sein.';
 $txt['attachments_no_create'] = 'Es ist nicht möglich ein neues Upload-Verzeichnis zu erstellen. Bitte verwende einen FTP-Client oder eine Websieiten-Dateiverwaltung.';
 $txt['attachments_no_write'] = 'Dieses Verzeichnis wurde erstellt, aber ist nicht beschreibbar. Bitte versuche dazu ein FTP-Client oder eine Websieiten-Dateiverwaltung zu verwenden.';
@@ -446,22 +446,20 @@ $txt['attachment_transfer_progress'] = 'Bitte warte. Übertragung läuft...';
 
 $txt['mods_cat_avatars'] = 'Avatare';
 $txt['avatar_directory'] = 'Avatar-Verzeichnis';
-$txt['avatar_directory_wrong'] = 'Die Avatare-Verzeichnis ist nicht gültig. Dies wird zu einigen Probleme mit deinem Forum führen.';
+$txt['avatar_directory_wrong'] = 'Das Avatare-Verzeichnis ist nicht gültig. Dies wird zu einigen Probleme mit deinem Forum führen.';
 $txt['avatar_url'] = 'Avatar URL';
-$txt['avatar_dimension_note'] = '(0 = kein Limit)';
-$txt['avatar_max_width_external'] = 'Max. Breite des ext. Avatares<div class="smalltext">(0 für kein Limit)</div>';
-$txt['avatar_max_height_external'] = 'Max. Höhe des ext. Avatares<div class="smalltext">(0 für kein Limit)</div>';
-$txt['avatar_action_too_large'] = 'Wenn das Avatar zu groß ist:';
+$txt['avatar_max_width_external'] = 'Max. Breite des externen Avatars';
+$txt['avatar_max_height_external'] = 'Max. Höhe des externen Avatars';
+$txt['avatar_action_too_large'] = 'Wenn der Avatar zu groß ist...';
 $txt['option_refuse'] = 'Ablehnen';
-$txt['option_html_resize'] = 'Mit HTML die Größe ändern';
-$txt['option_js_resize'] = 'Größe mit JavaScript ändern';
-$txt['option_download_and_resize'] = 'Herunterladen und Größe ändern (benötigt GD Modul)';
-$txt['avatar_max_width_upload'] = 'Max. Breite der hochzuladenden Avatare<div class="smalltext">(0 für kein Limit)</div>';
-$txt['avatar_max_height_upload'] = 'Max. Höhe der hochzuladenden Avatare<div class="smalltext">(0 für kein Limit)</div>';
+$txt['option_css_resize'] = 'Die Größe im Benutzer Browser ändern';
+$txt['option_download_and_resize'] = 'Herunterladen und die Größe auf dem Server ändern';
+$txt['avatar_max_width_upload'] = 'Max. Breite der hochzuladenden Avatare';
+$txt['avatar_max_height_upload'] = 'Max. Höhe der hochzuladenden Avatare';
 $txt['avatar_resize_upload'] = 'Größenänderung bei übergroßen Avataren';
-$txt['avatar_resize_upload_note'] = '(benötigt GD Modul)';
-$txt['avatar_download_png'] = 'PNG für in der Größe geänderte Avatare benutzen';
-$txt['avatar_gd_warning'] = 'Das GD Modul ist nicht installiert, daher sind manche Funktionen zu den Avataren deaktiviert.';
+$txt['avatar_resize_upload_note'] = '(Benötigt GD Modul oder ImageMagick mit IMagick oder MagickWand Erweiterung)';
+$txt['avatar_download_png'] = 'PNG für geänderte Größe der Avatare verwenden';
+$txt['avatar_img_enc_warning'] = 'Weder GD Modul noch Imagick oder MagickWand Erweiterung sind zur Zeit installiert. Einige Avatar-Funktionen sind deaktiviert.';
 $txt['avatar_external'] = 'Externe Avatare';
 $txt['avatar_upload'] = 'Hochzuladende Avatare';
 $txt['avatar_server_stored'] = 'Auf einem Server gespeicherte Avatare';
@@ -470,22 +468,38 @@ $txt['avatar_upload_groups'] = 'Mitgliedergruppen, die ein Avatar hochladen dür
 $txt['avatar_external_url_groups'] = 'Mitgliedergruppen, die ein externes Bild wählen dürfen';
 $txt['avatar_select_permission'] = 'Wähle Berechtigungen für jede Gruppe';
 $txt['avatar_download_external'] = 'Avatar von angegebener URL herunterladen';
-$txt['custom_avatar_enabled'] = 'Avatar hochladen in...';
 $txt['option_attachment_dir'] = 'Avatar-Verzeichnis';
-$txt['option_specified_dir'] = 'Verzeichnis auswählen...';
+$txt['option_specified_dir'] = 'Bestimmtes Verzeichnis...';
+$txt['custom_avatar_dir_wrong'] = 'Das Avatar-Verzeichnis ist ungültig. Dies verhindert das Avatare ordnungsgemäß funktionieren.';
 $txt['custom_avatar_dir'] = 'Upload-Verzeichnis';
-$txt['custom_avatar_dir_desc'] = 'Es sollte nicht das gleiche Verzeichnis wie für die auf einem Server gespeicherten Avatare sein.';
+$txt['custom_avatar_dir_desc'] = 'Dies sollte ein gültiges und beschreibbares Verzeichnis sein, anders als ein servergespeicherten Verzeichnis.';
 $txt['custom_avatar_url'] = 'Upload-URL';
-$txt['custom_avatar_check_empty'] = 'Der benutzerdefinierte Avatar Ordner, den Du angegeben hast, könnte leer oder falsch sein. Bitte prüfe, dass die Einstellungen korrekt sind.';
+$txt['custom_avatar_check_empty'] = 'Der benutzerdefinierte Avatar Ordner, den du angegeben hast, könnte leer oder falsch sein. Bitte prüfe, dass die Einstellungen korrekt sind.';
 $txt['avatar_reencode'] = 'Neu Kodierung potenziell gefährlicher Avatare';
-$txt['avatar_reencode_note'] = 'Benötigt das GD Modul';
+$txt['avatar_reencode_note'] = '(Benötigt GD Modul oder ImageMagick mit IMagick oder MagickWand Erweiterung)';
 $txt['avatar_paranoid_warning'] = 'Die umfangreichen Sicherheitskontrollen können zu einer großen Zahl abgelehnter Avatare führen.';
 $txt['avatar_paranoid'] = 'Umfangreiche Sicherheitskontrollen bei hoch geladenen Avataren durchführen';
+$txt['gravatar_settings'] = 'Gravatars (Globally Recognized Avatars)';
+$txt['gravatarEnabled'] = 'Gravatars für Forum Benutzer aktivieren?';
+$txt['gravatarOverride'] = 'Gravatars anstelle von normalen Avatare erzwingen?';
+$txt['gravatarAllowExtraEmail'] = 'Eine zusätzliche E-Mail Adresse für Gravatars speichern lassen?';
+$txt['gravatarMaxRating'] = 'Maximal zugelassene Bewertung?';
+$txt['gravatar_maxG'] = 'G (Für alle Webseiten und jeden Publikumstyp geeignet)';
+$txt['gravatar_maxPG'] = 'PG (Können rüde Gesten, provozierend gekleidete Individuen, harmlose Schimpfwörter oder leichte Gewalt enthalten)';
+$txt['gravatar_maxR'] = 'R (Können Sachen wie Obszönitäten, starke Gewalt, Nacktheit oder starken Drogenkonsum beinhalten)';
+$txt['gravatar_maxX'] = 'X (Können Hardcore-Sexbilder oder extreme, verstörende Gewalt enthalten)';
+$txt['gravatarDefault'] = 'Standardbild anzeigen, wenn eine E-Mail-Adresse keine Übereinstimmungen zum Gravatar hat';
+$txt['gravatar_mm'] = 'Ein einfacher, silhouettenhafter Cartoonstyle im Umriss einer Person';
+$txt['gravatar_identicon'] = 'Geometrisches Muster auf der Grundlage eines E-Mail Hashs';
+$txt['gravatar_monsterid'] = 'Generiertes \'Monstrum\' mit verschiedenen Farben, Gesichter usw.';
+$txt['gravatar_wavatar'] = 'Generierte Gesichter mit verschiedenen Merkmalen und Hintergründe';
+$txt['gravatar_retro'] = 'Awesome generiert, 8-Bit-Arcade-Style pixelige Gesichter';
+$txt['gravatar_blank'] = 'Ein transparentes PNG Bild';
 
-$txt['repair_attachments'] = 'Wartung der Dateianhänge';
-$txt['repair_attachments_complete'] = 'Die Wartung ist beendet...';
+$txt['repair_attachments'] = 'Wartungsarbeiten der Dateianhänge';
+$txt['repair_attachments_complete'] = 'Die Wartungsarbeiten abgeschlossen';
 $txt['repair_attachments_complete_desc'] = 'Alle ausgewählten Fehler wurden beseitigt';
-$txt['repair_attachments_no_errors'] = 'Keine Fehler gefunden!';
+$txt['repair_attachments_no_errors'] = 'Keine Fehler gefunden';
 $txt['repair_attachments_error_desc'] = 'Folgende Fehler wurden während der Wartung gefunden. Aktiviere den Haken neben dem Fehler, der behoben werden soll, und klicke auf \'Weiter\'.';
 $txt['repair_attachments_continue'] = 'Weiter';
 $txt['repair_attachments_cancel'] = 'Abbrechen';
@@ -493,27 +507,30 @@ $txt['attach_repair_missing_thumbnail_parent'] = '%1$d Vorschaubilder fehlen die
 $txt['attach_repair_parent_missing_thumbnail'] = '%1$d Anhänge sollen Vorschaubilder haben, welche jedoch nicht existieren';
 $txt['attach_repair_file_missing_on_disk'] = '%1$d Dateianhänge/Avatare sind in der Datenbank eingetragen, existieren aber nicht mehr auf der Festplatte';
 $txt['attach_repair_file_wrong_size'] = '%1$d Dateianhänge/Avatare haben eine falsch angegebene Dateigröße';
-$txt['attach_repair_file_size_of_zero'] = '%1$d Dateianhänge/Avatare haben eine Dateigröße von null (sie werden gelöscht).';
+$txt['attach_repair_file_size_of_zero'] = '%1$d Dateianhänge/Avatare haben eine Dateigröße von null. (Diese werden gelöscht)';
 $txt['attach_repair_attachment_no_msg'] = '%1$d Dateianhänge sind keinen Beiträgen zugeordnet';
 $txt['attach_repair_avatar_no_member'] = '%1$d Avatare sind keinen Mitgliedern zugeordnet';
 $txt['attach_repair_wrong_folder'] = '%1$d Dateianhänge sind im falschen Verzeichnis';
+$txt['attach_repair_files_without_attachment'] = '%1$d Dateien haben keinen entsprechenden Eintrag in der Datenbank. (Diese werden gelöscht)';
 
-$txt['news_title'] = 'News &amp; Newsletter';
-$txt['news_settings_desc'] = 'Hier kannst Du die Einstellungen und Berechtigungen der News bzw. des Newsletter ändern.';
+$txt['news_title'] = 'News und Newsletter';
+$txt['news_settings_desc'] = 'Hier kannst du die Einstellungen und Berechtigungen der News bzw. des Newsletter ändern.';
 $txt['news_settings_submit'] = 'Speichern';
-$txt['news_mailing_desc'] = 'Hier kannst Du bei wichtigen Neuigkeiten allen registrierten Mitgliedern eine Private Mitteilung oder eine E-Mail (setzt gültige E-Mail-Adresse voraus) schreiben. Du solltest die Funktion jedoch nicht zu oft benutzen, damit die Mitglieder nicht das Gefühl bekommen, ungewollte Nachrichten zu erhalten.';
+$txt['news_mailing_desc'] = 'Hier kannst du bei wichtigen Neuigkeiten allen registrierten Mitgliedern eine Private Mitteilung oder eine E-Mail (setzt gültige E-Mail-Adresse voraus) schreiben. Du solltest die Funktion jedoch nicht zu oft benutzen, damit die Mitglieder nicht das Gefühl bekommen, ungewollte Nachrichten zu erhalten.';
+$txt['news_error_no_news'] = 'Nichts geschrieben';
 $txt['groups_edit_news'] = 'Gruppen, die News-Meldungen ändern dürfen';
 $txt['groups_send_mail'] = 'Gruppen, die Newsletter verschicken dürfen';
 $txt['xmlnews_enable'] = 'XML/RSS News aktivieren?';
-$txt['xmlnews_maxlen'] = 'Maximale Beitragslänge:<div class="smalltext">(0 zum deaktivieren, schlechte Idee)</div>';
-$txt['editnews_clickadd'] = 'Klicke hier, um eine weitere Meldung einzufügen.';
+$txt['xmlnews_maxlen'] = 'Maximale Beitragslänge';
+$txt['xmlnews_maxlen_note'] = '(0 um zu deaktivieren, schlechte Idee.)';
+$txt['editnews_clickadd'] = 'Ein weiteres Element hinzufügen';
 $txt['editnews_remove_selected'] = 'Ausgewählte entfernen';
-$txt['editnews_remove_confirm'] = 'Bist Du sicher, dass Du die ausgewählten News entfernen möchten?';
-$txt['censor_clickadd'] = 'Klicke hier, um ein weiteres Wort hinzuzufügen.';
+$txt['editnews_remove_confirm'] = 'Bist du sicher, dass du die ausgewählten News Elemente löschen möchtest?';
+$txt['censor_clickadd'] = 'Ein weiteres Wort hinzufügen';
 
 $txt['layout_controls'] = 'Forum';
 $txt['logs'] = 'Protokolle';
-$txt['generate_reports'] = 'Bericht erstellen';
+$txt['generate_reports'] = 'Berichte';
 
 $txt['update_available'] = 'Update verfügbar!';
 $txt['update_message'] = 'Du benutzt eine veraltete Version von SMF, welche unter Umständen Fehler enthält, die bei der aktuellen Version schon behoben sind.
@@ -521,7 +538,7 @@ $txt['update_message'] = 'Du benutzt eine veraltete Version von SMF, welche unte
 
 $txt['manageposts'] = 'Beiträge &amp; Themen';
 $txt['manageposts_title'] = 'Beiträge &amp; Themen verwalten';
-$txt['manageposts_description'] = 'Hier kannst Du alle Einstellungen zu den Themen und Beiträgen ändern.';
+$txt['manageposts_description'] = 'Hier kannst du alle Einstellungen zu den Themen und Beiträgen ändern.';
 
 $txt['manageposts_seconds'] = 'Sekunden';
 $txt['manageposts_minutes'] = 'Minuten';
@@ -531,7 +548,7 @@ $txt['manageposts_posts'] = 'Beiträge';
 $txt['manageposts_topics'] = 'Themen';
 
 $txt['manageposts_settings'] = 'Beitragseinstellungen';
-$txt['manageposts_settings_description'] = 'Hier kannst Du alle Einstellungen zu den Beiträgen festlegen.';
+$txt['manageposts_settings_description'] = 'Hier kannst du alle Einstellungen zu den Beiträgen festlegen.';
 $txt['manageposts_settings_submit'] = 'Speichern';
 
 $txt['manageposts_bbc_settings'] = 'Bulletin Board Code';
@@ -539,26 +556,39 @@ $txt['manageposts_bbc_settings_description'] = 'Bulletin Board Code kann zum for
 $txt['manageposts_bbc_settings_title'] = 'Bulletin Board Code - Einstellungen';
 $txt['manageposts_bbc_settings_submit'] = 'Speichern';
 
-$txt['manageposts_topic_settings'] = 'Themen-Einstellungen';
-$txt['manageposts_topic_settings_description'] = 'Hier kannst Du alle Einstellungen zu den Themen festlegen.';
+$txt['manageposts_topic_settings'] = 'Thema Einstellungen';
+$txt['manageposts_topic_settings_description'] = 'Hier kannst du alle Einstellungen zu den Themen festlegen.';
 $txt['manageposts_topic_settings_submit'] = 'Speichern';
+
+$txt['managedrafts_settings'] = 'Entwurf Einstellungen';
+$txt['managedrafts_settings_description'] = 'Hier kannst du alle Einstellungen, die sich auf Entwürfe beziehen, vornehmen.';
+$txt['managedrafts_submit'] = 'Speichern';
+$txt['manage_drafts'] = 'Entwürfe';
 
 $txt['removeNestedQuotes'] = 'Entfernen von verschachtelten Zitaten aktivieren';
 $txt['enableEmbeddedFlash'] = 'Flash einbetten statt Link anzeigen';
 $txt['enableEmbeddedFlash_warning'] = 'Das kann ein Sicherheitsrisiko sein!';
 $txt['enableSpellChecking'] = 'Rechtschreibeprüfung aktivieren';
-$txt['enableSpellChecking_warning'] = 'Funktioniert nicht auf allen Servern!';
+$txt['enableSpellChecking_warning'] = 'Funktioniert nicht auf allen Servern';
 $txt['disable_wysiwyg'] = 'WYSIWYG Editor deaktivieren';
 $txt['max_messageLength'] = 'Max. Zeichen pro Beitrag';
-$txt['max_messageLength_zero'] = '0 für kein Limit';
-$txt['fixLongWords'] = 'Wörter mit mehr als x Buchstaben aufteilen';
-$txt['fixLongWords_zero'] = '0 zum deaktivieren';
-$txt['fixLongWords_warning'] = 'Dies funktioniert nicht auf allen Servern!';
+$txt['max_messageLength_zero'] = '(0 für keine Begrenzung)';
+$txt['convert_to_mediumtext'] = 'Your database is not setup to accept messages longer than 65535 characters. Please use the <a href="%1$s">database maintenance</a> page to convert the database and then came back to increase the maximum allowed post size.';
 $txt['topicSummaryPosts'] = 'Anzahl der Beiträge in der Zusammenfassung';
 $txt['spamWaitTime'] = 'Min. Zeitabstand zwischen 2 Beiträgen derselben IP-Adresse';
 $txt['edit_wait_time'] = 'Wartezeit für Änderungsdatum';
 $txt['edit_disable_time'] = 'Max. Zeit zum das Editieren nach dem Schreiben des Beitrags';
-$txt['edit_disable_time_zero'] = '0 zum deaktivieren';
+$txt['preview_characters'] = 'Maximum length of last/first post preview';
+$txt['preview_characters_units'] = 'characters';
+$txt['message_index_preview_first'] = 'When using post previews, show the text of the first post';
+$txt['message_index_preview_first_desc'] = 'Leave un-checked to show the text of the last post instead';
+$txt['show_user_images'] = 'Show user avatars in message view';
+$txt['show_blurb'] = 'Show personal text in message view';
+$txt['hide_post_group'] = 'Hide post group titles for grouped members';
+$txt['hide_post_group_desc'] = 'Enabling this will not display a member\'s post group title on the message view if they are assigned to a non-post based group.';
+$txt['subject_toggle'] = 'Show subjects in topics.';
+$txt['show_profile_buttons'] = 'Show view profile button under post';
+$txt['show_modify'] = 'Show last modification date on modified posts';
 
 $txt['enableBBC'] = 'Bulletin Board Code aktivieren';
 $txt['enablePostHTML'] = 'Verwenden von häufigen HTML Tags aktivieren';
@@ -568,14 +598,11 @@ $txt['bbcTagsToUse'] = 'Aktivierte BBC Tags';
 $txt['bbcTagsToUse_select'] = 'Wähle die benutzbaren Tags aus';
 $txt['bbcTagsToUse_select_all'] = 'Wähle alle Tags';
 
-$txt['enableStickyTopics'] = 'Fixierte Themen aktivieren';
 $txt['enableParticipation'] = '"Teilnahme Symbol" aktivieren';
 $txt['oldTopicDays'] = 'Anzahl der Tage, nach denen das Thema als "veraltet" gekennzeichnet wird';
 $txt['oldTopicDays_zero'] = '0 zum deaktivieren';
 $txt['defaultMaxTopics'] = 'Anzahl der Themen pro Seite im Themen-Index';
-$txt['defaultMaxMessages'] = 'Anzahl der Beiträge pro Seite im Thema';
-$txt['hotTopicPosts'] = 'Anzahl der Beiträge für heißes Thema?';
-$txt['hotTopicVeryPosts'] = 'Anzahl der Beiträge für sehr heißes Thema?';
+$txt['disable_print_topic'] = 'Disable print topic feature';
 $txt['enableAllMessages'] = 'Max. Antworten in einem Thema, um "Alle" anzeigen zu lassen';
 $txt['enableAllMessages_zero'] = '0 zum deaktivieren';
 $txt['disableCustomPerPage'] = 'Benutzerdefinierte Anzahl von Themen/Beiträgen pro Seite deaktivieren';
@@ -586,20 +613,27 @@ $txt['not_done_reason'] = 'Um das Überlasten des Servers zu verhindern, wurde d
 $txt['not_done_continue'] = 'Weiter';
 
 $txt['general_settings'] = 'Allgemein';
-$txt['database_paths_settings'] = 'Datenbank und Pfade';
+$txt['database_paths_settings'] = 'Datenbank';
 $txt['cookies_sessions_settings'] = 'Cookies und Sitzungen';
+$txt['security_settings'] = 'Security';
 $txt['caching_settings'] = 'Cache';
 $txt['load_balancing_settings'] = 'Lastenausgleich';
+$txt['phpinfo_settings'] = 'PHP Info';
+$txt['phpinfo_localsettings'] = 'Local Settings';
+$txt['phpinfo_defaultsettings'] = 'Default Settings';
+$txt['phpinfo_itemsettings'] = 'Settings';
 
 $txt['language_configuration'] = 'Sprachen';
-$txt['language_description'] = 'Diese Sektion erlaubt das editieren von Sprachen deines Forums und das Herunterladen neuer Sprachen von der Simple Machines Webseite. Hier kannst Du auch Sprach spezifische Einstellungen ändern.';
+$txt['language_description'] = 'Diese Sektion erlaubt das editieren von Sprachen deines Forums und das Herunterladen neuer Sprachen von der Simple Machines Webseite. Hier kannst du auch Sprach spezifische Einstellungen ändern.';
 $txt['language_edit'] = 'Sprachen Editieren';
 $txt['language_add'] = 'Sprache hinzufügen';
 $txt['language_settings'] = 'Einstellungen';
+$txt['could_not_language_backup'] = 'A backup could not be made before removing this language pack. No changes have been made at this time as a result (either change the permissions so Packages/backup can be written to, or turn off backups - not recommended)';
 
 $txt['advanced'] = 'Erweitert';
 $txt['simple'] = 'Einfach';
 
+$txt['admin_news_newsletter_queue_done'] = 'The newsletter has been added to the mail queue successfully.';
 $txt['admin_news_select_recipients'] = 'Bitte wähle aus, wer eine Kopie des Newsletters erhalten soll.';
 $txt['admin_news_select_group'] = 'Mitgliedergruppen';
 $txt['admin_news_select_group_desc'] = 'Wähle die Gruppen, die den Newsletter erhalten sollen.';
@@ -610,10 +644,10 @@ $txt['admin_news_select_excluded_members_desc'] = 'Mitglieder, die den Newslette
 $txt['admin_news_select_excluded_groups'] = 'Ausgeschlossene Mitgliedergruppen';
 $txt['admin_news_select_excluded_groups_desc'] = 'Wähle die Gruppen, die den Newsletter nicht erhalten sollen.';
 $txt['admin_news_select_email'] = 'E-Mail-Adressen';
-$txt['admin_news_select_email_desc'] = 'Eine Liste der E-Mail-Adressen, an welche der Newsletter geschickt werden soll (z.B. Adresse1; Adresse2).';
+$txt['admin_news_select_email_desc'] = 'Eine Liste der E-Mail-Adressen, an welche der Newsletter geschickt werden soll (z.B. Adresse1; Adresse2) Dies ist zusätzlich zu den oben aufgeführten Gruppen.';
 $txt['admin_news_select_override_notify'] = 'Überschreibe Benachrichtigungseinstellungen';
 // Use entities in below.
-$txt['admin_news_cannot_pm_emails_js'] = 'Du kannst keine Private Mitteilung an eine E-Mail-Adresse senden. Solltest Du fortfahren, werden alle E-Mail-Adressen ignoriert.\\n\\nBist Du sicher, dass Du das tun möchtest?';
+$txt['admin_news_cannot_pm_emails_js'] = 'Du kannst keine Private Mitteilung an eine E-Mail-Adresse senden. Solltest du fortfahren, werden alle E-Mail-Adressen ignoriert.\\n\\nBist du sicher, dass du das tun möchtest?';
 
 $txt['mailqueue_browse'] = 'Warteschlange durchsuchen';
 $txt['mailqueue_settings'] = 'Einstellungen';
@@ -626,22 +660,22 @@ $txt['admin_search_go'] = 'Los';
 $txt['admin_search_results'] = 'Suchergebnisse';
 $txt['admin_search_results_desc'] = 'Ergebnisse der Suche: "%1$s"';
 $txt['admin_search_results_again'] = 'Erneut suchen';
-$txt['admin_search_results_none'] = 'Keine Ergebnisse gefunden!';
+$txt['admin_search_results_none'] = 'Keine Ergebnisse gefunden';
 
 $txt['admin_search_section_sections'] = 'Bereich';
 $txt['admin_search_section_settings'] = 'Einstellung';
 
-$txt['core_settings_title'] = 'Zentrale Funktionen';
 $txt['mods_cat_features'] = 'Allgemeines';
-$txt['mods_cat_security_general'] = 'Allgemein';
 $txt['antispam_title'] = 'Anti-Spam';
 $txt['mods_cat_modifications_misc'] = 'Verschiedene';
 $txt['mods_cat_layout'] = 'Layout';
-$txt['karma'] = 'Karma';
 $txt['moderation_settings_short'] = 'Moderation';
 $txt['signature_settings_short'] = 'Signaturen';
 $txt['custom_profile_shorttitle'] = 'Profilfelder';
 $txt['pruning_title'] = 'Protokolle bereinigen';
+$txt['pruning_desc'] = 'The following options are useful for keeping your logs from growing too big, because most of the time older entries are not really of that much use.';
+$txt['log_settings'] = 'Log Settings';
+$txt['log_ban_hits'] = 'Log ban hits in the error log?';
 
 $txt['boardsEdit'] = 'Boards verwalten';
 $txt['mboards_new_cat'] = 'Neue Kategorie erstellen';
@@ -654,7 +688,7 @@ $txt['smiley_sets'] = 'Smiley-Sets';
 $txt['smileys_add'] = 'Smiley hinzufügen';
 $txt['smileys_edit'] = 'Smileys ändern';
 $txt['smileys_set_order'] = 'Smiley Reihenfolge ändern';
-$txt['icons_edit_message_icons'] = 'Beitragssymbole verwalten';
+$txt['icons_edit_message_icons'] = 'Beitragssymbole';
 
 $txt['membergroups_new_group'] = 'Mitgliedergruppe erstellen';
 $txt['membergroups_edit_groups'] = 'Mitgliedergruppen verwalten';
@@ -664,7 +698,7 @@ $txt['permissions_profiles'] = 'Berechtigungprofile';
 $txt['permissions_post_moderation'] = 'Beitragsmoderation';
 
 $txt['browse_packages'] = 'Pakete durchsuchen';
-$txt['download_packages'] = 'Pakete herunterladen';
+$txt['download_packages'] = 'Pakete hinzufügen';
 $txt['installed_packages'] = 'Installierte Pakete';
 $txt['package_file_perms'] = 'Dateiberechtigungen';
 $txt['package_settings'] = 'Optionen';
@@ -681,5 +715,39 @@ $txt['spider_stats'] = 'Statistiken';
 
 $txt['paid_subscriptions'] = 'Bezahlte Abonnements';
 $txt['paid_subs_view'] = 'Abonnements anschauen';
+
+$txt['hooks_title_list'] = 'Integration Hooks';
+$txt['hooks_field_hook_name'] = 'Hook Name';
+$txt['hooks_field_function_name'] = 'Function Name';
+$txt['hooks_field_function_method'] = 'Function is a method and its class is instantiated';
+$txt['hooks_field_function'] = 'Function';
+$txt['hooks_field_included_file'] = 'Included file';
+$txt['hooks_field_file_name'] = 'File Name';
+$txt['hooks_field_hook_exists'] = 'Status';
+$txt['hooks_active'] = 'Exists';
+$txt['hooks_disabled'] = 'Disabled';
+$txt['hooks_missing'] = 'Not found';
+$txt['hooks_no_hooks'] = 'There are currently no hooks in the system.';
+$txt['hooks_button_remove'] = 'Remove';
+$txt['hooks_disable_instructions'] = 'Click on the status icon to enable or disable the hook';
+$txt['hooks_disable_legend'] = 'Legend';
+$txt['hooks_disable_legend_exists'] = 'the hook exists and is active';
+$txt['hooks_disable_legend_disabled'] = 'the hook exists but has been disabled';
+$txt['hooks_disable_legend_missing'] = 'the hook has not been found';
+$txt['hooks_reset_filter'] = 'No filter';
+
+$txt['board_perms_allow'] = 'Allow';
+$txt['board_perms_ignore'] = 'Ignore';
+$txt['board_perms_deny'] = 'Deny';
+$txt['all_boards_in_cat'] = 'All boards in this category';
+
+$txt['likes_like'] = 'Membergroups allowed to like posts';
+$txt['likes_view'] = 'Membergroups allowed to view likes';
+
+$txt['mention'] = 'Membergroups allowed to mention users';
+
+$txt['notifications'] = 'Notifications';
+$txt['notify_settings'] = 'Notification Settings';
+$txt['notifications_desc'] = 'This page allows you to set the default notification options for users.';
 
 ?>
