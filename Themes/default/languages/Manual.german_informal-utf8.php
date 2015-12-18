@@ -1,5 +1,5 @@
 <?php
-// Version: 2.0; Manual -- 2.1* German translate Update by www.Scaricare.de
+// Version: 2.1 Beta 2; Manual -- 2.1* German translate Update by www.Scaricare.de
 
 /* Everything in this file is for the Simple Machines help manual
    If you are looking at translating the manual into another language
