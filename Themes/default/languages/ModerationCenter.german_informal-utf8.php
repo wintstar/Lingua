@@ -1,146 +1,178 @@
 <?php
-// Version: 2.0; ModerationCenter
+// Version: 2.1 Beta 3; ModerationCenter
 
-global $scripturl;
+$txt['moderation_center'] = 'Moderation Center';
+$txt['mc_main'] = 'Main';
+$txt['mc_logs'] = 'Logs';
+$txt['mc_posts'] = 'Posts';
+$txt['mc_groups'] = 'Groups';
+$txt['mc_members'] = 'Members';
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['moderation_center'] = 'Moderations-Center';
-$txt['mc_main'] = 'Hauptseite';
-$txt['mc_posts'] = 'Beiträge';
-$txt['mc_groups'] = 'Mitgliedergruppen';
+$txt['mc_view_groups'] = 'View Membergroups';
 
-$txt['mc_view_groups'] = 'Mitgliedergruppen anzeigen';
+$txt['mc_description'] = 'This is your &quot;Moderation Center&quot;. From here you can perform all the moderation actions assigned to yourself by the Administrator. This home page contains a summary of all the latest happenings in your community.';
+$txt['mc_group_requests'] = 'Membergroup Requests';
+$txt['mc_group_requests_active'] = 'Active Requests';
+$txt['mc_group_requests_closed'] = 'Old Requests';
+$txt['mc_unapproved_posts'] = 'Unapproved Posts';
+$txt['mc_watched_users'] = 'Recent Watched Members';
+$txt['mc_watched_topics'] = 'Watched Topics';
+$txt['mc_scratch_board'] = 'Moderator Scratch Board';
+$txt['mc_latest_news'] = 'Simple Machines Latest News';
+$txt['mc_recent_reports'] = 'Recent Topic Reports';
+$txt['mc_recent_user_reports'] = 'Recent Profile Reports';
+$txt['mc_warnings'] = 'Warnings';
+$txt['mc_notes'] = 'Moderator Notes';
 
-$txt['mc_description'] = 'Das ist dein "Moderations-Center". Hier kannst du alle vom Administrator zugewiesenen Moderator Tätigkeiten ausführen. Diese Seite zeigt eine Zusammenfassung der aktuellsten Ereignisse in deinem Forum an. DU kannst das Layout nach <a href="' . $scripturl . '?action=moderate;sa=personalize">deinen eigenen Vorstellungen</a> anpassen.';
-$txt['mc_group_requests'] = 'Gruppenanfragen';
-$txt['mc_unapproved_posts'] = 'Ungenehmigte Beiträge';
-$txt['mc_watched_users'] = 'Neu beobachtete Benutzer';
-$txt['mc_watched_topics'] = 'Beobachtete Themen';
-$txt['mc_scratch_board'] = 'Moderatoren Schmierzettel';
-$txt['mc_latest_news'] = 'Neues von Simple Machines';
-$txt['mc_recent_reports'] = 'Neu gemeldete Themen';
-$txt['mc_warnings'] = 'Verwarnungen';
-$txt['mc_notes'] = 'Moderator Notizen';
+$txt['mc_notes_delete_own'] = 'You are only allowed to delete your own notes.';
+$txt['mc_cannot_connect_sm'] = 'You are unable to connect to simplemachines.org\'s latest news file.';
 
-$txt['mc_cannot_connect_sm'] = 'Verbindung zu simplemachines.org nicht möglich.';
+$txt['mc_recent_reports_none'] = 'There are no outstanding reports';
+$txt['mc_watched_users_none'] = 'There are not currently any watches in place.';
+$txt['mc_group_requests_none'] = 'There are no open requests for group membership.';
+$txt['mc_reported_users_none'] = 'There are no pending profile reports.';
 
-$txt['mc_recent_reports_none'] = 'Es sind keine ausstehenden Meldungen vorhanden.';
-$txt['mc_watched_users_none'] = 'Es werden momentan keine Benutzer beobachtet.';
-$txt['mc_group_requests_none'] = 'Es sind keine Gruppenanfragen vorhanden.';
+$txt['mc_seen'] = '%1$s last seen %2$s';
+$txt['mc_seen_never'] = '%1$s never seen';
+$txt['mc_groupr_by'] = 'by';
+$txt['mc_post_report'] = '%1$s by %2$s';
 
-$txt['mc_seen'] = '%1$s zuletzt gesehen %2$s';
-$txt['mc_seen_never'] = '%1$s nie gesehen';
-$txt['mc_groupr_by'] = 'von';
-
-$txt['mc_reported_posts_desc'] = 'Hier kannst du alle Beträge nachlesen, die von den Mitgliedern gemeldet wurden.';
-$txt['mc_reportedp_active'] = 'Aktive Meldungen';
-$txt['mc_reportedp_closed'] = 'Alte Meldungen';
-$txt['mc_reportedp_by'] = 'von';
-$txt['mc_reportedp_reported_by'] = 'Gemeldet von';
-$txt['mc_reportedp_last_reported'] = 'Zuletzt gemeldet';
-$txt['mc_reportedp_none_found'] = 'Keine Meldungen gefunden';
-
+$txt['mc_reported_posts_desc'] = 'Here you can review all the post reports raised by members of the community.';
+$txt['mc_reportedp_active'] = 'Active Reports';
+$txt['mc_reportedp_closed'] = 'Old Reports';
+$txt['mc_reportedp_by'] = 'by';
+$txt['mc_reportedp_reported_by'] = 'Reported By';
+$txt['mc_reportedp_last_reported'] = 'Last Reported';
+$txt['mc_reportedp_none_found'] = 'No Reports Found';
+$txt['mc_reportedp_comment_none_found'] = 'No Moderator Comment Found';
+$txt['mc_reportedp_comment_edit'] = 'Edit';
+$txt['mc_reportedp_comment_delete'] = 'Delete';
 $txt['mc_reportedp_details'] = 'Details';
-$txt['mc_reportedp_close'] = 'Schließen';
-$txt['mc_reportedp_open'] = 'Aktive Meldungen';
-$txt['mc_reportedp_ignore'] = 'Ignorieren';
-$txt['mc_reportedp_unignore'] = 'Ignorieren aufheben';
+$txt['mc_reportedp_close'] = 'Close';
+$txt['mc_reportedp_open'] = 'Open';
+$txt['mc_reportedp_ignore'] = 'Ignore';
+$txt['mc_reportedp_unignore'] = 'Un-Ignore';
+$txt['mc_reportedp_delete'] = 'Delete message';
+$txt['mc_reportedp_new_comment'] = 'Add a new comment';
+$txt['mc_reportedp_delete_confirm'] = 'Are you sure you wish to delete this message?';
+$txt['mc_reportedp_ban'] = 'Ban this user';
 // Do not use numeric entries in the below string.
-$txt['mc_reportedp_ignore_confirm'] = 'Bist du sicher, dass du zukünftige Meldungen über diesen Beitrag ignorieren möchtest?\\n\\nDies deaktiviert zukünftige Meldungen für alle Moderatoren des Forums!';
-$txt['mc_reportedp_close_selected'] = 'Ausgewählte schließen';
+$txt['mc_reportedp_ignore_confirm'] = 'If you choose "OK", then this forum will silently ignore and ignore all future attempts to report this post; moderators will not see any future reports about this post. Are you sure you wish to do this?';
+$txt['mc_reportedp_close_selected'] = 'Close Selected';
 
-$txt['mc_groupr_group'] = 'Mitgliedergruppe';
-$txt['mc_groupr_member'] = 'Mitglied';
-$txt['mc_groupr_reason'] = 'Grund';
-$txt['mc_groupr_none_found'] = 'Es sind momentan keine Gruppenanfragen vorhanden';
-$txt['mc_groupr_submit'] = 'Senden';
-$txt['mc_groupr_reason_desc'] = 'Grund für die Ablehnung von %1$s der Gruppe "%2$s" beizutreten';
-$txt['mc_groups_reason_title'] = 'Grund für die Ablehnung';
-$txt['with_selected'] = 'Ausgewählte';
-$txt['mc_groupr_approve'] = 'Anfrage genehmigen';
-$txt['mc_groupr_reject'] = 'Anfrage ablehnen (kein Grund)';
-$txt['mc_groupr_reject_w_reason'] = 'Anfrage ablehnen (einen Grund angeben)';
+$txt['mc_groupr_group'] = 'Membergroups';
+$txt['mc_groupr_member'] = 'Member';
+$txt['mc_groupr_reason'] = 'Reason';
+$txt['mc_groupr_no_reason'] = 'No reason given';
+$txt['mc_groupr_none_found'] = 'There are currently no outstanding membergroup requests.';
+$txt['mc_groupr_approved'] = 'Request approved';
+$txt['mc_groupr_rejected'] = 'Request rejected';
+$txt['mc_groupr_submit'] = 'Submit';
+$txt['mc_groupr_reason_desc'] = 'Reason to reject %1$s\'s request to join &quot;%2$s&quot;';
+$txt['mc_groups_reason_title'] = 'Reasons for rejection';
+$txt['with_selected'] = 'With selected';
+$txt['mc_groupr_approve'] = 'Approve request';
+$txt['mc_groupr_reject'] = 'Reject request (No Reason)';
+$txt['mc_groupr_reject_w_reason'] = 'Reject request with reason';
 // Do not use numeric entries in the below string.
-$txt['mc_groupr_warning'] = 'Bist du sicher, dass du das tun möchtest?';
+$txt['mc_groupr_warning'] = 'Are you sure you wish to do this?';
 
-$txt['mc_unapproved_attachments_none_found'] = 'Keine ungenehmigten Dateianhänge gefunden!';
-$txt['mc_unapproved_replies_none_found'] = 'Keine ungenehmigten Beiträge gefunden!';
-$txt['mc_unapproved_topics_none_found'] = 'Keine ungenehmigten Themen gefunden!';
-$txt['mc_unapproved_posts_desc'] = 'Hier kannst du alle Beiträge genehmigen oder ablehnen, die moderiert werden müssen.';
-$txt['mc_unapproved_replies'] = 'Antworten';
-$txt['mc_unapproved_topics'] = 'Themen';
-$txt['mc_unapproved_by'] = 'von';
-$txt['mc_unapproved_sure'] = 'Bist du sicher, dass du das tun möchtest?';
-$txt['mc_unapproved_attach_name'] = 'Name des Dateianhangs';
-$txt['mc_unapproved_attach_size'] = 'Dateigröße';
-$txt['mc_unapproved_attach_poster'] = 'Autor';
-$txt['mc_viewmodreport'] = 'Meldung für %1$s von %2$s';
-$txt['mc_modreport_summary'] = 'Es sind %1$d Meldungen für diesen Beitrag vorhanden. Die letzte Meldung war %2$s.';
-$txt['mc_modreport_whoreported_title'] = 'Mitglieder, die diesen Beitrag gemeldet haben';
-$txt['mc_modreport_whoreported_data'] = 'Gemeldet von %1$s am %2$s. Es wurde folgenden Nachricht hinterlassen:';
-$txt['mc_modreport_modactions'] = 'Aktionen von anderen Moderatoren';
-$txt['mc_modreport_mod_comments'] = 'Moderator Kommentare';
-$txt['mc_modreport_no_mod_comment'] = 'Es gibt momentan keine Moderator Kommentare';
-$txt['mc_modreport_add_mod_comment'] = 'Kommentar hinzufügen';
+$txt['mc_unapproved_attachments_none_found'] = 'There are currently no attachments awaiting approval';
+$txt['mc_unapproved_attachments_desc'] = 'From here you can approve or delete any attachments awaiting moderation.';
+$txt['mc_unapproved_replies_none_found'] = 'There are currently no posts awaiting approval';
+$txt['mc_unapproved_topics_none_found'] = 'There are currently no topics awaiting approval';
+$txt['mc_unapproved_posts_desc'] = 'From here you can approve or delete any posts awaiting moderation.';
+$txt['mc_unapproved_replies'] = 'Replies';
+$txt['mc_unapproved_topics'] = 'Topics';
+$txt['mc_unapproved_by'] = 'by';
+$txt['mc_unapproved_sure'] = 'Are you sure you want to do this?';
+$txt['mc_unapproved_attach_name'] = 'Attachment name';
+$txt['mc_unapproved_attach_size'] = 'Filesize';
+$txt['mc_unapproved_attach_poster'] = 'Poster';
+$txt['mc_viewmodreport'] = 'Moderation report for %1$s by %2$s';
+$txt['mc_modreport_summary'] = 'There have been %1$d report(s) concerning this post. The last report was %2$s.';
+$txt['mc_modreport_whoreported_title'] = 'Members who have reported this post';
+$txt['mc_modreport_whoreported_data'] = 'Reported by %1$s on %2$s. They left the following message:';
+$txt['mc_modreport_modactions'] = 'Actions taken by other moderators';
+$txt['mc_modreport_mod_comments'] = 'Moderator Comments';
+$txt['mc_modreport_no_mod_comment'] = 'There are not currently any moderator comments';
+$txt['mc_modreport_add_mod_comment'] = 'Add Comment';
+$txt['mc_modreport_edit_mod_comment'] = 'Edit Comment';
 
-$txt['show_notice'] = 'Notiztext';
-$txt['show_notice_subject'] = 'Betreff';
+$txt['mc_viewmemberreport'] = 'Report for profile of %1$s';
+$txt['mc_memberreport_summary'] = 'There have been %1$d report(s) concerning this member. The last report was %2$s.';
+$txt['mc_memberreport_whoreported_title'] = 'Members who have reported this member.';
+
+$txt['show_notice'] = 'Notice Text';
+$txt['show_notice_subject'] = 'Subject';
 $txt['show_notice_text'] = 'Text';
 
-$txt['mc_watched_users_title'] = 'Beobachtete Benutzer';
-$txt['mc_watched_users_desc'] = 'Hier sind alle Benutzer aufgelistet, die von den Moderatoren beobachtet werden.';
-$txt['mc_watched_users_post'] = 'Nach Beitrag anzeigen';
-$txt['mc_watched_users_warning'] = 'Verwarnungslevel';
-$txt['mc_watched_users_last_login'] = 'Letzter Login';
-$txt['mc_watched_users_last_post'] = 'Letzter Beitrag';
-$txt['mc_watched_users_no_posts'] = 'Es gibt keine Beiträge von beobachteten Benutzern.';
+$txt['mc_watched_users_title'] = 'Watched Members';
+$txt['mc_watched_users_desc'] = 'Here you can keep a track of all members who have been assigned a &quot;watch&quot; by the moderation team.';
+$txt['mc_watched_users_post'] = 'View by Post';
+$txt['mc_watched_users_warning'] = 'Warning Level';
+$txt['mc_watched_users_last_login'] = 'Last Login';
+$txt['mc_watched_users_last_post'] = 'Last Post';
+$txt['mc_watched_users_no_posts'] = 'There are no posts from watched members.';
 // Don't use entities in the two strings below.
-$txt['mc_watched_users_delete_post'] = 'Bist du sicher, dass du diesen Beitrag löschen möchtest?';
-$txt['mc_watched_users_delete_posts'] = 'Bist du sicher, dass du diese Beiträge löschen möchtest?';
-$txt['mc_watched_users_posted'] = 'Geschrieben am';
-$txt['mc_watched_users_member'] = 'Nach Mitglied anzeigen';
+$txt['mc_watched_users_delete_post'] = 'Are you sure you want to delete this post?';
+$txt['mc_watched_users_delete_posts'] = 'Are you sure you want to delete these posts?';
+$txt['mc_watched_users_posted'] = 'Posted';
+$txt['mc_watched_users_member'] = 'Member';
 
-$txt['mc_warnings_description'] = 'In dieser Sektion siehst du, welche Warnungen an welche Benutzer ausgesprochen wurden. Du kannst außerdem Vorlagen hinzufügen und bearbeiten, welche beim Verwarnen eines Benutzers an diesen versandt werden.';
-$txt['mc_warning_log'] = 'Verwarnungsprotokoll';
-$txt['mc_warning_templates'] = 'Benutzerdefinierte Templates';
-$txt['mc_warning_log_title'] = 'Zeige Warnungs Log';
-$txt['mc_warning_templates_title'] = 'benutzerdefinierte Verwarnungs-Vorlagen';
+$txt['mc_warnings_description'] = 'From this section you can see which warnings have been issued to members of the forum. You can also add and modify the notification templates used when sending a warning to a member.';
+$txt['mc_warning_log'] = 'Log';
+$txt['mc_warning_templates'] = 'Custom Templates';
+$txt['mc_warning_log_title'] = 'Viewing warning log';
+$txt['mc_warning_templates_title'] = 'Custom warning templates';
 
-$txt['mc_warnings_none'] = 'Es wurden noch keine Verwarnungen ausgesprochen!';
-$txt['mc_warnings_recipient'] = 'Empfänger';
+$txt['mc_warnings_none'] = 'No warnings have been issued.';
+$txt['mc_warnings_recipient'] = 'Recipient';
 
-$txt['mc_warning_templates_none'] = 'Bisher wurden noch keine Warnungs Schablonen erstellt.';
-$txt['mc_warning_templates_time'] = 'Erstellungszeitpunkt';
-$txt['mc_warning_templates_name'] = 'Vorlage';
-$txt['mc_warning_templates_creator'] = 'Erstellt von';
-$txt['mc_warning_template_add'] = 'Vorlage hinzufügen';
-$txt['mc_warning_template_modify'] = 'Vorlage ändern';
-$txt['mc_warning_template_delete'] = 'Ausgewählte löschen';
-$txt['mc_warning_template_delete_confirm'] = 'Bist du sicher, dass du die ausgewählten Schablonen löschen möchtest?';
+$txt['mc_warning_templates_none'] = 'No warning templates have been created yet';
+$txt['mc_warning_templates_time'] = 'Time Created';
+$txt['mc_warning_templates_name'] = 'Template';
+$txt['mc_warning_templates_creator'] = 'Created By';
+$txt['mc_warning_template_add'] = 'Add Template';
+$txt['mc_warning_template_modify'] = 'Edit Template';
+$txt['mc_warning_template_delete'] = 'Delete Selected';
+$txt['mc_warning_template_delete_confirm'] = 'Are you sure you want to delete the selected templates?';
+$txt['report_action_message_saved'] = 'You successfully created a new comment.';
+$txt['report_action_message_edited'] = 'You successfully edited the comment.';
+$txt['report_action_message_deleted'] = 'The message was successfully deleted.';
+$txt['report_action_message_edit_issue'] = 'The message you\'re trying to edit isn\'t available any more. Please check if it wasn\'t deleted already.';
+$txt['report_action_message_edit_cannot'] = 'I\'m sorry, you aren\'t allowed to edit this comment.';
+$txt['report_action_message_delete_cannot'] = 'I\'m sorry, you aren\'t allowed to delete this comment.';
+$txt['report_action_message_delete_issue'] = 'The message you\'re trying to delete isn\'t available any more. Please check if it wasn\'t deleted already.';
+$txt['report_action_ignore'] = 'The report was successfully ignored.';
+$txt['report_action_unignore'] = 'The report was successfully un-ignored.';
+$txt['report_action_close'] = 'The report was successfully closed.';
+$txt['report_action_open'] = 'The report was successfully open.';
+$txt['report_action_close_all'] = 'You successfully closed all selected reports.';
 
-$txt['mc_warning_template_desc'] = 'Benutze diese Seite um die Details der Schablone einzutragen. Beachte, dass der Betreff nicht Teil der Schablone ist. Beachte außerdem, dass, da die Benachrichtigung als PN versandt wird, BBC in der Schablone verwenden kannst. Wenn du die {MESSAGE} Variable verwendest ist diese Schablone nicht für Allgemeine Warnungen verfügbar (also Warnungen, die nicht mit Beiträgen in Zusammenhang stehen).';
-$txt['mc_warning_template_title'] = 'Vorlagen-Titel';
-$txt['mc_warning_template_body_desc'] = 'Der Inhalt der Benachrichtigung. Beachte, dass die folgenden Schablonen verwenden können:<ul style="margin-top: 0px;"><li>{MEMBER} - Benutzeraccount Name</li><li>{MESSAGE} - Link zum betreffenden Beitrag (falls zutreffend)</li><li>{FORUMNAME} - Forum Name.</li><li>{SCRIPTURL} - Web Adresse des Forums</li><li>{REGARDS} - Standard E-Mail Abschied/Unterschrift</li></ul>';
-$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'Du hast eine Verwarnung wegen unangebrachten Verhaltens bekommen. Bitte stoppe dieses Verhalten und verhalte dich nach den Forum Regeln damit keine weiteren Schritte eingeleitet werden müssen.' . "\n\n" . '{REGARDS}';
-$txt['mc_warning_template_personal'] = 'persönliche Vorlage';
-$txt['mc_warning_template_personal_desc'] = 'Wenn du diese Option wählst kannst nur du dieses Template sehen, ändern und verwenden. Ist sie nicht gewählt, können es alle Moderatorenverwenden. ';
-$txt['mc_warning_template_error_empty'] = 'Du musst sowohl einen Titel, wie auch Benachrichtigungs Inhalt angeben.';
+$txt['mc_warning_template_desc'] = 'Use this page to fill in the details of the template. Note that the subject for the email is not part of the template. Note that as the notification is sent by PM you can use BBC within the template. Note if you use the {MESSAGE} variable then this template will not be available when issuing a generic warning (i.e. A warning not linked to a post).';
+$txt['mc_warning_template_title'] = 'Template Title';
+$txt['mc_warning_template_body_desc'] = 'The content of the notification message. Note that you can use the following shortcuts in this template.<ul style="margin-top: 0px;"><li>{MEMBER} - Member Name.</li><li>{MESSAGE} - Link to Offending Post. (If Applicable)</li><li>{FORUMNAME} - Forum Name.</li><li>{SCRIPTURL} - Web address of forum.</li><li>{REGARDS} - Standard email sign-off.</li></ul>';
+$txt['mc_warning_template_body_default'] = '{MEMBER},' . "\n\n" . 'You have received a warning for inappropriate activity. Please cease these activities and abide by the forum rules otherwise we will take further action.' . "\n\n" . '{REGARDS}';
+$txt['mc_warning_template_personal'] = 'Personal Template';
+$txt['mc_warning_template_personal_desc'] = 'If you select this option only you will be able to see, edit and use this template. If not selected all moderators will be able to use this template.';
+$txt['mc_warning_template_error_no_title'] = 'You must set title.';
+$txt['mc_warning_template_error_no_body'] = 'You must set a notification body.';
 
-$txt['mc_prefs'] = 'Einstellungen';
-$txt['mc_settings'] = 'Einstellungen ändern';
-$txt['mc_prefs_title'] = 'Moderatoreinstellungen';
-$txt['mc_prefs_desc'] = 'Hier kannst du ein paar Einstellungen bezüglich der Moderation (z.B. die Benachrichtigungen) konfigurieren.';
-$txt['mc_prefs_homepage'] = 'Bereiche, welche auf der Moderations-Startseite angezeigt werden sollen';
-$txt['mc_prefs_latest_news'] = 'Simple Machines News';
-$txt['mc_prefs_show_reports'] = 'Offene Meldungen im Kopf des Forums anzeigen';
-$txt['mc_prefs_notify_report'] = 'Bei Meldungen benachrichtigen';
-$txt['mc_prefs_notify_report_never'] = 'Nie';
-$txt['mc_prefs_notify_report_moderator'] = 'Nur wenn ich das Board moderiere';
-$txt['mc_prefs_notify_report_always'] = 'Immer';
-$txt['mc_prefs_notify_approval'] = 'Bei ausstehenden Genehmigungen benachrichtigen';
+$txt['mc_settings'] = 'Change Settings';
+$txt['mc_prefs_title'] = 'Moderation Preferences';
+$txt['mc_prefs_desc'] = 'This section allows you to set some personal preferences for moderation related activities such as email notifications.';
+$txt['mc_no_settings'] = 'There are no settings to display.';
+
+$txt['mc_prefs_notify_approval'] = 'Notify of items awaiting approval';
+$txt['mc_logoff'] = 'End Moderator Session';
 
 // Use entities in the below string.
-$txt['mc_click_add_note'] = 'Eine neue Notiz hinzufügen';
-$txt['mc_add_note'] = 'Hinzufügen';
+$txt['mc_click_add_note'] = 'Add a new note';
+$txt['mc_add_note'] = 'Add';
 
+// Do not use numeric entries in the below string.
+$txt['mc_reportedm_ignore_confirm'] = 'Are you sure you wish to ignore further reports about this user\'s profile?\\n\\nThis will turn off further reports for everyone.';
+$txt['mc_reported_members_title'] = 'Reported Members';
+$txt['mc_reported_members_desc'] = 'Allows you to view a list of all users whose profiles have been reported';
 ?>

@@ -1,160 +1,167 @@
 <?php
-// Version: 2.0; Search
+// Version: 2.1 Beta 3; Search
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['set_parameters'] = 'Suchparameter festlegen';
-$txt['choose_board'] = 'Wähle eine Kategorie aus, in welcher gesucht werden soll oder durchsuche alle';
-$txt['all_words'] = 'Übereinstimmung aller Wörter';
-$txt['any_words'] = 'Übereinstimmung eines Wortes';
-$txt['by_user'] = 'Nach Benutzer';
+$txt['set_parameters'] = 'Set Search Parameters';
+$txt['choose_board'] = 'Choose a board to search in, or search all';
+$txt['all_words'] = 'Match all words';
+$txt['any_words'] = 'Match any words';
+$txt['by_user'] = 'By user';
 
-$txt['search_post_age'] = 'Alter des Beitrags';
-$txt['search_between'] = 'Zwischen';
-$txt['search_and'] = 'und';
-$txt['search_options'] = 'Optionen';
-$txt['search_show_complete_messages'] = 'Ergebnisse als Beiträge anzeigen';
-$txt['search_subject_only'] = 'Nur Betreff der Themen';
-$txt['search_relevance'] = 'Relevanz';
-$txt['search_date_posted'] = 'Erstellt am';
-$txt['search_order'] = 'Suchreihenfolge';
-$txt['search_orderby_relevant_first'] = 'Höchste Relevanz zuerst';
-$txt['search_orderby_large_first'] = 'Größtes Thema zuerst';
-$txt['search_orderby_small_first'] = 'Kleinstes Thema zuerst';
-$txt['search_orderby_recent_first'] = 'Neuestes Thema zuerst';
-$txt['search_orderby_old_first'] = 'Ältestes Thema zuerst';
-$txt['search_visual_verification_label'] = 'Verifizierung';
-$txt['search_visual_verification_desc'] = 'Bitte gib den Code aus dem Bild ein, um die Suche zu benutzen.';
+$txt['search_post_age'] = 'Message age';
+$txt['search_between'] = 'between';
+$txt['search_and'] = 'and';
+$txt['search_options'] = 'Options';
+$txt['search_show_complete_messages'] = 'Show results as messages';
+$txt['search_subject_only'] = 'Search in topic subjects only';
+$txt['search_relevance'] = 'Relevance';
+$txt['search_date_posted'] = 'Date Posted';
+$txt['search_order'] = 'Search order';
+$txt['search_orderby_relevant_first'] = 'Most relevant results first';
+$txt['search_orderby_large_first'] = 'Largest topics first';
+$txt['search_orderby_small_first'] = 'Smallest topics first';
+$txt['search_orderby_recent_first'] = 'Most recent topics first';
+$txt['search_orderby_old_first'] = 'Oldest topics first';
+$txt['search_visual_verification_label'] = 'Verification';
+$txt['search_visual_verification_desc'] = 'Please enter the code in the image above to use search.';
 
-$txt['search_specific_topic'] = 'Suche nur Beiträge im Thema';
+$txt['search_specific_topic'] = 'Searching only posts in the topic';
 
-$txt['mods_cat_search'] = 'Suche';
-$txt['groups_search_posts'] = 'Mitgliedergruppen mit Zugriff auf die Suchfunktion';
-$txt['simpleSearch'] = 'Einfache Suche aktivieren';
-$txt['search_results_per_page'] = 'Anzahl der Suchergebnisse pro Seite';
-$txt['search_weight_frequency'] = 'Relative Gewichtung für die Anzahl der übereinstimmenden Beiträge innerhalb eines Themas';
-$txt['search_weight_age'] = 'Relative Gewichtung für das Alter der neuesten Übereinstimmung';
-$txt['search_weight_length'] = 'Relative Gewichtung der Themenlänge';
-$txt['search_weight_subject'] = 'Relative Gewichtung für die Übereinstimmung des Betreffs';
-$txt['search_weight_first_message'] = 'Relative Gewichtung für die Übereinstimmung im ersten Beitrag';
-$txt['search_weight_sticky'] = 'Relative Gewichtung für fixierte Themen';
+$txt['mods_cat_search'] = 'Search';
+$txt['groups_search_posts'] = 'Membergroups with access to the search function';
+$txt['search_results_per_page'] = 'Number of search results per page';
+$txt['search_weight_frequency'] = 'Relative search weight for number of matching messages within a topic';
+$txt['search_weight_age'] = 'Relative search weight for age of last matching message';
+$txt['search_weight_length'] = 'Relative search weight for topic length';
+$txt['search_weight_subject'] = 'Relative search weight for a matching subject';
+$txt['search_weight_first_message'] = 'Relative search weight for a first message match';
+$txt['search_weight_sticky'] = 'Relative search weight for a sticky topic';
 
-$txt['search_settings_desc'] = 'Hier kannst du die Einstellungen der Suchfunktion verändern.';
-$txt['search_settings_title'] = 'Einstellungen der Suchfunktion';
+$txt['search_settings_desc'] = 'Here you can changes the basic settings of the search function.';
+$txt['search_settings_title'] = 'Search Settings';
 
-$txt['search_weights_desc'] = 'Hier kannst du die Relevanz der Suchergebnisse individuell einstellen. ';
-$txt['search_weights_title'] = 'Suchgewichtung';
-$txt['search_weights_total'] = 'Gesamt';
-$txt['search_weights_save'] = 'Speichern';
+$txt['search_weights_desc'] = 'Here you can change the individual components of the relevance rating. ';
+$txt['search_weights_title'] = 'Search - weights';
+$txt['search_weights_total'] = 'Total';
+$txt['search_weights_save'] = 'Save';
 
-$txt['search_method_desc'] = 'Hier kannst du die Funktionsweise der Suche wählen.';
-$txt['search_method_title'] = 'Suchmethode';
-$txt['search_method_save'] = 'Speichern';
-$txt['search_method_messages_table_space'] = 'Benutzter Speicher von den Beiträgen in der Datenbank';
-$txt['search_method_messages_index_space'] = 'Benutzter Speicher für den Beitragsindex in der Datenbank';
+$txt['search_method_desc'] = 'Here you can set the way search is powered.';
+$txt['search_method_title'] = 'Search - method';
+$txt['search_method_save'] = 'Save';
+$txt['search_method_messages_table_space'] = 'Space used by forum messages in the database';
+$txt['search_method_messages_index_space'] = 'Space used to index messages in the database';
 $txt['search_method_kilobytes'] = 'KB';
-$txt['search_method_fulltext_index'] = 'Volltext-Index';
-$txt['search_method_no_index_exists'] = 'existiert momentan nicht';
-$txt['search_method_fulltext_create'] = 'Erstelle Volltext-Index';
-$txt['search_method_fulltext_cannot_create'] = 'konnte nicht erstellt werden, da die max. Beitragslänge grüßer als 65,535 ist';
-$txt['search_method_index_already_exists'] = 'bereits erstellt';
-$txt['search_method_fulltext_remove'] = 'Lösche Volltext-Index';
-$txt['search_method_index_partial'] = 'teilweise erstellt';
-$txt['search_index_custom_resume'] = 'fortsetzen';
+$txt['search_method_fulltext_index'] = 'Fulltext index';
+$txt['search_method_no_index_exists'] = 'doesn\'t currently exist';
+$txt['search_method_fulltext_create'] = 'create a fulltext index';
+$txt['search_method_fulltext_cannot_create'] = 'cannot be created because the max message length is above 65,535 or table type is not MyISAM';
+$txt['search_method_index_already_exists'] = 'already created';
+$txt['search_method_fulltext_remove'] = 'remove fulltext index';
+$txt['search_method_index_partial'] = 'partially created';
+$txt['search_index_custom_resume'] = 'resume';
 // This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_method_fulltext_warning'] = 'Wenn du die Volltext-Suche benutzen möchtest, musst du zuerst einen Volltext-Index erstellen!';
+$txt['search_method_fulltext_warning'] = 'In order to be able to use fulltext search, you\\\'ll have to create a fulltext index first.';
 
-$txt['search_index'] = 'Such-Index';
-$txt['search_index_none'] = 'Kein Index';
-$txt['search_index_custom'] = 'Benutzerdefinierter Index';
+$txt['search_index'] = 'Search index';
+$txt['search_index_none'] = 'No index';
+$txt['search_index_custom'] = 'Custom index';
 $txt['search_index_sphinx'] = 'Sphinx';
-$txt['search_index_sphinx_desc'] = 'Du kannst als Administrator nur zwischen den Such-Indexen wechseln. Um weitere Sphinx-Einstellungen zu machen, benutze bitte das sphinx_config.php Programm.';
+$txt['search_index_sphinx_desc'] = 'The admin panel only allows to switch between search indexes. To adjust further Sphinx settings, use the sphinx_config.php tool.';
 $txt['search_index_label'] = 'Index';
-$txt['search_index_size'] = 'Größe';
-$txt['search_index_create_custom'] = 'Erstelle benutzerdefinierten Index';
-$txt['search_index_custom_remove'] = 'Lösche benutzerdefinierten Index';
+$txt['search_index_size'] = 'Size';
+$txt['search_index_create_custom'] = 'create custom index';
+$txt['search_index_custom_remove'] = 'remove custom index';
 // This string is used in a javascript confirmation popup; don't use entities.
-$txt['search_index_custom_warning'] = 'Wenn Du einen benutzerdefinierten Index benutzen möchtest, musst du zuerst einen erstellen!';
+$txt['search_index_custom_warning'] = 'In order to be able to use a custom index search, you\\\'ll have to create a custom index first!';
 
-$txt['search_force_index'] = 'Benutzung des Such-Index erzwingen';
-$txt['search_match_words'] = 'Übereinstimmung nur für ganze Wörter';
-$txt['search_max_results'] = 'Max. Anzahl der angezeigten Resultate';
-$txt['search_max_results_disable'] = '(0: kein Limit)';
-$txt['search_floodcontrol_time'] = 'Zeit zwischen zwei Suchanfragen eines Mitglieds';
-$txt['search_floodcontrol_time_desc'] = '(0 für kein Limit, in Sekunden)';
+$txt['search_force_index'] = 'Force the use of a search index';
+$txt['search_match_words'] = 'Match whole words only';
+$txt['search_max_results'] = 'Maximum results to show';
+$txt['search_max_results_disable'] = '(0: no limit)';
+$txt['search_floodcontrol_time'] = 'Time required between searches from same user';
+$txt['search_floodcontrol_time_desc'] = '(0 for no limit, in seconds)';
 
-$txt['search_create_index'] = 'Index erstellen';
-$txt['search_create_index_why'] = 'Warum einen Such-Index erstellen?';
-$txt['search_create_index_start'] = 'Erstellen';
-$txt['search_predefined'] = 'Vordefiniertes Profil';
-$txt['search_predefined_small'] = 'Kleiner Index';
-$txt['search_predefined_moderate'] = 'Mittlerer Index';
-$txt['search_predefined_large'] = 'Großer Index';
-$txt['search_create_index_continue'] = 'Weiter';
-$txt['search_create_index_not_ready'] = 'SMF erstellt momentan einen Such-Index Ihrer Beiträge. Um eine Überlastung des Servers zu vermeiden, wurde der Fortschritt kurzzeitig angehalten. Er sollte in ein paar Sekunden automatisch weiterlaufen. Wenn dies nicht passiert, klicke bitte auf \'Weiter\'.';
-$txt['search_create_index_progress'] = 'Fortschritt';
-$txt['search_create_index_done'] = 'Benutzerdefinierter Index erstellt!';
-$txt['search_create_index_done_link'] = 'Weiter';
-$txt['search_double_index'] = 'Du hast momentan zwei Indexe für deine Beiträge erstellt. Um die Leistung zu verbessern, solltest du einen der beiden Indexe löschen.';
+$txt['search_create_index'] = 'Create index';
+$txt['search_create_index_why'] = 'Why create a search index?';
+$txt['search_create_index_start'] = 'Create';
+$txt['search_predefined'] = 'Pre-defined profile';
+$txt['search_predefined_small'] = 'Small sized index';
+$txt['search_predefined_moderate'] = 'Moderate sized index';
+$txt['search_predefined_large'] = 'Large sized index';
+$txt['search_create_index_continue'] = 'Continue';
+$txt['search_create_index_not_ready'] = 'SMF is currently creating a search index of your messages. To avoid overloading your server, the process has been temporarily paused. It should automatically continue in a few seconds. If it doesn\'t, please click continue below.';
+$txt['search_create_index_progress'] = 'Progress';
+$txt['search_create_index_done'] = 'Custom search index successfully created.';
+$txt['search_create_index_done_link'] = 'Continue';
+$txt['search_double_index'] = 'You have currently created two indexes on the messages table. For best performance it is advisable to remove one of the two indexes.';
 
-$txt['search_error_indexed_chars'] = 'Ungültige Anzahl an Zeichen. Es sollten mind. 3 Zeichen für einen sinnvollen Index benutzt werden.';
-$txt['search_error_max_percentage'] = 'Ungültiger Prozentwert von zu überspringenden Wörtern. Benutze eine Wert von mind. 5%.';
-$txt['error_string_too_long'] = 'Der Suchbegriff muss weniger als %1$d Zeichen haben.';
+$txt['search_error_indexed_chars'] = 'Invalid number of indexed characters. At least 3 characters are needed for a useful index.';
+$txt['search_error_max_percentage'] = 'Invalid percentage of words to be skipped. Use a value of at least 5%.';
+$txt['error_string_too_long'] = 'Search string must be less than %1$d characters long.';
 
-$txt['search_adjust_query'] = 'Suchparameter verändern';
-$txt['search_adjust_submit'] = 'Suche wiederholen';
-$txt['search_did_you_mean'] = 'Wolltest du vielleicht nach folgendem suchen';
+$txt['search_adjust_query'] = 'Adjust Search Parameters';
+$txt['search_warning_ignored_word'] = 'The following term has been ignored in your search because too short';
+$txt['search_warning_ignored_words'] = 'The following terms have been ignored in your search because too short';
+$txt['search_adjust_submit'] = 'Revise Search';
+$txt['search_did_you_mean'] = 'You may have meant to search for';
 
-$txt['search_example'] = '<em>z.B.</em> Computer "Spiele PC" -Absturz';
+$txt['search_example'] = '<em>e.g.</em> Orwell "Animal Farm" -movie';
 
-$txt['search_engines_description'] = 'Hier kannst du die Art und Weise bestimmen, in der Suchmaschinen-Bots während der Indexierung deines Forums verfolgt und protokolliert werden.';
-$txt['spider_mode'] = 'Level für Suchmaschinenverfolgung<div class="smalltext">Achtung: Ein hohes Level erhöht die benötigte Serverleistung.</div>';
-$txt['spider_mode_off'] = 'Deaktiviert';
-$txt['spider_mode_standard'] = 'Standard - Protokolliert die Bot-Aktivität.';
-$txt['spider_mode_high'] = 'Hoch - Liefert detaillierte Statistiken.';
-$txt['spider_mode_vhigh'] = 'Sehr hoch - Gleiche Funktion wie "Hoch", protokolliert jedoch alle besuchten Seiten.';
-$txt['spider_settings_desc'] = 'Hier kannst du die Einstellungen für die Verfolgung der Bots ändern. Wenn du das automatische Löschen des Trefferprotokolls aktivieren möchtest, gehe zu <a href="%1$s">dieser Seite</a>.';
+$txt['search_engines_description'] = 'From this area you can decide in what detail you wish to track search engines as they index your forum as well as review search engine logs.';
+$txt['spider_mode'] = 'Search Engine Tracking Level';
+$txt['spider_mode_note'] = 'Note that logging of every spider action only occurs if tracking is set to either "high" or "very high". Detail of every spiders action is only logged if tracking is set to "very high".';
+$txt['spider_mode_off'] = 'Disabled';
+$txt['spider_mode_standard'] = 'Standard';
+$txt['spider_mode_high'] = 'Moderate';
+$txt['spider_mode_vhigh'] = 'Aggressive';
+$txt['spider_settings_desc'] = 'You can change settings for spider tracking from this page. Note, if you wish to enable automatic pruning of the hit logs you can set this up <a href="%1$s">here</a>';
 
-$txt['spider_group'] = 'Bots zu folgender Gruppe zugeordnen<div class="smalltext">Bestimme, auf welche Inhalte die Bots zugreifen dürfen.</div>';
-$txt['spider_group_none'] = 'Deaktiviert';
+$txt['spider_group'] = 'Apply restrictive permissions from group';
+$txt['spider_group_note'] = 'To enable you to stop spiders indexing some pages.';
+$txt['spider_group_none'] = 'Disabled';
 
-$txt['show_spider_online'] = 'Bots in \'Wer ist online\' Liste anzeigen';
-$txt['show_spider_online_no'] = 'Nein';
-$txt['show_spider_online_summary'] = 'Anzahl anzeigen';
-$txt['show_spider_online_detail'] = 'Bot-Details anzeigen';
-$txt['show_spider_online_detail_admin'] = 'Bot-Details anzeigen - nur dem Administrator';
+$txt['show_spider_online'] = 'Show spiders in the online list';
+$txt['show_spider_online_no'] = 'Not at all';
+$txt['show_spider_online_summary'] = 'Show spider quantity';
+$txt['show_spider_online_detail'] = 'Show spider names';
+$txt['show_spider_online_detail_admin'] = 'Show spider names - admin only';
 
-$txt['spider_name'] = 'Name des Bots';
-$txt['spider_last_seen'] = 'Zuletzt gesehen';
-$txt['spider_last_never'] = 'Nie';
+$txt['spider_name'] = 'Spider Name';
+$txt['spider_last_seen'] = 'Last Seen';
+$txt['spider_last_never'] = 'Never';
 $txt['spider_agent'] = 'User Agent';
-$txt['spider_ip_info'] = 'IP-Adresse';
-$txt['spiders_add'] = 'Neuen Bot hinzufügen';
-$txt['spiders_edit'] = 'Bot editieren';
-$txt['spiders_remove_selected'] = 'Ausgewählte Bots entfernen';
-$txt['spider_remove_selected_confirm'] = 'Bist du sicher, dass du diese Bots entfernen möchten?\\n\\nAlle zugewiesenen Statistiken werden ebenfalls gelöscht!';
-$txt['spiders_no_entries'] = 'Es sind momentan keine Spiders konfiguriert.';
+$txt['spider_ip_info'] = 'IP Addresses';
+$txt['spiders_add'] = 'Add New Spider';
+$txt['spiders_edit'] = 'Edit Spider';
+$txt['spiders_remove_selected'] = 'Remove Selected';
+$txt['spider_remove_selected_confirm'] = 'Are you sure you want to remove these spiders?-n-All associated statistics will also be deleted!';
+$txt['spiders_no_entries'] = 'There are currently no spiders configured.';
 
-$txt['add_spider_desc'] = 'Hier kannst du alle Parameter bearbeiten, nach denen ein Suchmaschinen-Bot kategorisiert wird. Sollte der User Agent bzw. die IP-Adresse eines Gastes diesen Parametern entsprechen, wird er als Bot erkannt und den Einstellungen entsprechend verfolgt.';
-$txt['spider_name_desc'] = 'Name des Bots.';
-$txt['spider_agent_desc'] = 'User Agent, welcher dem Bot zugewiesen ist.';
-$txt['spider_ip_info_desc'] = 'Eine durch Kommas getrennte Liste mit IP-Adressen, zu welchen der Bot zugeordnet ist.';
+$txt['add_spider_desc'] = 'From this page you can edit the parameters against which a spider is categorized. If a guest\'s user agent/IP address matches those entered below it will be detected as a search engine spider and tracked as per the forum preferences.';
+$txt['spider_name_desc'] = 'Name by which the spider will be referred.';
+$txt['spider_agent_desc'] = 'User agent associated with this spider.';
+$txt['spider_ip_info_desc'] = 'Comma separated list of IP addresses associated with this spider.';
 
-$txt['spider'] = 'Bot';
-$txt['spider_time'] = 'Zeit';
-$txt['spider_viewing'] = 'Betrachtet';
-$txt['spider_logs_empty'] = 'Es sind keine Protokolle verfügbar.';
-$txt['spider_logs_info'] = 'Beachte, dass die Aktionen der Bots nur in der Einstellung "Hoch" oder "Sehr hoch" protokolliert werden. Die genauen Details jeder Aktion werden nur in der Einstellung "Sehr hoch" protokolliert.';
-$txt['spider_disabled'] = 'Deaktiviert';
+$txt['spider'] = 'Spider';
+$txt['spider_time'] = 'Time';
+$txt['spider_viewing'] = 'Viewing';
+$txt['spider_logs_empty'] = 'There are currently no spider log entries.';
+$txt['spider_logs_info'] = 'Note that logging of every spider action only occurs if tracking is set to either &quot;high&quot; or &quot;very high&quot;. Detail of every spiders action is only logged if tracking is set to &quot;very high&quot;.';
+$txt['spider_disabled'] = 'Disabled';
+$txt['spider_log_empty_log'] = 'Clear Log';
+$txt['spider_log_empty_log_confirm'] = 'Are you sure you want to completely clear the log';
 
-$txt['spider_logs_delete'] = 'Einträge löschen';
-$txt['spider_logs_delete_older'] = 'Alle Einträge älter als';
-$txt['spider_logs_delete_day'] = 'Tage löschen.';
-$txt['spider_logs_delete_submit'] = 'Löschen';
+$txt['spider_logs_delete'] = 'Delete Entries';
+$txt['spider_logs_delete_older'] = 'Delete all entries older than';
+$txt['spider_logs_delete_day'] = 'days.';
+$txt['spider_logs_delete_submit'] = 'Delete';
+
+$txt['spider_stats_delete_older'] = 'Delete all spider statistics from spiders not seen in %1$s days.';
+
 // Don't use entities in the below string.
-$txt['spider_logs_delete_confirm'] = 'Bist du sicher, dass du alle Log Einträge entfernen möchtest?';
+$txt['spider_logs_delete_confirm'] = 'Are you sure you wish to empty out all log entries?';
 
-$txt['spider_stats_select_month'] = 'Zu folgendem Monat springen';
-$txt['spider_stats_page_hits'] = 'Seitentreffer';
-$txt['spider_stats_no_entries'] = 'Es sind momentan keine Spider Statistiken verfügbar.';
+$txt['spider_stats_select_month'] = 'Jump To Month';
+$txt['spider_stats_page_hits'] = 'Page Hits';
+$txt['spider_stats_no_entries'] = 'There are currently no spider statistics available.';
 
 ?>

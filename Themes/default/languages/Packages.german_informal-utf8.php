@@ -1,262 +1,281 @@
 <?php
-// Version: 2.0; Packages
+// Version: 2.1 Beta 3; Packages
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['package_proceed'] = 'Fortsetzen';
-$txt['php_script'] = 'Das Paket wurde entpackt. Es enthält jedoch eine PHP-Datei die gestartet werden muss, bevor die Modifikation funktioniert';
-$txt['package_run'] = 'Starten';
-$txt['package_read'] = 'Lesen';
-$txt['script_output'] = 'Skriptausgabe:';
-$txt['additional_notes'] = 'Weitere Informationen';
-$txt['notes_file'] = 'Datei mit Instruktionen/Notizen';
-$txt['list_file'] = 'Dateien im Archiv auflisten';
-$txt['files_archive'] = 'Dateien im Archiv';
-$txt['package_get'] = 'Paket herunterladen';
-$txt['package_servers'] = 'Paketserver';
-$txt['package_browse'] = 'Durchsuchen';
-$txt['add_server'] = 'Server hinzufügen';
-$txt['server_name'] = 'Name des Servers';
+$txt['package_proceed'] = 'Proceed';
+$txt['php_script'] = 'Modification file was extracted, but this modification also comes with a PHP script which should be executed before it will work';
+$txt['package_run'] = 'Run';
+$txt['package_id'] = 'ID';
+$txt['package_read'] = 'Read';
+$txt['script_output'] = 'Script output:';
+$txt['additional_notes'] = 'Additional notes';
+$txt['notes_file'] = 'Instruction/Additional notes file';
+$txt['list_file'] = 'List files in package';
+$txt['files_archive'] = 'Files in archive';
+$txt['package_get'] = 'Package Get';
+$txt['package_servers'] = 'Package servers';
+$txt['package_browse'] = 'Browse';
+$txt['add_server'] = 'Add server';
+$txt['server_name'] = 'Server name';
 $txt['serverurl'] = 'URL';
-$txt['no_packages'] = 'Keine Pakete verfügbar';
+$txt['no_packages'] = 'No packages yet.';
 $txt['download'] = 'Download';
-$txt['download_success'] = 'Download des Pakets erfolgreich';
-$txt['package_downloaded_successfully'] = 'Das Paket wurde erfolgreich heruntergeladen';
-$txt['package_manager'] = 'Paketmanager';
-$txt['install_mod'] = 'Modifikation installieren';
-$txt['uninstall_mod'] = 'Modifikation deinstallieren';
-$txt['sql_file'] = 'Datei wurde entpackt. Die Modifikation kommt zusätzlich mit einer SQL Datei, welche Änderungen für die Datenbank enthält. Es wird empfohlen, diese Datei auszuführen!';
-$txt['sql_queries'] = 'SQL Abfragen';
-$txt['no_mods_installed'] = 'Momentan sind keine Modifikationen installiert...';
-$txt['browse_installed'] = 'Installierte Modifikationen durchsuchen';
-$txt['uninstall'] = 'Deinstallieren';
-$txt['delete_list'] = 'Liste der Modifikationen löschen';
-$txt['php_safe_mode'] = 'Ihr Server benutzt PHP im SAFE MODE (Sicherheits-Modus). Diese Funktion ist leider nicht kompatibel dazu.';
-$txt['lets_try_anyway'] = 'Trotzdem versuchen.';
+$txt['download_success'] = 'Package downloaded successfully';
+$txt['package_downloaded_successfully'] = 'Package has been downloaded successfully';
+$txt['package_manager'] = 'Package Manager';
+$txt['install_mod'] = 'Install Mod';
+$txt['uninstall_mod'] = 'Uninstall Mod';
+$txt['sql_file'] = 'The Modification file has been extracted. This modification also comes with a database file containing changes the database needs. You will need to execute this file for the modification to function properly.';
+$txt['sql_queries'] = 'SQL Queries';
+$txt['no_mods_installed'] = 'No mods currently installed';
+$txt['browse_installed'] = 'Browse installed mods';
+$txt['uninstall'] = 'Uninstall';
+$txt['package_delete_list_warning'] = 'Are you sure you wish to clear the installed modification list?';
+$txt['php_safe_mode'] = 'Sorry, your server currently has PHP set to run in SAFE MODE. This feature is not compatible with SAFE MODE.';
+$txt['lets_try_anyway'] = 'Let me try anyway.';
 
-$txt['package_manager_desc'] = 'Mit dem Paketmanager kannst du einfach neue Modifikationen herunterladen und installieren.';
-$txt['installed_packages_desc'] = 'Du kannst diesen Bereich dazu benutzen, die installierten Pakete anzuschauen oder nicht mehr benötigte Pakete zu deinstallieren..';
-$txt['download_packages_desc'] = 'Hier kannst du neue Pakete von einem Paketserver herunterladen oder ein Paket direkt zum Forum hochladen.';
+$txt['could_not_package_backup'] = 'A backup could not be made before making changes. No changes have been made at this time as a result (either change the permissions so Packages/backup can be written to, or turn off backups - not recommended)';
 
-$txt['create_package'] = 'Neues Paket erstellen';
-$txt['download_new_package'] = 'Neue Pakete herunterladen';
-$txt['view_and_remove'] = 'Installierte Pakete anschauen und löschen';
-$txt['modification_package'] = 'Modifikationen';
-$txt['avatar_package'] = 'Benutzerbild-Pakete';
-$txt['language_package'] = 'Sprachpakete';
-$txt['unknown_package'] = 'Unbekannte Pakete';
-$txt['use_avatars'] = 'Benutzerbilder benutzen';
-$txt['add_languages'] = 'Sprache hinzufügen';
-$txt['list_files'] = 'Dateien auflisten';
-$txt['remove'] = 'Entfernen';
-$txt['package_type'] = 'Paket-Typ';
-$txt['archiving'] = 'Archiviere';
-$txt['extracting'] = 'Extrahiere';
-$txt['avatars_extracted'] = 'Die Benutzerbilder wurden entpackt, du kannst diese nun benutzen.';
-$txt['language_extracted'] = 'Das Sprachpaket wurde entpackt. Du kannst es nun benutzen, indem du es in den Profileinstellungen aktivierest.';
+$txt['package_manager_desc'] = 'From this easy to use interface, you can download and install modifications for use on your forum.';
+$txt['download_packages_desc'] = 'From this section you can choose to either download new packages from package servers, or upload a package file directly to the forum.';
 
-$txt['mod_name'] = 'Name der Modifikation';
-$txt['mod_version'] = 'Mod Version';
-$txt['mod_author'] = 'Mod Autor';
-$txt['author_website'] = 'Homepage des Autors';
-$txt['package_no_description'] = 'Keine Beschreibung vorhanden';
-$txt['package_description'] = 'Beschreibung';
-$txt['file_location'] = 'Speicherort der Datei';
+$txt['create_package'] = 'Create a new Package';
+$txt['download_new_package'] = 'Download new packages';
+$txt['view_and_remove'] = 'View and remove installed packages';
+$txt['modification_package'] = 'Modification packages';
+$txt['avatar_package'] = 'Avatar packages';
+$txt['language_package'] = 'Language packages';
+$txt['unknown_package'] = 'Unknown packages';
+$txt['use_avatars'] = 'Use Avatars';
+$txt['add_languages'] = 'Add Language';
+$txt['list_files'] = 'List Files';
+$txt['remove'] = 'Remove';
+$txt['package_type'] = 'Package Type';
+$txt['archiving'] = 'Archiving';
+$txt['extracting'] = 'Extracting';
+$txt['avatars_extracted'] = 'The avatars have been installed. You should now be able to use them.';
+$txt['language_extracted'] = 'The language pack has been installed. You can now enable its use in the language settings area of your admin control panel.';
 
-$txt['package_installed_key'] = 'Installierte Modifikationen:';
-$txt['package_installed_current'] = 'Aktuelle Version';
-$txt['package_installed_old'] = 'Alte Version';
-$txt['package_installed_warning1'] = 'Dieses Paket ist schon installiert, keine Aktualisierung gefunden!';
-$txt['package_installed_warning2'] = 'Du solltest die alte Version deinstallieren, um Probleme zu vermeiden oder den Autor nach einer Aktualisierung fragen.';
-$txt['package_installed_warning3'] = 'Bitte mache regelmäßig Sicherungen deinen Dateien und der Datenbank, bevor du neue Modifikationen installierest - besonders bei Beta Versionen.';
-$txt['package_installed_extract'] = 'Entpacke Paket';
-$txt['package_installed_done'] = 'Das Paket wurde installiert. Du solltest nun in der Lage sein, die neuen Funktionen zu nutzen.';
-$txt['package_installed_redirecting'] = 'Weiterleiten...';
-$txt['package_installed_redirect_go_now'] = 'Weiterleitung erfolgt';
-$txt['package_installed_redirect_cancel'] = 'Zurück zum Paketmanager';
+$txt['mod_name'] = 'Mod Name';
+$txt['mod_version'] = 'Version';
+$txt['mod_installed_time'] = 'Installed';
+$txt['mod_author'] = 'Author';
+$txt['author_website'] = 'Author\'s Homepage';
+$txt['package_no_description'] = 'No description given';
+$txt['package_description'] = 'Description';
+$txt['file_location'] = 'Location of file';
 
-$txt['packages_latest'] = 'Neuestes Paket';
-$txt['packages_latest_fetch'] = 'Versuche Informationen zu Paketen von www.simplemachines.org zu laden...';
+$txt['package_installed_key'] = 'Installed mods:';
+$txt['package_installed_warning1'] = 'This package is already installed, and no upgrade was found.';
+$txt['package_installed_warning2'] = 'You should uninstall the old version first to avoid problems, or ask the author to create an upgrade from your old version.';
+$txt['package_installed_warning3'] = 'Please remember to always make regular backups of your sources and database before installing mods, especially beta versions.';
+$txt['package_installed_extract'] = 'Extracting Package';
+$txt['package_installed_done'] = 'The package was installed successfully. You should now be able to use whatever functionality it adds or changes; or not be able to use functionality it removes.';
+$txt['package_installed_redirecting'] = 'Redirecting...';
+$txt['package_installed_redirect_go_now'] = 'Redirect Now';
+$txt['package_installed_redirect_cancel'] = 'Return to Package Manager';
 
-$txt['package_upgrade'] = 'Aktualisieren';
-$txt['package_uninstall_readme'] = 'Anleitung zur Deinstallation';
-$txt['package_install_readme'] = 'Installationsanleitung';
-$txt['package_install_type'] = 'Typ';
-$txt['package_install_action'] = 'Aktion';
-$txt['package_install_desc'] = 'Beschreibung';
-$txt['install_actions'] = 'Installationsbefehle';
-$txt['perform_actions'] = 'Die Installation dieses Paketes führt folgende Aktionen aus:';
-$txt['corrupt_compatible'] = 'Das Paket welches du versucht hast herunterzuladen oder zu installieren ist entweder beschädigt oder mit dieser Version von SMF nicht kompatibel.';
-$txt['package_create'] = 'Erstellen';
-$txt['package_move'] = 'Verschieben';
-$txt['package_delete'] = 'Löschen';
-$txt['package_extract'] = 'Entpacken';
-$txt['package_file'] = 'Datei';
-$txt['package_tree'] = 'Baum';
-$txt['execute_modification'] = 'Modifikation ausführen';
-$txt['execute_code'] = 'Code ausführen';
-$txt['execute_database_changes'] = 'Datenbank anpassen';
+$txt['packages_adding_title'] = 'Obtaining Packages';
+$txt['packages_adding'] = 'You can always find new packages for your forum from the SMF modifications area - <strong><a href="http://custom.simplemachines.org/mods/" target="_blank">http://custom.simplemachines.org/mods/</a></strong>. You can browse them on the website, read the comments, and download them to your computer and then upload them to your forum from there.<br><br>If you run into any questions with modifications, each modification published on simplemachines.org has a dedicated topic about it where support and comments should be directed to.';
 
-$txt['package_install_actions'] = 'Installationsanweisungen für';
-$txt['package_will_fail_title'] = 'Fehler bei Paketinstallation';
-$txt['package_will_fail_warning'] = 'Es wurde mindestens ein Fehler beim Test der Installation des Paketes gefunden.
-	Es wird <strong>dringend</strong> empfohlen, nicht mit der Installation fortzufahren, wenn du dich nicht ausreichend auskennst oder keine aktuelle Sicherung gemacht hast.
-	Diese Fehlermeldung kann auf einen Konflikt zwischen dem zu installierenden und einem existierenden Paket hinweisen, auf einen Fehler im Paket selbst oder auf eine Inkompatibilität zwischen dem Paket und der SMF Version.';
+$txt['package_upgrade'] = 'Upgrade';
+$txt['package_uninstall_readme'] = 'Uninstallation Readme';
+$txt['package_install_readme'] = 'Installation Readme';
+$txt['package_install_license'] = 'License';
+$txt['package_install_type'] = 'Type';
+$txt['package_install_action'] = 'Action';
+$txt['package_install_desc'] = 'Description';
+$txt['install_actions'] = 'Install Actions';
+$txt['perform_actions'] = 'This will perform the following actions:';
+$txt['corrupt_compatible'] = 'The package you are trying to download or install is either corrupt or not compatible with this version of SMF.';
+$txt['package_create'] = 'Create';
+$txt['package_move'] = 'Move';
+$txt['package_delete'] = 'Delete';
+$txt['package_extract'] = 'Extract';
+$txt['package_file'] = 'File';
+$txt['package_tree'] = 'Tree';
+$txt['execute_modification'] = 'Execute Modification';
+$txt['execute_code'] = 'Execute Code';
+$txt['execute_database_changes'] = 'Execute file';
+$txt['execute_hook_add'] = 'Add Hook';
+$txt['execute_hook_remove'] = 'Remove Hook';
+$txt['execute_hook_action'] = 'Adapting hook %1$s';
+$txt['execute_hook_action_inverse'] = 'Removing hook %1$s';
+$txt['package_requires'] = 'Requires Modification';
+$txt['package_check_for'] = 'Check for installation:';
+$txt['execute_credits_add'] = 'Add Credits';
+$txt['execute_credits_remove'] = 'Remove Credits';
+$txt['execute_credits_action'] = 'Credits: %1$s';
+
+$txt['package_install_actions'] = 'Installations actions for';
+$txt['package_will_fail_title'] = 'Error in package %1$s';
+$txt['package_will_fail_warning'] = 'At least one error was encountered during a test %1$s of this package.<br>It is <strong>strongly</strong> recommended that you do not continue with %1$s unless you know what you are doing, and have made a backup very recently.<br><br>This error may be caused by a conflict between the package you\'re trying to install and another package you have already installed, an error in the package, a package which requires another package that you have not installed yet, or a package designed for another version of SMF.';
+$txt['package_will_fail_unknown_action'] = 'The package is trying to perform an unknown action: %1$s';
 // Don't use entities in the below string.
-$txt['package_will_fail_popup'] = 'Bist du sicher, dass du mit der Installation fortfahren möchten, obwohl das Paket nicht fehlerfrei installiert werden kann?';
-$txt['package_will_fail_popup_uninstall'] = 'Bist du sicher, dass du die Deinstallation der Modifikation fortsetzen möchtest, obwohl es zu Fehlern kommen wird?';
-$txt['package_install_now'] = 'Jetzt installieren';
-$txt['package_uninstall_now'] = 'Jetzt deinstallieren';
-$txt['package_other_themes'] = 'In ein anderes Theme installieren';
-$txt['package_other_themes_uninstall'] = 'In anderen Themes deinstallieren';
-$txt['package_other_themes_desc'] = 'Um diese Modifikation in anderen Themes statt dem Standard-Theme zu benutzen, muss der Paketmanager weitere Änderungen in den anderen Themes durchführen. Wenn du dass möchtest, wähle die Themes aus der folgenden Liste.';
+$txt['package_will_fail_popup'] = 'Are you sure you wish to continue installing this modification, even though it will not install successfully?';
+$txt['package_will_fail_popup_uninstall'] = 'Are you sure you wish to continue uninstalling this modification, even though it will not uninstall successfully?';
+$txt['package_install'] = 'installation';
+$txt['package_uninstall'] = 'removal';
+$txt['package_install_now'] = 'Install now';
+$txt['package_uninstall_now'] = 'Uninstall now';
+$txt['package_other_themes'] = 'Install in other themes';
+$txt['package_other_themes_uninstall'] = 'UnInstall in other themes';
+$txt['package_other_themes_desc'] = 'To use this modification in themes other than the default, the package manager needs to make additional changes to the other themes. If you\'d like to install this modification in the other themes, please select these themes below.';
 // Don't use entities in the below string.
-$txt['package_theme_failure_warning'] = 'Mindestens ein Fehler wurde bei der Testinstallation gefunden. Bist du sicher, dass du die Installation fortführen möchten?';
+$txt['package_theme_failure_warning'] = 'At least one error was encountered during a test install of this theme. Are you sure you wish to attempt installation?';
 
-$txt['package_bytes'] = 'Bytes';
+$txt['package_bytes'] = 'bytes';
 
-$txt['package_action_missing'] = '<strong class="error">Datei nicht gefunden</strong>';
-$txt['package_action_error'] = '<strong class="error">Änderungs-Ausführungsfehler</strong>';
-$txt['package_action_failure'] = '<strong class="error">Test fehlgeschlagen</strong>';
-$txt['package_action_success'] = '<strong>Test Erfolgreich</strong>';
-$txt['package_action_skipping'] = '<strong>Datei überspringen</strong>';
+$txt['package_action_missing'] = '<strong class="error">File not found</strong>';
+$txt['package_action_error'] = '<strong class="error">Modification parse error</strong>';
+$txt['package_action_failure'] = '<strong class="error">Test failed</strong>';
+$txt['package_action_success'] = '<strong>Test successful</strong>';
+$txt['package_action_skipping'] = '<strong>Skipping file</strong>';
 
-$txt['package_uninstall_actions'] = 'Aktionen beim deinstallieren';
-$txt['package_uninstall_done'] = 'Das Paket wurde deinstalliert und sollte nicht mehr funktionieren.';
-$txt['package_uninstall_cannot'] = 'Dieses Paket kann nicht deinstalliert werden, da es keine Deinstallationsanweisungen enthält<br /><br />Bitte kontaktiere den Autor für weitere Hilfe.';
+$txt['package_uninstall_actions'] = 'Uninstall Actions';
+$txt['package_uninstall_done'] = 'The package has been successfully uninstalled.';
+$txt['package_uninstall_cannot'] = 'This package cannot be uninstalled, because there is no uninstaller.<br><br>Please contact the mod author for more information.';
 
-$txt['package_install_options'] = 'Installationseinstellungen';
-$txt['package_install_options_ftp_why'] = 'Hier kannst du die Einstellungen des Paket-Managers ändern. Es ist einfacher den FTP-Server zu benutzen, als die Schreibberechtigungen der Dateien per Hand zu ändern.';
-$txt['package_install_options_ftp_server'] = 'FTP-Server';
+$txt['package_install_options'] = 'Installation Options';
+$txt['package_install_options_desc'] = 'Set various options for how the package manager installs modifications, including backups and FTP access';
+$txt['package_install_options_ftp_why'] = 'Using the package manager\'s FTP functionality is the easiest way to avoid having to manually chmod the files writable through FTP yourself for the package manager to work.<br>Here you can set the default values for some fields.';
+$txt['package_install_options_ftp_server'] = 'FTP Server';
 $txt['package_install_options_ftp_port'] = 'Port';
-$txt['package_install_options_ftp_user'] = 'Benutzername';
-$txt['package_install_options_make_backups'] = 'Erstelle Sicherungskopien der ersetzten Dateien mit dem Zeichen (~) am Ende des Dateinamen.';
+$txt['package_install_options_ftp_user'] = 'Username';
+$txt['package_install_options_make_backups'] = 'Create Backup versions of replaced files with a tilde (~) on the end of their names.';
+$txt['package_install_options_make_full_backups'] = 'Create an entire backup (excluding smileys, avatars and attachments) of the SMF install.';
 
-$txt['package_ftp_necessary'] = 'FTP-Informationen benötigt';
-$txt['package_ftp_why'] = 'Manche Dateien, die der Paketmanager aktualisieren muss, sind nicht überschreibbar. Das kann dadurch behoben werden, dass per FTP die benötigten Dateien und Verzeichnisse erstellt bzw. mit CHMOD überschreibbar gemacht werden. Ihre FTP-Informationen werden kurzzeitig zwischengespeichert, um die Funktion des Paket-Managers sicher zu stellen.';
-$txt['package_ftp_why_file_list'] = 'Die folgenden Dateien müssen beschreibbar sein, um die Installation fortsetzen zu können:';
-$txt['package_ftp_why_download'] = 'Um Pakete herunterladen zu können, muss das Paketverzeichnis beschreibbar sein, was momentan nicht der Fall ist. Der Paketmanager kann FTP-Informationen nutzen, um es zu beheben.';
-$txt['package_ftp_server'] = 'FTP-Server';
+$txt['package_ftp_necessary'] = 'FTP Information Required';
+$txt['package_ftp_why'] = 'Some of the files the package manager needs to modify are not writable. This needs to be changed by logging into FTP and using it to chmod or create the files and directories. Your FTP information may be temporarily cached for proper operation of the package manager. Note you can also do this manually using an FTP client - to view a list of the affected files please click <a href="#" onclick="%1$s">here</a>.';
+$txt['package_ftp_why_file_list'] = 'The following files need to made writable to continue installation:';
+$txt['package_ftp_why_download'] = 'In order to download packages, the Packages directory, and any files in it, must be writable. Currently the system does not have the needed permissions to write to this directory. The package manager can use your FTP information to attempt to fix this problem.';
+$txt['package_ftp_server'] = 'FTP Server';
 $txt['package_ftp_port'] = 'Port';
-$txt['package_ftp_username'] = 'Benutzername';
-$txt['package_ftp_password'] = 'Passwort';
-$txt['package_ftp_path'] = 'Lokaler Pfad zu SMF';
+$txt['package_ftp_username'] = 'Username';
+$txt['package_ftp_password'] = 'Password';
+$txt['package_ftp_path'] = 'Local path to SMF';
 $txt['package_ftp_test'] = 'Test';
-$txt['package_ftp_test_connection'] = 'Testverbindung';
-$txt['package_ftp_test_success'] = 'FTP Verbindung hergestellt.';
-$txt['package_ftp_test_failed'] = 'Verbindung konnte nicht hergestellt werden.';
+$txt['package_ftp_test_connection'] = 'Test Connection';
+$txt['package_ftp_test_success'] = 'FTP connection established.';
+$txt['package_ftp_test_failed'] = 'Could not contact server.';
 
-// For a break, use \\n instead of <br />... and don't use entities.
-$txt['package_delete_bad'] = 'Das Paket - was du löschen möchtest - ist momentan installiert! Wenn du es jetzt löscht, kannst du es später nicht deinstallieren.\\n\\nBist du sicher?';
+// For a break, use -n- instead of <br>... and don't use entities.
+$txt['package_delete_bad'] = 'The package you are about to delete is currently installed!-n-If you delete it, you may not be able to uninstall it later.-n-Are you sure?';
 
-$txt['package_examine_file'] = 'Betrachte Dateien im Paket';
-$txt['package_file_contents'] = 'Inhalt der Datei';
+$txt['package_examine_file'] = 'View file in package';
+$txt['package_file_contents'] = 'Contents of file';
 
-$txt['package_upload_title'] = 'Paket hochladen';
-$txt['package_upload_select'] = 'Hochzuladendes Paket';
-$txt['package_upload'] = 'Hochladen';
-$txt['package_uploaded_success'] = 'Paket erfolgreich hochgeladen';
-$txt['package_uploaded_successfully'] = 'Das Paket wurde erfolgreich hochgeladen';
+$txt['package_upload_title'] = 'Upload a Package';
+$txt['package_upload_select'] = 'Package to Upload';
+$txt['package_uploaded_success'] = 'Package uploaded successfully';
+$txt['package_uploaded_successfully'] = 'The package has been uploaded successfully';
 
-$txt['package_modification_malformed'] = 'Defekte oder ungültige Modifikationsdatei.';
-$txt['package_modification_missing'] = 'Die Datei konnte nicht gefunden werden.';
-$txt['package_no_zlib'] = 'Ihre PHP Konfiguration unterstützt kein <strong>zlib</strong>. Ohne diese Funktion funktioniert der Paketmanager nicht. Bitte kontaktiere deinen Serveranbieter für mehr Informationen.';
+$txt['package_modification_malformed'] = 'Malformed or invalid modification file.';
+$txt['package_modification_missing'] = 'The file could not be found.';
+$txt['package_no_zlib'] = 'Sorry, your PHP configuration doesn\'t have support for <strong>zlib</strong>. Without this, the package manager cannot function. Please contact your host about this for more information.';
 
-$txt['package_cleanperms_title'] = 'FTP Dateiberechtigungen';
-$txt['package_cleanperms_desc'] = 'Mit dieser Funktion kannst du die Dateiberechtigungen auf dem FTP-Server so verändern, dass die Sicherheit erhöht wird oder Berechtigungsprobleme behoben werden, die bei der Installation von Paketen auftreten können.';
-$txt['package_cleanperms_type'] = 'Ändere die Dateiberechtigungen';
-$txt['package_cleanperms_standard'] = 'Nur die Standard-Dateien sind überschreibbar.';
-$txt['package_cleanperms_free'] = 'Alle Dateien sind überschreibbar.';
-$txt['package_cleanperms_restrictive'] = 'Die min. benötigte Anzahl der Dateien ist überschreibbar.';
-$txt['package_cleanperms_go'] = 'Los';
+$txt['package_cleanperms_title'] = 'Cleanup Permissions';
+$txt['package_cleanperms_desc'] = 'This interface allows you to reset the permissions for files throughout your installation, so as to increase security or solve any permission problems you may encounter while installing packages.';
+$txt['package_cleanperms_type'] = 'Change all file permissions throughout the forum such that';
+$txt['package_cleanperms_standard'] = 'Only the standard files are writable.';
+$txt['package_cleanperms_free'] = 'All files are writable.';
+$txt['package_cleanperms_restrictive'] = 'The minimum files are writable.';
+$txt['package_cleanperms_go'] = 'Change file permissions';
 
-$txt['package_download_by_url'] = 'Paket per URL runterladen';
-$txt['package_download_filename'] = 'Name der Datei';
-$txt['package_download_filename_info'] = 'Optionale Angabe. Sollte nur benutzt werden, wenn die URL nicht mit einem Dateinamen endet, z.B.: index.php?mod=5.';
+$txt['package_download_by_url'] = 'Download a package by url';
+$txt['package_download_filename'] = 'Name of the file';
+$txt['package_download_filename_info'] = 'Optional value. Should be used when the url does not end in the filename. For example: index.php?mod=5';
 
-$txt['package_db_uninstall'] = 'Alle verknüpften Daten dieser Modifikation löschen.';
+$txt['package_db_uninstall'] = 'Remove all data associated with this modification.';
 $txt['package_db_uninstall_details'] = 'Details';
-$txt['package_db_uninstall_actions'] = 'Das Aktivieren dieser Option bewirkt folgende Änderungen in der Datenbank';
-$txt['package_db_remove_table'] = 'Lösche Tabelle "%1$s"';
-$txt['package_db_remove_column'] = 'Lösche Spalte "%1$s" von "%2$s"';
-$txt['package_db_remove_index'] = 'Löscht Index "%1$s" von "%2$s"';
+$txt['package_db_uninstall_actions'] = 'Checking this option will result in the following actions';
+$txt['package_db_remove_table'] = 'Drop table &quot;%1$s&quot;';
+$txt['package_db_remove_column'] = 'Remove column &quot;%2$s&quot; from &quot;%1$s&quot;';
+$txt['package_db_remove_index'] = 'Remove index &quot;%1$s&quot; from &quot;%2$s&quot;';
 
-$txt['package_advanced_button'] = 'Erweitert';
-$txt['package_advanced_options'] = 'Erweiterte Optionen';
-$txt['package_apply'] = 'Hinzufügen';
-$txt['package_emulate'] = 'Emulierte Version';
-$txt['package_emulate_revert'] = 'Standard';
-$txt['package_emulate_desc'] = 'Manchmal sind Pakete auf frühere Version von SMF beschränkt, jedoch trotzdem noch kompatibel. Hiermit kannst du dem Paketmanager eine andere SMF Version "vorspielen".';
+$txt['package_advanced_button'] = 'Emulation Support';
+$txt['package_advanced_options'] = 'Advanced Options';
+$txt['package_apply'] = 'Apply';
+$txt['package_emulate'] = 'Emulate Version';
+$txt['package_emulate_install'] = 'Install Emulating:';
+$txt['package_emulate_uninstall'] = 'Uninstall Emulating:';
+$txt['package_emulate_revert'] = 'Revert';
+$txt['package_emulate_desc'] = 'Sometimes packages are locked to early versions of SMF but remain compatible with a newer version. Here you can choose to &quot;emulate&quot; a different SMF version within the package manager.';
 
 // Operations.
-$txt['operation_find'] = 'Suchen';
-$txt['operation_replace'] = 'Ersetzen';
-$txt['operation_after'] = 'Danach einfügen';
-$txt['operation_before'] = 'Davor einfügen';
-$txt['operation_title'] = 'Operationen';
-$txt['operation_ignore'] = 'Fehler ignorieren';
-$txt['operation_invalid'] = 'Die ausgewählte Operation ist ungültig.';
+$txt['operation_find'] = 'Find';
+$txt['operation_replace'] = 'Replace';
+$txt['operation_after'] = 'Add After';
+$txt['operation_before'] = 'Add Before';
+$txt['operation_title'] = 'Operations';
+$txt['operation_ignore'] = 'Ignore Errors';
+$txt['operation_invalid'] = 'The operation that you selected is invalid.';
 
-$txt['package_file_perms_desc'] = 'Du kannst diesen Bereich dazu nutzen, um den Schreibschutz von wichtigen Dateien und Ordnern innerhalb des Forenverzeichnisses zu prüfen. Bitte beachte, dass dies nur bestimmte Dateien und Ordner betrifft - für weitere Optionen solltest du ein FTP-Programm benutzen.';
-$txt['package_file_perms_name'] = 'Ordner-/Dateiname';
-$txt['package_file_perms_status'] = 'Aktueller Status';
-$txt['package_file_perms_new_status'] = 'Neuer Status';
-$txt['package_file_perms_status_read'] = 'Lesen';
-$txt['package_file_perms_status_write'] = 'Schreiben';
-$txt['package_file_perms_status_execute'] = 'Ausführen';
-$txt['package_file_perms_status_custom'] = 'Eigene';
-$txt['package_file_perms_status_no_change'] = 'Keine Änderung';
-$txt['package_file_perms_writable'] = 'Beschreibbar';
-$txt['package_file_perms_not_writable'] = 'Nicht beschreibbar';
-$txt['package_file_perms_chmod'] = 'CHMOD';
-$txt['package_file_perms_more_files'] = 'Mehr Dateien';
+$txt['package_file_perms_desc'] = 'You can use this section to review the writable status of critical files and folders within your forum directory. Note this only considers key forum folders and files - use an FTP client for additional options.';
+$txt['package_file_perms_name'] = 'File/Directory Name';
+$txt['package_file_perms_status'] = 'Current Status';
+$txt['package_file_perms_new_status'] = 'New Status';
+$txt['package_file_perms_status_read'] = 'Read';
+$txt['package_file_perms_status_write'] = 'Write';
+$txt['package_file_perms_status_execute'] = 'Execute';
+$txt['package_file_perms_status_custom'] = 'Custom';
+$txt['package_file_perms_status_no_change'] = 'No Change';
+$txt['package_file_perms_writable'] = 'Writable';
+$txt['package_file_perms_not_writable'] = 'Not Writable';
+$txt['package_file_perms_chmod'] = 'chmod';
+$txt['package_file_perms_more_files'] = 'More Files';
 
-$txt['package_file_perms_change'] = 'Dateiberechtigungen ändern';
-$txt['package_file_perms_predefined'] = 'Definierte Berechtigungsprofile benutzen';
-$txt['package_file_perms_predefined_note'] = 'Beachte, dass die definierten Berechtigungsprofile nur den wichtigen SMF-Verzeichnissen und -Ordnern zugewiesen werden.';
-$txt['package_file_perms_apply'] = 'Individuelle Dateiberechtigungen wie oben eingestellt hinzufügen.';
-$txt['package_file_perms_custom'] = 'Wenn "Eigene" gewählt wurde, folgendes CHMOD benutzen';
-$txt['package_file_perms_pre_restricted'] = 'Beschränkt - nur wenige Dateien beschreibbar';
-$txt['package_file_perms_pre_standard'] = 'Standard - wichtige Dateien beschreibbar';
-$txt['package_file_perms_pre_free'] = 'Alle - alle Dateien beschreibbar';
-$txt['package_file_perms_ftp_details'] = 'Auf den meisten Servern können Dateiberechtigungen nur über einen FTP-Zugang geändert werden. Bitte gib deine FTP-Daten ein';
-$txt['package_file_perms_ftp_retain'] = 'Beachte, dass SMF das Passwort nur zeitweise speichert, um die Durchführungen des Paketmanagers zu ermöglichen.';
-$txt['package_file_perms_go'] = 'Änderungen durchführen';
+$txt['package_file_perms_change'] = 'Change File Permissions';
+$txt['package_file_perms_predefined'] = 'Use predefined permission profile';
+$txt['package_file_perms_predefined_note'] = 'Note that this only applies the predefined profile to key SMF directories and files.';
+$txt['package_file_perms_apply'] = 'Apply individual file permissions settings selected above.';
+$txt['package_file_perms_custom'] = 'If &quot;Custom&quot; has been selected use chmod value of';
+$txt['package_file_perms_pre_restricted'] = 'Restricted - minimum files writable';
+$txt['package_file_perms_pre_standard'] = 'Standard - key files writable';
+$txt['package_file_perms_pre_free'] = 'Free - all files writable';
+$txt['package_file_perms_ftp_details'] = 'On most servers it is only possible to change file permissions using an FTP account. Please enter your FTP details below';
+$txt['package_file_perms_ftp_retain'] = 'Note, SMF will only retain the password information temporarily to aid operation of the package manager.';
+$txt['package_file_perms_go'] = 'Make Changes';
 
-$txt['package_file_perms_applying'] = 'Änderungen anwenden';
-$txt['package_file_perms_items_done'] = '%1$d von %2$d Aufgaben abgeschlossen';
-$txt['package_file_perms_skipping_ftp'] = '<strong>Warnung:</strong> Es konnte keine Verbindung mit dem FTP-Server hergestellt werden. Es wird versucht, die Berechtigungen trotzdem zu ändern. Dies wird <em>wahrscheinlich</em> misslingen - bitte prüfe die Ergebnisse und versuche es erneut mit den richtigen FTP-Daten.';
+$txt['package_file_perms_applying'] = 'Applying Changes';
+$txt['package_file_perms_items_done'] = '%1$d of %2$d items completed';
+$txt['package_file_perms_skipping_ftp'] = '<strong>Warning:</strong> Failed to connect to FTP server, attempting to change permissions without. This is <em>likely</em> to fail - please check the results upon completion and try again with correct FTP details if necessary.';
 
-$txt['package_file_perms_dirs_done'] = '%1$d von %2$d Verzeichnissen abgeschlossen';
-$txt['package_file_perms_files_done'] = '%1$d von %2$d Dateien im aktuellen Verzeichnis abgeschlossen';
+$txt['package_file_perms_dirs_done'] = '%1$d of %2$d directories completed';
+$txt['package_file_perms_files_done'] = '%1$d of %2$d files done in current directory';
 
-$txt['chmod_value_invalid'] = 'Du hast einen falschen CHMOD-Wert angegeben. CHMOD-Werte müssen sich zwischen 0444 und 0777 befinden';
+$txt['chmod_value_invalid'] = 'You have tried to enter an invalid chmod value. Chmod must be between 0444 and 0777';
 
-$txt['package_restore_permissions'] = 'Dateiberechtigungen wiederherstellen';
-$txt['package_restore_permissions_desc'] = 'Die folgenden Dateiberechtigungen wurden von SMF verändert, um die ausgewählten Pakete zu installieren. Du kannst die originalen Berechtigungen wieder zurückstellen, indem du auf "Wiederherstellen" klickst.';
-$txt['package_restore_permissions_restore'] = 'Wiederherstellen';
-$txt['package_restore_permissions_filename'] = 'Dateiname';
-$txt['package_restore_permissions_orig_status'] = 'Originalstatus';
-$txt['package_restore_permissions_cur_status'] = 'Aktueller Status';
-$txt['package_restore_permissions_result'] = 'Resultat';
+$txt['package_restore_permissions'] = 'Restore file permissions';
+$txt['package_restore_permissions_desc'] = 'The following file permissions were changed by SMF to install the selected package(s). You can return these files back to their original status by clicking &quot;Restore&quot; below.';
+$txt['package_restore_permissions_restore'] = 'Restore';
+$txt['package_restore_permissions_filename'] = 'Filename';
+$txt['package_restore_permissions_orig_status'] = 'Original Status';
+$txt['package_restore_permissions_cur_status'] = 'Current Status';
+$txt['package_restore_permissions_result'] = 'Result';
 $txt['package_restore_permissions_pre_change'] = '%1$s (%3$s)';
-$txt['package_restore_permissions_post_change'] = '%2$s (%3$s - vorher %2$s)';
-$txt['package_restore_permissions_action_skipped'] = '<em>Übersprungen</em>';
-$txt['package_restore_permissions_action_success'] = '<span style="color: green;">Erfolgreich</span>';
-$txt['package_restore_permissions_action_failure'] = '<span class="error">Fehlgeschlagen</span>';
-$txt['package_restore_permissions_action_done'] = 'SMF hat versucht, die Berechtigungen der ausgewählten Dateien zurückzusetzen - das Ergebnis siehst du unten. Für eine detaillierte Ansicht der Berechtigungen siehe bitte in den Bereich <a href="%1$s">Dateiberechtigungen</a>.';
+$txt['package_restore_permissions_post_change'] = '%2$s (%3$s - was %2$s)';
+$txt['package_restore_permissions_action_skipped'] = '<em>Skipped</em>';
+$txt['package_restore_permissions_action_success'] = '<span class="success">Success</span>';
+$txt['package_restore_permissions_action_failure'] = '<span class="error">Failed</span>';
+$txt['package_restore_permissions_action_done'] = 'SMF has attempted to restore the selected files back to their original permissions, the results can be seen below. If a change failed, or for a more detailed view of file permissions, please see the <a href="%1$s">File Permissions</a> section.';
 
-$txt['package_file_perms_warning'] = 'Bitte beachten';
-$txt['package_file_perms_warning_desc'] = '	<li>Sei vorsichtig, wenn du die Dateiberechtigungen von dieser Sektion aus änderst – falsche Einstellungen können dein Forum funktionsunfähig machen!</li>
-	<li>Auf manchen Serverkonfigurationen können falsche Berechtigungen den Betrieb von SMF verhindern.</li>
-	<li>Bestimmte Verzeichnisse wie <em>attachments</em> müssen beschreibbar sein, um diese Funktionalität zu garantieren.</li>
-	<li>Diese Einschränkung trifft hauptsächlich auf nicht Windows basierte Server zu. Dort wird es nicht wie erwartet funktionieren.</li>
-	<li>Bevor du die Änderungen durchführst, stelle sicher, dass du einen FTP-Zugang und ein FTP-Programm hast, um im schlimmsten Fall die Berechtigungen wiederherstellen zu können.</li>';
+$txt['package_file_perms_warning'] = 'Please Note';
+$txt['package_file_perms_warning_desc'] = '
+	<li>Be careful when changing file permissions from this section - incorrect permissions can adversely affect the operation of your forum!</li>
+	<li>On some server configurations selecting the wrong permissions may stop SMF from operating.</li>
+	<li>Certain directories such as <em>attachments</em> need to be writable to use that functionality.</li>
+	<li>This functionality is mainly applicable on non-Windows based servers - it will not work as expected on Windows in regards to permission flags.</li>
+	<li>Before proceeding make sure you have an FTP client installed in case you do make an error and need to FTP into the server to remedy it.</li>';
 
-$txt['package_confirm_view_package_content'] = 'Bist du sicher, dass du den Paketinhalt von hier ansehen möchtest?<br /><br />%1$s';
-$txt['package_confirm_proceed'] = 'Fortsetzen';
-$txt['package_confirm_go_back'] = 'Gehe Zurück';
+$txt['package_confirm_view_package_content'] = 'Are you sure you want to view the package contents from this location:<br><br>%1$s';
+$txt['package_confirm_proceed'] = 'Proceed';
+$txt['package_confirm_go_back'] = 'Go back';
 
-$txt['package_readme_default'] = 'Standard';
-$txt['package_available_readme_language'] = 'Verfügbare Lies mich Sprachen:';
+$txt['package_readme_default'] = 'Default';
+$txt['package_available_readme_language'] = 'Available Readme Languages:';
+$txt['package_license_default'] = 'Default';
+$txt['package_available_license_language'] = 'Available License Languages:';
+
+$txt['package_chmod_linux'] = 'If you have a shell account, the convenient below command can automatically correct permissions on these files';
 
 ?>

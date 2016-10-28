@@ -1,377 +1,384 @@
 <?php
-// Version: 2.0; ManageSettings
+// Version: 2.1 Beta 3; ManageSettings
 
 global $scripturl;
 
-// Important! Before editing these language files please read the text at the top of index.english.php.
-$txt['modSettings_desc'] = 'Hier kannst Du die Einstellungen von speziellen Funktionen des Forums ändern. Für weitere Optionen schaue bitte in den <a href="' . $scripturl . '?action=admin;area=theme;sa=settings;th=%1$s;%3$s=%2$s">Theme-Einstellungen</a> nach. <b>Klicke auf die Hilfesymbole für weitere Informationen zu den Funktionen.</b>';
-$txt['security_settings_desc'] = 'Hier kannst Du Einstellungen bezüglich der Moderation und der Sicherheit (inkl. Anti-Spam) in Deinem Forum ändern.';
-$txt['modification_settings_desc'] = 'Diese Seite enthält Einstellungen, die von Modifikationen zu Deinem Forum hinzugefügt wurden.';
+$txt['modSettings_desc'] = 'This page allows you to change the settings of features and basic options in your forum. Please see the <a href="' . $scripturl . '?action=admin;area=theme;sa=list;th=%1$s;%3$s=%2$s">theme settings</a> for more options. Click the help icons for more information about a setting.';
+$txt['modification_settings_desc'] = 'This page contains settings added by any modifications to your forum';
 
-$txt['modification_no_misc_settings'] = 'Es sind keine Modifikationen installiert, die neue Einstellungen hinzugefügt haben.';
+$txt['modification_no_misc_settings'] = 'There are no modifications installed that have added any settings to this area yet.';
 
-$txt['pollMode'] = 'Umfrage-Modus';
-$txt['disable_polls'] = 'Umfragen deaktivieren';
-$txt['enable_polls'] = 'Umfragen aktivieren';
-$txt['polls_as_topics'] = 'Umfragen als Themen anzeigen';
-$txt['allow_guestAccess'] = 'Gästen das Anschauen des Forums erlauben';
-$txt['userLanguage'] = 'Individuelle Benutzersprache erlauben';
-$txt['allow_editDisplayName'] = 'Benutzern erlauben, den angezeigten Namen zu ändern?';
-$txt['allow_hideOnline'] = 'Benutzern erlauben, den Online-Status zu verstecken?';
-$txt['guest_hideContacts'] = 'Kontaktangaben der Mitglieder vor Gästen verstecken?';
-$txt['titlesEnable'] = 'Persönliche Titel aktivieren';
-$txt['enable_buddylist'] = 'Freunde- und Ignorieren-Liste aktivieren';
-$txt['default_personal_text'] = 'Persönlicher Standardtext';
-$txt['number_format'] = 'Standard-Zahlenformat';
-$txt['time_format'] = 'Voreingestelltes Zeitformat';
-$txt['setting_time_offset'] = 'Globale Zeitverschiebung <div class="smalltext">(deaktiviert die indiv. Zeitverschiebung der Benutzer)</div>';
-$txt['setting_default_timezone'] = 'Zeitzone des Servers';
-$txt['failed_login_threshold'] = 'Max. fehlerhafte Login-Versuche';
-$txt['lastActive'] = 'Zeit der Benutzeranzeige unter \'Wer ist online\' (in Minuten)';
-$txt['trackStats'] = 'Statistiken aktivieren';
-$txt['hitStats'] = 'Seitenaufrufe zählen (setzt aktivierte Statistiken voraus)';
-$txt['enableCompressedOutput'] = 'Komprimierte Ausgabe aktivieren';
-$txt['disableTemplateEval'] = 'Evaluation von Templates deaktivieren';
-$txt['databaseSession_enable'] = 'Datenbank gestützte Sitzungen benutzen';
-$txt['databaseSession_loose'] = 'Browser darf Seiten zwischenspeichern';
-$txt['databaseSession_lifetime'] = 'Zeit bevor eine Sitzung abläuft (in Sekunden)';
-$txt['enableErrorLogging'] = 'Fehlerprotokoll aktivieren';
-$txt['enableErrorQueryLogging'] = 'Datenbankabfrage in das Fehlerprotokoll einfügen';
-$txt['pruningOptions'] = 'Bereinigen von Protokolleinträgen aktivieren.';
-$txt['pruneErrorLog'] = 'Einträge aus dem Fehlerprotokoll entfernen, die älter sind als<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['pruneModLog'] = 'Einträge aus dem Moderatoren-Protokoll entfernen, die älter sind als:<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['pruneBanLog'] = 'Einträge aus dem Bann-Protokoll entfernen, die älter sind als:<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['pruneReportLog'] = 'Einträge aus dem Meldungsprotokoll entfernen, die älter sind als:<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['pruneScheduledTaskLog'] = 'Einträge aus dem Aufgabenprotokoll entfernen, die älter sind als<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['pruneSpiderHitLog'] = 'Einträge aus dem Protokoll der Bots entfernen, die älter sind als<div class="smalltext">(0 zum deaktivieren)</div>';
-$txt['cookieTime'] = 'Gültigkeitsdauer des Login-Cookies (in Minuten)';
-$txt['localCookies'] = 'Lokales Speichern der Cookies aktivieren<div class="smalltext">(SSI kann Probleme verursachen, wenn diese Option aktiv ist.)</div>';
-$txt['globalCookies'] = 'Subdomain unabhängige Cookies verwenden?<div class="smalltext">Achtung: Lokale Cookies müssen abgeschaltet sein!</div>';
-$txt['secureCookies'] = 'Erzwinge sichere Cookies<div class="smalltext">(Dies ist nur möglich, wenn Du HTTPS verwendest. Tust Du dies nicht, so wähle diese Option nicht!)</div>';
-$txt['securityDisable'] = 'Sicherheitsabfrage für Administrator deaktivieren';
-$txt['send_validation_onChange'] = 'Neues Passwort bei Änderung der E-Mail-Adresse senden?';
-$txt['approveAccountDeletion'] = 'Administrator muss dem Löschen des Benutzerkontos zustimmen?';
-$txt['autoOptMaxOnline'] = 'Max. Benutzer für Optimierung<div class="smalltext">(0 für keine Grenze)</div>';
-$txt['autoFixDatabase'] = 'Automatisches Reparieren defekter Tabellen';
-$txt['allow_disableAnnounce'] = 'Benutzer dürfen Benachrichtigungen bei Ankündigungen deaktivieren?';
-$txt['disallow_sendBody'] = 'Beitragstext in Benachrichtigungen verbieten?';
-$txt['queryless_urls'] = 'Suchmaschinenfreundliche URLs anzeigen <div class="smalltext"><strong>Nur Apache/Lighttpd Server!</strong></div>';
-$txt['max_image_width'] = 'Max. Breite geposteter Bilder (0 = deaktiviert das Limit)';
-$txt['max_image_height'] = 'Max. Höhe geposteter Bilder (0 = deaktiviert das Limit)';
-$txt['enableReportPM'] = 'Melden von Privaten Mitteilungen aktivieren';
-$txt['max_pm_recipients'] = 'Max. Anzahl von Empfängern in einer Privaten Mitteilung<div class="smalltext">(0 für kein Limit, Administratoren sind ausgenommen)</div>';
-$txt['pm_posts_verification'] = 'Anzahl der Beiträge, unter welcher die Benutzer beim Versenden von Privaten Mitteilungen einen Code eingeben müssen<div class="smalltext">(0 für kein Limit, Administratoren sind ausgenommen)</div>';
-$txt['pm_posts_per_hour'] = 'Anzahl der Privaten Mitteilungen, welche die Benutzer pro Stunde versenden dürfen<div class="smalltext">(0 für kein Limit, Moderatoren sind ausgenommen)</div>';
-$txt['compactTopicPagesEnable'] = 'Kompakte Seitenanzeige aktivieren';
-$txt['contiguous_page_display'] = 'Anzahl benachbarter Seiten anzeigen';
-$txt['to_display'] = 'zeigt folgendes an';
-$txt['todayMod'] = 'Heute/Gestern Anzeige aktivieren';
-$txt['today_disabled'] = 'Deaktiviert';
-$txt['today_only'] = 'Nur Heute';
-$txt['yesterday_today'] = 'Heute &amp; Gestern';
-$txt['topbottomEnable'] = 'Seitenende/Seitenanfang Buttons aktivieren';
-$txt['onlineEnable'] = 'On-/Offline Status in Beiträgen und Privaten Mitteilungen anzeigen';
-$txt['enableVBStyleLogin'] = 'vB Style Login aktivieren';
-$txt['defaultMaxMembers'] = 'Anzahl der Mitglieder pro Seite in der Mitgliederliste';
-$txt['timeLoadPageEnable'] = 'Zeitmessung im Forum aktivieren';
-$txt['disableHostnameLookup'] = 'Hostnamen-Suche deaktivieren';
-$txt['who_enabled'] = '\'Wer ist online\' aktivieren?';
-$txt['make_email_viewable'] = 'Sichtbare E-Mail-Adressen erlauben';
-$txt['meta_keywords'] = 'Meta Stichworte, die mit diesem Forum zusammenhängen<div class="smalltext">Für Suchmaschinen. Lasse diese frei, dann werden die Standardwerte verwendet.</div>';
+$txt['pollMode'] = 'Poll mode';
+$txt['disable_polls'] = 'Disable polls';
+$txt['enable_polls'] = 'Enable polls';
+$txt['polls_as_topics'] = 'Show existing polls as topics';
+$txt['allow_guestAccess'] = 'Allow guests to browse the forum';
+$txt['userLanguage'] = 'Enable user-selectable language support';
+$txt['allow_hideOnline'] = 'Allow non-administrators to hide their online status';
+$txt['titlesEnable'] = 'Enable custom titles';
+$txt['enable_buddylist'] = 'Enable buddy/ignore lists';
+$txt['default_personal_text'] = 'Default personal text';
+$txt['default_personal_text_note'] = 'Personal text to assign to newly registered members.';
+$txt['time_format'] = 'Default time format';
+$txt['setting_time_offset'] = 'Overall time offset';
+$txt['setting_time_offset_note'] = '(added to the member specific option)';
+$txt['setting_default_timezone'] = 'Server timezone';
+$txt['failed_login_threshold'] = 'Failed login threshold';
+$txt['loginHistoryDays'] = 'Days to keep login history';
+$txt['lastActive'] = 'User online time threshold';
+$txt['trackStats'] = 'Track daily statistics';
+$txt['hitStats'] = 'Track daily page views (must have stats enabled)';
+$txt['enableCompressedOutput'] = 'Enable compressed output';
+$txt['disableTemplateEval'] = 'Disable evaluation of templates';
+$txt['databaseSession_enable'] = 'Use database driven sessions';
+$txt['databaseSession_loose'] = 'Allow browsers to go back to cached pages';
+$txt['databaseSession_lifetime'] = 'Seconds before an unused session timeout';
+$txt['error_log_desc'] = 'The error log, if enabled, will log every error encountered by users using your forum. This can be an invaluable aid to identifying forum problems.';
+$txt['enableErrorLogging'] = 'Enable error logging';
+$txt['enableErrorQueryLogging'] = 'Include database query in the error log';
+$txt['pruningOptions'] = 'Enable pruning of log entries';
+$txt['pruneErrorLog'] = 'Remove error log entries older than';
+$txt['pruneModLog'] = 'Remove moderation log entries older than';
+$txt['pruneBanLog'] = 'Remove ban hit log entries older than';
+$txt['pruneReportLog'] = 'Remove report to moderator log entries older than';
+$txt['pruneScheduledTaskLog'] = 'Remove scheduled task log entries older than';
+$txt['pruneSpiderHitLog'] = 'Remove search engine hit logs older than';
+$txt['cookieTime'] = 'Default login cookies length';
+$txt['localCookies'] = 'Enable local storage of cookies';
+$txt['globalCookies'] = 'Use subdomain independent cookies';
+$txt['globalCookiesDomain'] = 'Main domain used for subdomain independent cookies';
+$txt['invalid_cookie_domain'] = 'The domain introduced seems to be invalid, please check it and save again.';
+$txt['secureCookies'] = 'Force cookies to be secure';
+$txt['httponlyCookies'] = 'Force cookies to be made accessible only through the HTTP protocol';
+$txt['securityDisable'] = 'Disable administration security';
+$txt['securityDisable_moderate'] = 'Disable moderation security';
+$txt['send_validation_onChange'] = 'Require reactivation after email change';
+$txt['approveAccountDeletion'] = 'Require admin approval when member deletes account';
+$txt['autoFixDatabase'] = 'Automatically fix broken tables';
+$txt['allow_disableAnnounce'] = 'Allow users to disable announcements';
+$txt['disallow_sendBody'] = 'Don\'t allow post text in notifications';
+$txt['enable_ajax_alerts'] = 'Allow AJAX Desktop Notifications for Alerts';
+$txt['jquery_source'] = 'Source for the jQuery Library';
+$txt['jquery_custom_label'] = 'Custom';
+$txt['jquery_custom'] = 'Custom url to the jQuery Library';
+$txt['jquery_local'] = 'Local';
+$txt['jquery_cdn'] = 'Google CDN';
+$txt['jquery_auto'] = 'Auto';
+$txt['queryless_urls'] = 'Search engine friendly URLs';
+$txt['minimize_files'] = 'Minimize css and JavaScript files';
+$txt['queryless_urls_note'] = 'Apache/Lighttpd only';
+$txt['enableReportPM'] = 'Enable reporting of personal messages';
+$txt['max_pm_recipients'] = 'Maximum number of recipients allowed in a personal message';
+$txt['max_pm_recipients_note'] = '(0 for no limit, admins are exempt)';
+$txt['pm_posts_verification'] = 'Post count under which users must pass verification when sending personal messages';
+$txt['pm_posts_verification_note'] = '(0 for no limit, admins are exempt)';
+$txt['pm_posts_per_hour'] = 'Number of personal messages a user may send in an hour';
+$txt['pm_posts_per_hour_note'] = '(0 for no limit, moderators are exempt)';
+$txt['compactTopicPagesEnable'] = 'Limit number of displayed page links';
+$txt['contiguous_page_display'] = 'Contiguous pages to display';
+$txt['to_display'] = 'to display';
+$txt['todayMod'] = 'Enable shorthand date display';
+$txt['today_disabled'] = 'Disabled';
+$txt['today_only'] = 'Only Today';
+$txt['yesterday_today'] = 'Today &amp; Yesterday';
+$txt['onlineEnable'] = 'Show online/offline in posts and PMs';
+$txt['defaultMaxMembers'] = 'Members per page in member list';
+$txt['timeLoadPageEnable'] = 'Display time taken to create every page';
+$txt['disableHostnameLookup'] = 'Disable hostname lookups';
+$txt['who_enabled'] = 'Enable who\'s online list';
+$txt['meta_keywords'] = 'Meta keywords associated with forum';
+$txt['meta_keywords_note'] = 'For search engines. Leave blank for default.';
+$txt['settings_error'] = 'Warning: Updating of Settings.php failed, the settings cannot be saved.';
+$txt['image_proxy_enabled'] = 'Enable Image Proxy';
+$txt['image_proxy_secret'] = 'Image Proxy Secret';
+$txt['image_proxy_maxsize'] = 'Maximum file size of images to cache (in KB)';
+$txt['force_ssl'] = 'Forum SSL mode';
+$txt['force_ssl_off'] = 'Disable SSL';
+$txt['force_ssl_auth'] = 'Enable SSL for Authentication (Login and Register)';
+$txt['force_ssl_complete'] = 'Force SSL throughout the forum';
 
-$txt['karmaMode'] = 'Karma-Modus';
-$txt['karma_options'] = 'Karma deaktivieren|Karma Gesamtzahl aktivieren|Karma Positiv/Negativ aktivieren';
-$txt['karmaMinPosts'] = 'Min. Anzahl an Beiträgen um Karma ändern zu dürfen';
-$txt['karmaWaitTime'] = 'Wartezeit (in Stunden)';
-$txt['karmaTimeRestrictAdmins'] = 'Administratoren auf Wartezeit beschränken';
-$txt['karmaLabel'] = 'Karma: Anzeigenname';
-$txt['karmaApplaudLabel'] = 'Karma: positive Stimme';
-$txt['karmaSmiteLabel'] = 'Karma: negative Stimme';
+// Like settings.
+$txt['enable_likes'] = 'Enable likes';
 
-$txt['caching_information'] = '<div class="aligncenter underline">
+// Mention settings.
+$txt['enable_mentions'] = 'Enable mentions';
 
-<strong>Wichtig! Lies diesen Abschnitt, bevor Du eine dieser Funktionen aktivierst.</strong>
-</div>
-<br />
-
-	SMF unterstützt das zwischenspeichern durch die Benutzung von folgende Programmen:<br />
-	<ul class="normallist">
-		<li>APC</li>
-		<li>eAccelerator</li>
-		<li>Turck MMCache</li>
-		<li>Memcached</li>
-		<li>Zend Platform/Performance Suite (nicht Zend Optimizer)</li>
-		<li>XCache</li>
-	</ul>
+$txt['caching_information'] = 'SMF supports caching through the use of accelerators. The currently supported accelerators include:
+<ul class="normallist">
+	<li>APC</li>
+	<li>APCu</li>
+	<li>Memcached</li>
+	<li>Zend Platform/Performance Suite (Not Zend Optimizer)</li>
+	<li>XCache</li>
+</ul>
+Caching will work best if you have PHP compiled with one of the above optimizers, or have memcached available. If you do not have any optimizer installed SMF will do file based caching.';
+$txt['detected_no_caching'] = '<strong class="alert">SMF has not been able to detect a compatible accelerator on your server. File based caching can be used instead.</strong>';
+$txt['detected_accelerators'] = '<strong class="success">SMF has detected the following accelerators: %1$s</strong>';
 
 
-	Das Zwischenspeichern funktioniert am besten, wenn PHP mit einem der genannten Beschleunigern kompiliert wurde oder memcache verfügbar ist.
-	Wenn Du keinen Beschleuniger installiert hast, wird SMF dateibasiertes Zwischenspeichern anwenden.<br />
-	<br />
+$txt['cache_enable'] = 'Caching Level';
+$txt['cache_off'] = 'No caching';
+$txt['cache_level1'] = 'Level 1 Caching (Recommended)';
+$txt['cache_level2'] = 'Level 2 Caching';
+$txt['cache_level3'] = 'Level 3 Caching (Not Recommended)';
+$txt['cache_memcached'] = 'Memcached settings';
+$txt['cache_accelerator'] = 'Caching Accelerator';
+$txt['default_cache'] = 'SMF file based caching';
+$txt['apc_cache'] = 'APC';
+$txt['apcu_cache'] = 'APCu';
+$txt['memcached_cache'] = 'Memcached';
+$txt['zend_cache'] = 'Zend Platform/Performance Suite';
+$txt['xcache_cache'] = 'XCache';
 
+$txt['loadavg_warning'] = '<span class="error">Please note: the settings below are to be edited with care. Setting any of them too low may render your forum <strong>unusable</strong>! The current load average is <strong>%01.2f</strong></span>';
+$txt['loadavg_enable'] = 'Enable load balancing by load averages';
+$txt['loadavg_auto_opt'] = 'Threshold to disabling automatic database optimization';
+$txt['loadavg_search'] = 'Threshold to disabling search';
+$txt['loadavg_allunread'] = 'Threshold to disabling all unread topics';
+$txt['loadavg_unreadreplies'] = 'Threshold to disabling unread replies';
+$txt['loadavg_show_posts'] = 'Threshold to disabling showing user posts';
+$txt['loadavg_userstats'] = 'Threshold to disabling showing user statistics';
+$txt['loadavg_bbc'] = 'Threshold to disabling BBC formatting when showing posts';
+$txt['loadavg_forum'] = 'Threshold to disabling the forum <strong>completely</strong>';
+$txt['loadavg_disabled_windows'] = '<span class="error">Load balancing support is not available on Windows.</span>';
+$txt['loadavg_disabled_osx'] = '<span class="error">Load balancing support is not available on OS:X.</span>';
+$txt['loadavg_disabled_conf'] = '<span class="error">Load balancing support is disabled by your host configuration.</span>';
 
+$txt['setting_password_strength'] = 'Required strength for user passwords';
+$txt['setting_password_strength_low'] = 'Low - 4 character minimum';
+$txt['setting_password_strength_medium'] = 'Medium - cannot contain username';
+$txt['setting_password_strength_high'] = 'High - mixture of different characters';
+$txt['setting_enable_password_conversion'] = 'Allow password hash conversion';
 
-	SMF verwendet das Zwischenspeichern auf verschiedenen Ebenen.
-	Je höher das Level, desto mehr Prozessorzeit wird zum abfragen zwischengespeicherter Daten verwendet.
-	Wenn das Zwischenspeichern auf Deinem Server möglich ist, solltest Du versuchen mit Level 1 zu beginnen.<br />
-	<br />
+$txt['antispam_Settings'] = 'Anti-Spam Verification';
+$txt['antispam_Settings_desc'] = 'This section allows you to setup verification checks to ensure the user is a human (and not a bot), and tweak how and where these apply.';
+$txt['setting_reg_verification'] = 'Require verification on registration page';
+$txt['posts_require_captcha'] = 'Post count under which users must pass verification to make a post';
+$txt['posts_require_captcha_desc'] = '(0 for no limit, moderators are exempt)';
+$txt['search_enable_captcha'] = 'Require verification on all guest searches';
+$txt['setting_guests_require_captcha'] = 'Guests must pass verification when making a post';
+$txt['setting_guests_require_captcha_desc'] = '(Automatically set if you specify a minimum post count below)';
+$txt['question_not_defined'] = 'You need to add a question and answer for your forum\'s default language (%1$s) otherwise users will not be able to fill in a CAPTCHA, meaning no registration.';
 
+$txt['configure_verification_means'] = 'Configure Verification Methods';
+$txt['setting_qa_verification_number'] = 'Number of verification questions user must answer';
+$txt['setting_qa_verification_number_desc'] = '(0 to disable; questions are set below)';
+$txt['configure_verification_means_desc'] = '<span class="smalltext">Below you can set which anti-spam features you wish to have enabled whenever a user needs to verify they are a human. Note that the user will have to pass <em>all</em> verification so if you enable both a verification image and a question/answer test they need to complete both to proceed.</span>';
+$txt['setting_visual_verification_type'] = 'Visual verification image to display';
+$txt['setting_visual_verification_type_desc'] = 'The more complex the image the harder it is for bots to bypass';
+$txt['setting_image_verification_off'] = 'None';
+$txt['setting_image_verification_vsimple'] = 'Very Simple - Plain text on image';
+$txt['setting_image_verification_simple'] = 'Simple - Overlapping colored letters, no noise';
+$txt['setting_image_verification_medium'] = 'Medium - Overlapping colored letters, with noise/lines';
+$txt['setting_image_verification_high'] = 'High - Angled letters, considerable noise/lines';
+$txt['setting_image_verification_extreme'] = 'Extreme - Angled letters, noise, lines and blocks';
+$txt['setting_image_verification_sample'] = 'Sample';
+$txt['setting_image_verification_nogd'] = '<strong>Note:</strong> as this server does not have the GD library installed the different complexity settings will have no effect.';
+$txt['setup_verification_questions'] = 'Verification Questions';
+$txt['setup_verification_questions_desc'] = '<span class="smalltext">If you want users to answer verification questions in order to stop spam bots, you should setup a number of questions in the table below. You should choose questions which relate to the subject of your forum. Genuine users will be able to answer these questions, while spam bots will not. Answers are not case sensitive. You may use BBC in the questions for formatting. To remove a question simply delete the contents of that line.</span>';
+$txt['setup_verification_question'] = 'Question';
+$txt['setup_verification_answer'] = 'Answer';
+$txt['setup_verification_add_more'] = 'Add another question';
+$txt['setup_verification_add_answer'] = 'Add another answer';
 
-	Solltest Du MemCached verwenden, so musst Du die Serverdetails in den Einstellungen weiter unten eintragen.
-	Diese sollten als Komma-getrennte Liste eingegeben werden, wie das folgende Beispiel zeigt:<br />
-	"server1,server2,server3:port,server4"<br />
-	<br />
+$txt['moderation_settings'] = 'Moderation Settings';
+$txt['setting_warning_enable'] = 'Enable User Warning System';
+$txt['setting_warning_watch'] = 'Warning level for user watch';
+$txt['setting_warning_watch_note'] = 'The user warning level after which a user watch is put in place.';
+$txt['setting_warning_moderate'] = 'Warning level for post moderation';
+$txt['setting_warning_moderate_note'] = 'The user warning level after which a user has all posts moderated.';
+$txt['setting_warning_mute'] = 'Warning level for user muting';
+$txt['setting_warning_mute_note'] = 'The user warning level after which a user cannot post any further.';
+$txt['setting_user_limit'] = 'Maximum user warning points per day';
+$txt['setting_user_limit_note'] = 'This value is the maximum amount of warning points a single moderator can assign to a user in a 24 hour period - 0 for no limit.';
+$txt['setting_warning_decrement'] = 'Warning points that are decreased every 24 hours';
+$txt['setting_warning_decrement_note'] = 'Only applies to users not warned within last 24 hours.';
+$txt['setting_warning_show'] = 'Users who can see warning status';
+$txt['setting_warning_show_note'] = 'Determines who can see the warning level of users on the forum.';
+$txt['setting_warning_show_mods'] = 'Moderators Only';
+$txt['setting_warning_show_user'] = 'Moderators and Warned Users';
+$txt['setting_warning_show_all'] = 'All Users';
 
-	Sollte kein Port angegeben sein, verwendet SMF den Port 11211.
-	SMF wird versuchen die Auslastung grob/zufällig auf alle Server zu verteilen.<br />
-	<br />
-	%1$s';
+$txt['signature_settings'] = 'Signature Settings';
+$txt['signature_settings_desc'] = 'Use the settings on this page to decide how member signatures should be treated in SMF.';
+$txt['signature_settings_warning'] = 'Note that settings are not applied to existing signatures by default. <a href="' . $scripturl . '?action=admin;area=featuresettings;sa=sig;apply;%2$s=%1$s">Run the process now</a>';
+$txt['signature_settings_applied'] = 'The updated rules have been applied to the existing signatures.';
+$txt['signature_enable'] = 'Enable signatures';
+$txt['signature_max_length'] = 'Maximum allowed characters';
+$txt['signature_max_lines'] = 'Maximum amount of lines';
+$txt['signature_max_images'] = 'Maximum image count';
+$txt['signature_max_images_note'] = '(0 for no max - excludes smileys)';
+$txt['signature_allow_smileys'] = 'Allow smileys in signatures';
+$txt['signature_max_smileys'] = 'Maximum smiley count';
+$txt['signature_max_image_width'] = 'Maximum width of signature images (pixels)';
+$txt['signature_max_image_height'] = 'Maximum height of signature images (pixels)';
+$txt['signature_max_font_size'] = 'Maximum font size allowed in signatures (pixels)';
+$txt['signature_bbc'] = 'Enabled BBC tags';
 
-$txt['detected_no_caching'] = '<strong class="alert">SMF konnte keinen kompatiblen Beschleuniger auf Deinem Server finden.</strong>';
-$txt['detected_APC'] = '<strong style="color: green">SMF hat APC auf Deinem Server gefunden.</strong>';
-$txt['detected_eAccelerator'] = '<strong style="color: green">SMF hat eAccelerator auf Deinem Server gefunden.</strong>';
-$txt['detected_MMCache'] = '<strong style="color: green">SMF hat MMCache auf Deinem Server gefunden.</strong>';
-$txt['detected_Zend'] = '<strong style="color: green">SMF hat Zend auf Deinem Server gefunden.</strong>';
-$txt['detected_Memcached'] = '<strong style="color: green">SMF hat MemCache auf Deinem Server gefunden.</strong>';
-$txt['detected_XCache'] = '<strong style="color: green">SMF hat festgestellt, dass XCache auf dem Server installiert ist.</strong>';
-
-$txt['cache_enable'] = 'Cache-Level';
-$txt['cache_off'] = 'Kein Cache';
-$txt['cache_level1'] = 'Level 1 Cache';
-$txt['cache_level2'] = 'Level 2 Cache (nicht empfehlenswert)';
-$txt['cache_level3'] = 'Level 3 Cache (nicht empfehlenswert)';
-$txt['cache_memcached'] = 'MemCache-Einstellungen';
-
-$txt['loadavg_warning'] = '<span class="error">Hinweis: Die folgenden Einstellungen sind mit Vorsicht zu Ändern. Wenn eine Einstellung zu niedrig gewählt ist könnte das <strong>Forum unbenutzbar</strong> sein!</span> Die aktuelle Auslastung ist <strong>%01.2f</strong></span>';
-$txt['loadavg_enable'] = 'Aktiviere die Lastverteilung nach Durchschnittslast';
-$txt['loadavg_auto_opt'] = 'Schwelle für die Deaktivierung automatischer Datenbankoptimierungen';
-$txt['loadavg_search'] = 'Schwelle zum Deaktivieren der Suche';
-$txt['loadavg_allunread'] = 'Schwelle für das Deaktivieren von ungelesenen Themen';
-$txt['loadavg_unreadreplies'] = 'Schwelle für das Deaktivieren ungelesener Antworten';
-$txt['loadavg_show_posts'] = 'Schwelle zum Deaktivieren der Anzeige von Benutzerbeiträgen';
-$txt['loadavg_forum'] = 'Schwelle zum <strong>vollständigen</strong> Deaktivieren des Forums';
-$txt['loadavg_disabled_windows'] = '<span class="error">Der Lastausgleich ist für Windows nicht verfügbar.</span> ';
-$txt['loadavg_disabled_conf'] = '<span class="error">Der Lastausgleich ist durch deine Host Konfiguration gesperrt.</span>';
-
-$txt['setting_password_strength'] = 'Benötigte Stärke des Passwortes';
-$txt['setting_password_strength_low'] = 'Niedrig - mind. 4 Zeichen';
-$txt['setting_password_strength_medium'] = 'Mittel - darf keinen Benutzernamen enthalten';
-$txt['setting_password_strength_high'] = 'Hoch - Mischung aus Buchstaben und Zahlen';
-
-$txt['antispam_Settings'] = 'Anti-Spam Verifizierung';
-$txt['antispam_Settings_desc'] = 'Hier kannst Du die Einstellungen der Verifizierungsfunktionen ändern und damit sicherstellen, dass der Benutzer ein Mensch und kein Bot ist.';
-$txt['setting_reg_verification'] = 'Benötigt Verifizierung bei der Registrierung';
-$txt['posts_require_captcha'] = 'Mindestanzahl der Beiträge, unter welcher die Benutzer Ihren Beitrag verifizieren müssen';
-$txt['posts_require_captcha_desc'] = '(0 für kein Limit, Moderatoren sind ausgenommen)';
-$txt['search_enable_captcha'] = 'Benötigt Verifizierung bei Suchanfragen von Gästen';
-$txt['setting_guests_require_captcha'] = 'Beiträge von Gästen müssen verifiziert werden';
-$txt['setting_guests_require_captcha_desc'] = '(Automatisch aktiv, wenn eine Mindestanzahl von Beiträgen eingestellt wurde)';
-$txt['guests_report_require_captcha'] = 'Gäste müssen bei der Berichterstattung verifiziert werden';
-
-$txt['configure_verification_means'] = 'Verifizierungsmethode konfigurieren';
-$txt['setting_qa_verification_number'] = 'Anzahl der Verifizierungsfragen, die ein Benutzer beantworten muss';
-$txt['setting_qa_verification_number_desc'] = '(0 zum deaktivieren; Fragen werden unten eingegeben)';
-$txt['configure_verification_means_desc'] = '<span class="smalltext">Hier kannst Du einstellen, welche Anti-Spam Funktionen bei einer Verifizierungsabfrage benutzt werden sollen. Beachte, dass der Benutzer <em>alle</em> Abfragen erfolgreich absolvieren muss, um fortzufahren.</span>';
-$txt['setting_visual_verification_type'] = 'Visuelles Verifizierungsbild';
-$txt['setting_visual_verification_type_desc'] = ' Je komplexer das Bild, desto schwieriger können Bots die Verifizierung umgehen.';
-$txt['setting_image_verification_off'] = 'Keine';
-$txt['setting_image_verification_vsimple'] = 'Sehr einfach - nur Text auf dem Bild';
-$txt['setting_image_verification_simple'] = 'Einfach - Bunte, überlappende Buchstaben, kein Rauschen';
-$txt['setting_image_verification_medium'] = 'Mittel - Bunte, überlappende Buchstaben, mit Rauschen';
-$txt['setting_image_verification_high'] = 'Hoch - Verdrehte Buchstaben, starkes Rauschen';
-$txt['setting_image_verification_extreme'] = 'Extrem – Gedrehte Buchstaben, Rauschen, Linien und Blöcke';
-$txt['setting_image_verification_sample'] = 'Beispiel';
-$txt['setting_image_verification_nogd'] = '<strong>Achtung:</strong> Da dieser Server die GD Bibliothek nicht installiert hat, haben die verschiedenen Einstellungen keine Auswirkung.';
-$txt['setup_verification_questions'] = 'Verifizierungsfragen';
-$txt['setup_verification_questions_desc'] = '<span class="smalltext">Gib in der folgenden Tabelle eine oder mehrere Fragen ein, wenn Du diese zur Vermeidung von Spam von den Benutzern beantworten lassen willst. Du solltest relativ einfache Fragen wählen, die Antworten unterscheiden keine Groß- und Kleinschreibung. Um eine Frage zu entfernen, lösche einfach den Inhalt der kompletten Zeile.</span>';
-$txt['setup_verification_question'] = 'Frage';
-$txt['setup_verification_answer'] = 'Antwort';
-$txt['setup_verification_add_more'] = 'Weitere Frage hinzufügen';
-
-$txt['moderation_settings'] = 'Moderationseinstellungen';
-$txt['setting_warning_enable'] = 'Benutzer-Verwarnung aktivieren';
-$txt['setting_warning_watch'] = 'Verwarnungslevel für Beobachtung des Benutzers<div class="smalltext">Verwarnungslevel, ab dem der Benutzer beobachtet wird - 0 zum deaktivieren.</div>';
-$txt['setting_warning_moderate'] = 'Verwarnungslevel für Moderation der Beiträge<div class="smalltext">Verwarnungslevel, ab dem alle Beiträge des Benutzers moderiert werden - 0 zum deaktivieren.</div>';
-$txt['setting_warning_mute'] = 'Verwarnungslevel für die Stummschaltung des Benutzers<div class="smalltext">Verwarnungslevel, ab dem der Benutzer keine Beiträge mehr schreiben kann - 0 zum deaktivieren.</div>';
-$txt['setting_user_limit'] = 'Max. Verwarnungspunkte für einen Benutzer pro Tag<div class="smalltext">Max. Anzahl an Punkten, die ein einzelner Moderator einem Benutzer in 24 Stunden geben kann - 0 für kein Limit.</div>';
-$txt['setting_warning_decrement'] = 'Anzahl der Verwarnungspunkte, die alle 24 Stunden abgezogen werden sollen<div class="smalltext">Zählt nur für Benutzer, die in den letzten 24 Stunden nicht verwarnt worden sind - 0 zum deaktivieren.</div>';
-$txt['setting_warning_show'] = 'Benutzer, welche den Warnungsstatus sehen können<div class="smalltext">Gibt an, wer den Warnungslevel von Nutzern in diesem Forum sehen kann.</div>';
-$txt['setting_warning_show_mods'] = 'Nur Moderatoren';
-$txt['setting_warning_show_user'] = 'Moderatoren und Verwarnte Benutzer';
-$txt['setting_warning_show_all'] = 'Alle Benutzer';
-
-$txt['signature_settings'] = 'Signatureinstellungen';
-$txt['signature_settings_desc'] = 'Hier kannst Du die Einstellungen für die Benutzersignaturen in SMF bestimmen.';
-$txt['signature_settings_warning'] = 'Beachte, dass sich Änderungen nicht automatisch auf existierende Signaturen auswirkt. Klicke  <a href="' . $scripturl . '?action=admin;area=featuresettings;sa=sig;apply;%2$s=%1$s">hier</a> um die Änderungen auf alle Signaturen anzuwenden.';
-$txt['signature_enable'] = 'Signaturen aktivieren';
-$txt['signature_max_length'] = 'Max. erlaubte Zeichen<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_max_lines'] = 'Max. erlaubte Zeilen<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_max_images'] = 'Max. Anzahl der Bilder<div class="smalltext">(0 für kein Limit - ohne Smileys)</div>';
-$txt['signature_allow_smileys'] = 'Erlaube Smileys in Signaturen';
-$txt['signature_max_smileys'] = 'Max. Anzahl an Smileys<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_max_image_width'] = 'Max. Breite der Bilder in der Signatur (Pixel)<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_max_image_height'] = 'Max. Höhe der Bilder in der Signatur (Pixel)<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_max_font_size'] = 'Max. Schriftgröße in der Signatur<div class="smalltext">(0 für kein Limit)</div>';
-$txt['signature_bbc'] = 'Aktivierte BBC Tags';
-
-$txt['custom_profile_title'] = 'Benutzerdefinierte Profilfelder';
-$txt['custom_profile_desc'] = 'Hier kannst Du Deine eigenen Profilfelder für Dein Forum erstellen';
-$txt['custom_profile_active'] = 'Aktiv';
-$txt['custom_profile_fieldname'] = 'Feldname';
-$txt['custom_profile_fieldtype'] = 'Feldtyp';
-$txt['custom_profile_make_new'] = 'Neues Feld';
-$txt['custom_profile_none'] = 'Du hast noch keine benutzerdefinierten Profilfelder erstellt!';
-$txt['custom_profile_icon'] = 'Symbol';
+$txt['custom_profile_title'] = 'Custom Profile Fields';
+$txt['custom_profile_desc'] = 'From this page you can create your own custom profile fields that fit in with your own forums requirements';
+$txt['custom_profile_active'] = 'Active';
+$txt['custom_profile_fieldname'] = 'Field Name';
+$txt['custom_profile_fieldtype'] = 'Field Type';
+$txt['custom_profile_fieldorder'] = 'Field Order';
+$txt['custom_profile_make_new'] = 'New Field';
+$txt['custom_profile_none'] = 'You have not created any custom profile fields yet!';
+$txt['custom_profile_icon'] = 'Icon';
 
 $txt['custom_profile_type_text'] = 'Text';
-$txt['custom_profile_type_textarea'] = 'Langer Text';
-$txt['custom_profile_type_select'] = 'Auswahlbox';
+$txt['custom_profile_type_textarea'] = 'Large Text';
+$txt['custom_profile_type_select'] = 'Select Box';
 $txt['custom_profile_type_radio'] = 'Radio Button';
-$txt['custom_profile_type_check'] = 'Auswahlbox';
+$txt['custom_profile_type_check'] = 'Checkbox';
 
-$txt['custom_add_title'] = 'Profilfeld hinzufügen';
-$txt['custom_edit_title'] = 'Profilfeld editieren';
-$txt['custom_edit_general'] = 'Anzeigeeinstellungen';
-$txt['custom_edit_input'] = 'Eingabeeinstellungen';
-$txt['custom_edit_advanced'] = 'Erweiterte Einstellungen';
+$txt['custom_add_title'] = 'Add Profile Field';
+$txt['custom_edit_title'] = 'Edit Profile Field';
+$txt['custom_edit_general'] = 'Display Settings';
+$txt['custom_edit_input'] = 'Input Settings';
+$txt['custom_edit_advanced'] = 'Advanced Settings';
 $txt['custom_edit_name'] = 'Name';
-$txt['custom_edit_desc'] = 'Beschreibung';
-$txt['custom_edit_profile'] = 'Profilabschnitt';
-$txt['custom_edit_profile_desc'] = 'Wird im gewählten Abschnitt des Profils hinzugefügt.';
-$txt['custom_edit_profile_none'] = 'Kein';
-$txt['custom_edit_registration'] = 'Bei der Registrierung anzeigen';
-$txt['custom_edit_registration_disable'] = 'Nein';
-$txt['custom_edit_registration_allow'] = 'Ja';
-$txt['custom_edit_registration_require'] = 'Ja, erfordert Eingabe';
-$txt['custom_edit_display'] = 'In der Themenansicht anzeigen';
-$txt['custom_edit_picktype'] = 'Feldtyp';
+$txt['custom_edit_desc'] = 'Description';
+$txt['custom_edit_profile'] = 'Profile Section';
+$txt['custom_edit_profile_desc'] = 'Section of profile this is edited in.';
+$txt['custom_edit_profile_none'] = 'None';
+$txt['custom_edit_registration'] = 'Show on Registration';
+$txt['custom_edit_registration_disable'] = 'No';
+$txt['custom_edit_registration_allow'] = 'Yes';
+$txt['custom_edit_registration_require'] = 'Yes, and require entry';
+$txt['custom_edit_display'] = 'Show on Topic View';
+$txt['custom_edit_mlist'] = 'Show on memberlist';
+$txt['custom_edit_picktype'] = 'Field Type';
 
-$txt['custom_edit_max_length'] = 'Max. Länge';
-$txt['custom_edit_max_length_desc'] = '(0 für kein Limit)';
-$txt['custom_edit_dimension'] = 'Größe';
-$txt['custom_edit_dimension_row'] = 'Reihen';
-$txt['custom_edit_dimension_col'] = 'Spalten';
-$txt['custom_edit_bbc'] = 'BBC erlauben?';
-$txt['custom_edit_options'] = 'Optionen';
-$txt['custom_edit_options_desc'] = 'Textfeld leer lassen, um es zu entfernen. Auswahl markiert den Standard.';
-$txt['custom_edit_options_more'] = 'Mehr';
-$txt['custom_edit_default'] = 'Standard-Status';
-$txt['custom_edit_active'] = 'Aktiv';
-$txt['custom_edit_active_desc'] = 'Wenn diese Option nicht aktiviert ist, wird das Feld keinem Benutzer angezeigt.';
-$txt['custom_edit_privacy'] = 'Privatsphäre';
-$txt['custom_edit_privacy_desc'] = 'Bestimmt, wer das Feld sehen und editieren kann.';
-$txt['custom_edit_privacy_all'] = 'Benutzer kann das Feld sehen; Inhaber kann es editieren';
-$txt['custom_edit_privacy_see'] = 'Benutzer kann das Feld sehen; Administrator kann es editieren';
-$txt['custom_edit_privacy_owner'] = 'Benutzer können dieses Feld nicht sehen; Inhaber und Administratoren können es bearbeiten.';
-$txt['custom_edit_privacy_none'] = 'Das Feld ist nur für Administratoren sichtbar';
-$txt['custom_edit_can_search'] = 'Durchsuchbar';
-$txt['custom_edit_can_search_desc'] = 'Das Feld kann von der Mitgliederliste aus durchsucht werden.';
-$txt['custom_edit_mask'] = 'Eingabemaske';
-$txt['custom_edit_mask_desc'] = 'Für Textfelder kann eine Eingabemaske gewählt werden, um die Daten zu überprüfen.';
-$txt['custom_edit_mask_email'] = 'Gültige E-Mail-Adresse';
-$txt['custom_edit_mask_number'] = 'Numerisch';
-$txt['custom_edit_mask_nohtml'] = 'kein HTML';
-$txt['custom_edit_mask_regex'] = 'Regex (Erweitert)';
-$txt['custom_edit_enclose'] = 'Zeige Eingeschlossen durch Text';
-$txt['custom_edit_enclose_desc'] = 'Wir empfehlen <strong>dringendst</strong> die Verwendung einer Eingabemaske zum Validieren der Eingaben von Benutzern.';
+$txt['custom_edit_max_length'] = 'Maximum Length';
+$txt['custom_edit_max_length_desc'] = '(0 for no limit)';
+$txt['custom_edit_dimension'] = 'Dimensions';
+$txt['custom_edit_dimension_row'] = 'Rows';
+$txt['custom_edit_dimension_col'] = 'Columns';
+$txt['custom_edit_bbc'] = 'Allow BBC';
+$txt['custom_edit_options'] = 'Options';
+$txt['custom_edit_options_desc'] = 'Leave option box blank to remove. Radio button selects default option.';
+$txt['custom_edit_options_more'] = 'More';
+$txt['custom_edit_default'] = 'Default State';
+$txt['custom_edit_active'] = 'Active';
+$txt['custom_edit_active_desc'] = 'If not selected this field will not be shown to anyone.';
+$txt['custom_edit_privacy'] = 'Privacy';
+$txt['custom_edit_privacy_desc'] = 'Who can see and edit this field.';
+$txt['custom_edit_privacy_all'] = 'Users can see this field; owner can edit it';
+$txt['custom_edit_privacy_see'] = 'Users can see this field; only admins can edit it';
+$txt['custom_edit_privacy_owner'] = 'Users cannot see this field; owner and admins can edit it.';
+$txt['custom_edit_privacy_none'] = 'This field is only visible to admins';
+$txt['custom_edit_can_search'] = 'Searchable';
+$txt['custom_edit_can_search_desc'] = 'Can this field be searched from the members list.';
+$txt['custom_edit_mask'] = 'Input Mask';
+$txt['custom_edit_mask_desc'] = 'For text fields an input mask can be selected to validate the data.';
+$txt['custom_edit_mask_email'] = 'Valid Email';
+$txt['custom_edit_mask_number'] = 'Numeric';
+$txt['custom_edit_mask_nohtml'] = 'No HTML';
+$txt['custom_edit_mask_regex'] = 'Regex (Advanced)';
+$txt['custom_edit_enclose'] = 'Show Enclosed Within Text (Optional)';
+$txt['custom_edit_enclose_desc'] = 'We <strong>strongly</strong> recommend to use an input mask to validate the input supplied by the user.';
 
-$txt['custom_edit_placement'] = 'Platzierung';
-$txt['custom_edit_placement_standard'] = 'Standard (mit Titel)';
-$txt['custom_edit_placement_withicons'] = 'bei den Symbolen';
-$txt['custom_edit_placement_abovesignature'] = 'über der Signatur';
-$txt['custom_profile_placement'] = 'Platzierung';
-$txt['custom_profile_placement_standard'] = 'Standard';
-$txt['custom_profile_placement_withicons'] = 'bei den Symbolen';
-$txt['custom_profile_placement_abovesignature'] = 'über der Signatur';
+$txt['custom_edit_order_move'] = 'Move ';
+$txt['custom_edit_order_up'] = 'Up';
+$txt['custom_edit_order_down'] = 'Down';
+$txt['custom_edit_placement'] = 'Choose Placement';
+$txt['custom_profile_placement'] = 'Placement';
+$txt['custom_profile_placement_standard'] = 'Standard (with title)';
+$txt['custom_profile_placement_icons'] = 'With Icons';
+$txt['custom_profile_placement_above_signature'] = 'Above Signature';
+$txt['custom_profile_placement_below_signature'] = 'Below Signature';
+$txt['custom_profile_placement_below_avatar'] = 'Below Avatar';
+$txt['custom_profile_placement_above_member'] = 'Above Username';
+$txt['custom_profile_placement_bottom_poster'] = 'Bottom poster info';
 
 // Use numeric entities in the string below!
-$txt['custom_edit_delete_sure'] = 'Bist Du sicher, dass Du dieses Feld löschen möchtest - alle relevanten Benutzerdaten werden verloren gehen!';
+$txt['custom_edit_delete_sure'] = 'Are you sure you wish to delete this field - all related user data will be lost!';
 
-$txt['standard_profile_title'] = 'Standard Profilfelder';
-$txt['standard_profile_field'] = 'Feld';
+$txt['standard_profile_title'] = 'Standard Profile Fields';
+$txt['standard_profile_field'] = 'Field';
+$txt['standard_profile_field_timezone'] = 'Timezone';
 
-$txt['core_settings_welcome_msg'] = 'Willkommen in Deinem neuen Forum';
-$txt['core_settings_welcome_msg_desc'] = 'Um einen Anfang zu finden, empfehlen wir Dir die Aktivierung einiger Kernfunktionen von SMF. Bitte aktiviere anfangs nur die Funktionen, die Du brauchst, um eine Überflutung mit Einstellmöglichkeiten zu verhindern!';
-$txt['core_settings_item_cd'] = 'Kalender';
-$txt['core_settings_item_cd_desc'] = 'Wenn Du diese Funktion aktivierst, kannst Du die Mitglieder den Kalender anschauen, neue Ereignisse hinzufügen bzw. vorhandene Ereignisse editieren, die Geburtstage anderer Benutzer sehen und vieles mehr.';
-$txt['core_settings_item_cp'] = 'Benutzerdefinierte Profilfelder';
-$txt['core_settings_item_cp_desc'] = 'Diese Funktion erlaubt das Verstecken von Standard Profilfeldern, das Hinzufügen von neuen Feldern zur Registrierung bzw. dem Benutzerprofil.';
-$txt['core_settings_item_k'] = 'Karma';
-$txt['core_settings_item_k_desc'] = 'Karma zeigt die Beliebtheit eines Mitglieds im Forum an. Mitglieder können, wenn erlaubt, andere Benutzer \'positiv\' oder \'negativ\' bewerten, was Auswirkungen auf deren Beliebtheit im Forum hat.';
-$txt['core_settings_item_ml'] = 'Moderator-Protokoll';
-$txt['core_settings_item_ml_desc'] = 'Aktiviere das Moderator-Protokoll, um einen Überblick über die durchgeführten Aktionen der Moderatoren zu erhalten.';
-$txt['core_settings_item_pm'] = 'Beitragsmoderation';
-$txt['core_settings_item_pm_desc'] = 'Die Beitragsmoderation erlaubt es Dir, bestimmte Gruppen oder Boards anzugeben, in denen alle Beiträge genehmigt werden müssen, bevor sie veröffentlicht werden. Nachdem Du diese Funktion aktiviert hast, solltest Du die entsprechenden Berechtigungen setzen.';
-$txt['core_settings_item_ps'] = 'Bezahlte Abonnements';
-$txt['core_settings_item_ps_desc'] = 'Bezahlte Abonnements erlauben den Benutzern in eine andere Mitgliedergruppe zu wechseln und ihre Rechte zu erweitern.';
-$txt['core_settings_item_rg'] = 'Berichte erstellen';
-$txt['core_settings_item_rg_desc'] = 'Diese Funktion erlaubt das Erstellen von verschiedenen (druckbaren) Berichten, welche die Konfiguration des Forums oder die Vergabe der Berechtigungen einfach veranschaulicht - sehr hilfreich bei großen Foren.';
-$txt['core_settings_item_sp'] = 'Verfolgung von Suchmaschinen';
-$txt['core_settings_item_sp_desc'] = 'Wenn Du diese Funktion aktivierst, kannst Du als Administrator Suchmaschinen verfolgen, die Dein Forum indexieren.';
-$txt['core_settings_item_w'] = 'Verwarnungssystem';
-$txt['core_settings_item_w_desc'] = 'Diese Funktion erlaubt den Administratoren und Moderatoren des Forums bestimmte Benutzer zu verwarnen und ihnen mit steigendem Verwarnungslevel verschiedene Berechtigungen zu entziehen. Um die volle Funktion zu gewährleisten, empfehlen wir das Aktivieren der "Beitragsmoderation".';
-$txt['core_settings_switch_on'] = 'Zum Aktivieren klicken';
-$txt['core_settings_switch_off'] = 'Zum Deaktivieren klicken';
-$txt['core_settings_enabled'] = 'Aktiviert';
-$txt['core_settings_disabled'] = 'Deaktiviert';
+$txt['languages_lang_name'] = 'Language Name';
+$txt['languages_locale'] = 'Locale';
+$txt['languages_default'] = 'Default';
+$txt['languages_character_set'] = 'Character Set';
+$txt['languages_users'] = 'Users';
+$txt['language_settings_writable'] = 'Warning: Settings.php is not writable so the default language setting cannot be saved.';
+$txt['edit_languages'] = 'Edit Languages';
+$txt['lang_file_not_writable'] = '<strong>Warning:</strong> The primary language file (%1$s) is not writable. You must make this writable before you can make any changes.';
+$txt['lang_entries_not_writable'] = '<strong>Warning:</strong> The language file you wish to edit (%1$s) is not writable. You must make this writable before you can make any changes.';
+$txt['languages_ltr'] = 'Right to Left';
 
-$txt['languages_lang_name'] = 'Name der Sprache';
-$txt['languages_locale'] = 'Kürzel';
-$txt['languages_default'] = 'Standard';
-$txt['languages_character_set'] = 'Zeichen Set';
-$txt['languages_users'] = 'Benutzer';
-$txt['language_settings_writable'] = 'Achtung: Settings.php kann nicht überschrieben werden! Daher kann die Standardsprache nicht gespeichert werden.';
-$txt['edit_languages'] = 'Sprache editieren';
-$txt['lang_file_not_writable'] = '<strong>Achtung:</strong> Die primäre Sprachdatei (%1$s) kann nicht überschrieben werden. Du musst erst den Schreibschutz entfernen, bevor Du irgendwelche Änderungen machen kannst.';
-$txt['lang_entries_not_writable'] = '<strong>Achtung:</strong> Die Sprachdatei (%1$s), die Du editieren möchtest, kann nicht überschrieben werden! Du musst erst den Schreibschutz entfernen, bevor Du irgendwelche Änderungen machen kannst.';
-$txt['languages_ltr'] = 'Rechts nach Links';
-
-$txt['add_language'] = 'Sprache hinzufügen';
-$txt['add_language_smf'] = 'Download von Simple Machines';
-$txt['add_language_smf_browse'] = 'Gib den Namen der zu suchenden Sprache ein oder lasse das Feld leer, um nach allen Sprachen zu suchen.';
-$txt['add_language_smf_install'] = 'Installieren';
-$txt['add_language_smf_found'] = 'Folgende Sprachen wurden gefunden. Klicke auf \'Installieren\' um die Sprache zu installieren. Du wirst danach zum Paketmanager weitergeleitet.';
-$txt['add_language_error_no_response'] = 'Die Simple Machines Seite reagiert nicht. Bitte versuche es später wieder.';
-$txt['add_language_error_no_files'] = 'Keine Dateien gefunden.';
-$txt['add_language_smf_desc'] = 'Beschreibung';
+$txt['add_language'] = 'Add Language';
+$txt['add_language_smf'] = 'Download from Simple Machines';
+$txt['add_language_smf_browse'] = 'Type name of language to search for or leave blank to search for all.';
+$txt['add_language_smf_install'] = 'Install';
+$txt['add_language_found_title'] = 'Found Languages';
+$txt['add_language_smf_found'] = 'The following languages were found. Click the install link next to the language you wish to install. You will then be taken to the package manager to install.';
+$txt['add_language_error_no_response'] = 'The Simple Machines site is not responding. Please try again later.';
+$txt['add_language_error_no_files'] = 'No files could be found.';
+$txt['add_language_smf_desc'] = 'Description';
 $txt['add_language_smf_utf8'] = 'UTF-8';
 $txt['add_language_smf_version'] = 'Version';
 
-$txt['edit_language_entries_primary'] = 'Hier sind die primären Einstellungen für dieses Sprachpaket.';
-$txt['edit_language_entries'] = 'Spracheinträge editieren';
-$txt['edit_language_entries_file'] = 'Einträge zum Editieren auswählen';
-$txt['languages_dictionary'] = 'Wörterbuch';
-$txt['languages_spelling'] = 'Rechtschreibung';
-$txt['languages_for_pspell'] = 'Das ist für <a href="http://www.php.net/function.pspell-new" alt="*" target="_blank">pSpell</a> - wenn installiert';
-$txt['languages_rtl'] = '"Rechts nach Links"-Modus aktivieren';
+$txt['edit_language_entries_primary'] = 'Below are the primary language settings for this language pack.';
+$txt['edit_language_entries'] = 'Edit Language Entries';
+$txt['edit_language_entries_file'] = 'Select entries to edit';
+$txt['languages_dictionary'] = 'Dictionary';
+$txt['languages_spelling'] = 'Spelling';
+$txt['languages_for_pspell'] = 'This is for <a href="http://www.php.net/function.pspell-new" target="_blank" class="new_win">pSpell</a> - if installed';
+$txt['languages_rtl'] = 'Enable &quot;Right to Left&quot; Mode';
 
-$txt['lang_file_desc_index'] = 'Generelle Spracheinträge';
-$txt['lang_file_desc_EmailTemplates'] = 'E-Mail Vorlagen';
+$txt['lang_file_desc_index'] = 'General Strings';
+$txt['lang_file_desc_EmailTemplates'] = 'Email Templates';
 
-$txt['languages_download'] = 'Sprachpaket herunterladen';
-$txt['languages_download_note'] = 'Diese Seite listet alle Dateien des Sprachpaketes mit zusätzlichen Informationen auf. Alle markierten Dateien werden kopiert.';
-$txt['languages_download_info'] = '<strong>Hinweis:</strong>
-<ul class="normallist">
-	<li>Alle Dateien mit dem Status "Nicht beschreibbar" können vom SMF nicht in das Verzeichnis kopiert werden. Bitte mache das Ziel mit einem FTP-Programm beschreibbar oder trage Daten unten ein.</li>
-	<li>Die Versionsinformation jeder Datei zeigt die SMF-Version an, für die sie als letztes aktualisiert wurde. Sollte diese Angabe in grün erscheinen, ist die Datei neuer als die zurzeit installierte Version. Gelb signalisiert eine gleiche Version, Rot zeigt an, dass bereits eine neuere Version der Datei vorhanden ist als die die im Paket vorhanden ist.</li>
-	<li>Wenn eine Datei in Deinem Forum bereits existiert, hat die Spalte "Existiert bereits" einen von zwei Werten. "Identisch" zeigt an, dass die Datei gleich ist und nicht überschrieben werden muss. "Unterschiedlich" sagt aus, dass die Datei sich unterscheidet und ein Überschreiben hier wahrscheinlich die beste Lösung ist.</li>
-</ul>';
+$txt['languages_download'] = 'Download Language Pack';
+$txt['languages_download_note'] = 'This page lists all the files that are contained within the language pack and some useful information about each one. All files that have their associated check box marked will be copied.';
+$txt['languages_download_info'] = '<strong>Note:</strong>
+	<ul class="normallist">
+		<li>Files which have the status &quot;Not Writable&quot; means SMF will not be able to copy this file to the directory at the present and you must make the destination writable either using an FTP client or by filling in your details at the bottom of the page.</li>
+		<li>The Version information for a file displays the last SMF version which it was updated for. If it is indicated in green then this is a newer version than you have at current. If amber this indicates it\'s the same version number as at current, red indicates you have a newer version installed than contained in the pack.</li>
+		<li>Where a file already exists on your forum the &quot;Already Exists&quot; column will have one of two values. &quot;Identical&quot; indicates that the file already exists in an identical form and need not be overwritten. &quot;Different&quot; means that the contents vary in some way and overwriting is probably the optimum solution.</li>
+	</ul>';
 
-$txt['languages_download_main_files'] = 'Primäre Dateien';
-$txt['languages_download_theme_files'] = 'Theme-zugehörige Dateien';
-$txt['languages_download_filename'] = 'Dateiname';
-$txt['languages_download_dest'] = 'Ziel';
-$txt['languages_download_writable'] = 'Überschreibbar';
+$txt['languages_download_main_files'] = 'Primary Files';+
+$txt['languages_download_filename'] = 'File Name';
+$txt['languages_download_dest'] = 'Destination';
+$txt['languages_download_writable'] = 'Writable';
 $txt['languages_download_version'] = 'Version';
-$txt['languages_download_older'] = 'Du hast eine neuere Version dieser Datei installiert! Das Überschreiben der Datei wird nicht empfohlen.';
-$txt['languages_download_exists'] = 'Bereits vorhanden';
-$txt['languages_download_exists_same'] = 'Identisch';
-$txt['languages_download_exists_different'] = 'Verschieden';
-$txt['languages_download_copy'] = 'Kopie';
-$txt['languages_download_not_chmod'] = 'Du kannst mit der Installation nicht fortfahren, bis alle markierten Dateien Überschreibbar sind.';
-$txt['languages_download_illegal_paths'] = 'Das Paket enthält einen ungültigen Pfad - bitte kontaktiere Simple Machines';
-$txt['languages_download_complete'] = 'Installation komplett';
-$txt['languages_download_complete_desc'] = 'Sprachpaket wurde erfolgreich installiert. Bitte klicke <a href="%1$s">hier</a> um zur Sprachseite zurückzukehren.';
-$txt['languages_delete_confirm'] = 'Bist Du sicher, dass Du diese Sprache löschen möchtest?';
+$txt['languages_download_older'] = 'You have a newer version of this file installed. Overwriting is not recommended.';
+$txt['languages_download_exists'] = 'Already Exists';
+$txt['languages_download_exists_same'] = 'Identical';
+$txt['languages_download_exists_different'] = 'Different';
+$txt['languages_download_copy'] = 'Copy';
+$txt['languages_download_not_chmod'] = 'You cannot proceed with the installation until all files selected to be copied are writable.';
+$txt['languages_download_illegal_paths'] = 'Package contains illegal paths - please contact Simple Machines';
+$txt['languages_download_complete'] = 'Installation Complete';
+$txt['languages_download_complete_desc'] = 'Language pack installed successfully. Please click <a href="%1$s">here</a> to return to the languages page';
+$txt['languages_delete_confirm'] = 'Are you sure you want to delete this language?';
+
+$txt['setting_frame_security'] = 'Frame Security Options';
+$txt['setting_frame_security_SAMEORIGIN'] = 'Allow Same Origin';
+$txt['setting_frame_security_DENY'] = 'Deny all frames';
+$txt['setting_frame_security_DISABLE'] = 'Disabled';
+
+$txt['setting_proxy_ip_header'] = 'Reverse Proxy IP Header';
+$txt['setting_proxy_ip_header_disabled'] = 'Do not allow any Proxy IP Headers';
+$txt['setting_proxy_ip_header_autodetect'] = 'Auto-detect Proxy IP header';
+$txt['setting_proxy_ip_servers'] = 'Reverse Proxy Servers IPs';
+
+$txt['select_boards_from_list'] = 'Select boards which apply';
+
+$txt['topic_move_any'] = 'Allow moving of topics to read-only boards';
+
+$txt['defaultMaxListItems'] = 'Maximum number of items per page in lists';
+
+$txt['tfa_mode'] = 'Two-Factor Authentication';
+$txt['tfa_mode_forced'] = 'Force on selected membergroups';
+$txt['tfa_mode_forcedall'] = 'Force for ALL users';
+$txt['tfa_mode_forced_help'] = 'Please enable 2FA in your account in order to be able to force 2FA on other users!';
+$txt['tfa_mode_enabled'] = 'Enabled';
+$txt['tfa_mode_disabled'] = 'Disabled';
+$txt['tfa_mode_subtext'] = 'Allows users to have a second layer of security while logging in, users would need an app like Google Authenticator paired with their account';
 
 ?>
