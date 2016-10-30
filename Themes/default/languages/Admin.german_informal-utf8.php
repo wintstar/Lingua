@@ -407,8 +407,8 @@ $txt['attachmentDirFileLimit'] = 'Maximale Anzahl der Dateien pro Verzeichnis';
 
 $txt['attach_base_paths'] = 'Basis Verzeichnis Pfade';
 $txt['attach_num_dirs'] = 'Verzeichnisse';
-$txt['max_image_width'] = 'Max. angezigte Breite des eingebetteten oder angehängten Bilder';
-$txt['max_image_height'] = 'Max. angezeigte Höhe des eingebetteten oder angehängten Bilder';
+$txt['max_image_width'] = 'Max. angezigte Breite der eingebetteten oder angehängten Bilder';
+$txt['max_image_height'] = 'Max. angezeigte Höhe der eingebetteten oder angehängten Bilder';
 
 $txt['automanage_attachments'] = 'Wähle die Methode für die Verwaltung der Dateianhang Verzeichnisse';
 $txt['attachments_normal'] = '(Manuell) SMF Standardverhalten';
