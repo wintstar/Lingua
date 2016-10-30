@@ -11,10 +11,10 @@
 
 global $txtBirthdayEmails;
 
-$txt['scheduled_approval_email_topic'] = 'The following topics are awaiting approval:';
-$txt['scheduled_approval_email_msg'] = 'The following posts are awaiting approval:';
-$txt['scheduled_approval_email_attach'] = 'The following attachments are awaiting approval:';
-$txt['scheduled_approval_email_event'] = 'The following events are awaiting approval:';
+$txt['scheduled_approval_email_topic'] = 'Folgenden Themen warten auf Genehmigung:';
+$txt['scheduled_approval_email_msg'] = 'Folgenden Beiträge warten auf Genehmigung:';
+$txt['scheduled_approval_email_attach'] = 'Folgenden Dateianhänge warten auf Genehmigung:';
+$txt['scheduled_approval_email_event'] = 'Folgenden Ereignisse warten auf Genehmigung:';
 
 /**
 	@additional_params: resend_activate_message
@@ -26,7 +26,7 @@ $txt['scheduled_approval_email_event'] = 'The following events are awaiting appr
 		FORGOTPASSWORDLINK: The url to the "forgot password" page.
 	@description:
 */
-$txt['resend_activate_message_subject'] = 'Welcome to {FORUMNAME}';
+$txt['resend_activate_message_subject'] = 'Willkommen auf {FORUMNAME}';
 $txt['resend_activate_message_body'] = 'Thank you for registering at {FORUMNAME}. Your username is {USERNAME}. If you forget your password, you can reset it by visiting {FORGOTPASSWORDLINK}.
 
 Before you can login, you must first activate your account by selecting the following link:
@@ -43,7 +43,7 @@ Should you have any problems with the activation, please visit {ACTIVATIONLINKWI
 		USERNAME:  The user name for the member receiving the email.
 	@description:
 */
-$txt['resend_pending_message_subject'] = 'Welcome to {FORUMNAME}';
+$txt['resend_pending_message_subject'] = 'Willkommen auf {FORUMNAME}';
 $txt['resend_pending_message_body'] = 'Hello {REALNAME}, your registration request at {FORUMNAME} has been received.
 
 The username you registered with was {USERNAME}.

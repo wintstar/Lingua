@@ -96,7 +96,7 @@ $txt['register'] = 'Registrieren';
 $txt['warning_status'] = 'Verwarnungsstatus';
 $txt['user_warn_watch'] = 'Benutzer ist auf der Moderator Beobachtungsliste';
 $txt['user_warn_moderate'] = 'Benutzer Beiträge müssen vor der Veröffentlichung genehmigt werden';
-$txt['user_warn_mute'] = 'Nach einer Verbannung kann der Benutzer nicht mehr posten';
+$txt['user_warn_mute'] = 'Nach einer Verbannung kann der Benutzer nicht mehr schreiben';
 $txt['warn_watch'] = 'Beobachtet';
 $txt['warn_moderate'] = 'Moderiert';
 $txt['warn_mute'] = 'Stumm geschaltet';
@@ -187,7 +187,7 @@ $txt['search_on'] = 'auf';
 
 $txt['search'] = 'Suche';
 $txt['all'] = 'Alle';
-$txt['search_entireforum'] = 'Gesamtes Forum';
+$txt['search_entireforum'] = 'Gesamtes Board';
 $txt['search_thisbrd'] = 'Dieses Forum';
 $txt['search_thistopic'] = 'Dieses Thema';
 $txt['search_members'] = 'Mitglieder';
@@ -301,7 +301,7 @@ $txt['notification'] = 'Benachrichtigung';
 $txt['your_ban'] = 'Tut uns leid %1$s, du bist gesperrt, von der Nutzung dieses Forums!';
 $txt['your_ban_expires'] = 'Die Sperrung wird ablaufen %1$s.';
 $txt['your_ban_expires_never'] = 'Diese Sperrung wird nicht ablaufen.';
-$txt['ban_continue_browse'] = 'Sie können weiterhin das Forum als Gast durchsuchen.';
+$txt['ban_continue_browse'] = 'Sie können weiterhin das Board als Gast durchsuchen.';
 
 $txt['mark_as_read'] = 'Alle Nachrichten als gelesen markieren';
 
@@ -344,13 +344,13 @@ $txt['days_word'] = 'Tage';
 $txt['search_for'] = 'Suche nach';
 $txt['search_match'] = 'Übereinstimmung';
 
-$txt['forum_in_maintenance'] = 'Dein Forum ist im Wartungsmodus. Nur Administratoren können sich derzeit anmelden.';
+$txt['forum_in_maintenance'] = 'Dein Board ist im Wartungsmodus. Nur Administratoren können sich derzeit anmelden.';
 $txt['maintenance_page'] = 'Du kannst den Wartungsmodus deaktivieren unter <a href="%1$s">Server Einstellungen</a> im Admin Bereich.';
 
 $txt['read_one_time'] = '1 mal gelesen';
 $txt['read_many_times'] = '%1$d mal gelesen';
 
-$txt['forum_stats'] = 'Forum Statistik';
+$txt['forum_stats'] = 'Board Statistik';
 $txt['latest_member'] = 'Neuestes Mitglied';
 $txt['total_cats'] = 'Gesamte Kategorien';
 $txt['latest_post'] = 'Neuester Beitrag';
@@ -378,9 +378,9 @@ $txt['file'] = 'Datei';
 $txt['line'] = 'Zeile';
 // Use numeric entities in the below string.
 $txt['tried_to_repair'] = 'SMF hat einen Datenbankfehler entdeckt und versucht ihn automatisch zu reparieren. Wenn du erneut Probleme haben sollten oder weiterhin diese E-Mails erhältst, kontaktiere bitte deinen Serveranbieter.';
-$txt['database_error_versions'] = '<strong>Hinweis:</strong> Die Datenbank <em>könnte</em> veraltet zu sein! Die Forumsdateien haben aktuell die Version %1$s, wogegen die Datenbank die Version %2$s hat. Ein Ausführen der neuesten Version von upgrade.php kann den oben angeführten Fehler beheben.';
+$txt['database_error_versions'] = '<strong>Hinweis:</strong> Die Datenbank <em>könnte</em> veraltet zu sein! Die Boarddateien haben aktuell die Version %1$s, wogegen die Datenbank die Version %2$s hat. Ein Ausführen der neuesten Version von upgrade.php kann den oben angeführten Fehler beheben.';
 $txt['template_parse_error'] = 'Template Analyse Fehler!';
-$txt['template_parse_error_message'] = 'Ein Fehler ist im Template-System des Forums aufgetreten! Dieses Problem sollte nur temporär auftreten, bitte versuche es später nochmal. Solltest du die Fehlermeldung weiterhin erhalten, kontaktiere bitte den Administrator.<br /><br />Du kannst außerdem versuchen die Seite zu <a href="javascript:location.reload();">aktualisieren</a>.';
+$txt['template_parse_error_message'] = 'Ein Fehler ist im Template-System des Boards aufgetreten! Dieses Problem sollte nur temporär auftreten, bitte versuche es später nochmal. Solltest du die Fehlermeldung weiterhin erhalten, kontaktiere bitte den Administrator.<br /><br />Du kannst außerdem versuchen die Seite zu <a href="javascript:location.reload();">aktualisieren</a>.';
 $txt['template_parse_error_details'] = 'Ein Problem trat beim Laden des <pre><strong>%1$s</strong></pre> Templates oder der Sprachdatei auf. Bitte überprüfe die Syntax und versuche es erneut. Bitte beachte, dass einzelne Anführungszeichen (<pre>\'</pre>) oft mit einem Backslash (<pre>\\</pre>) auskommentiert werden müssen. Um nähere Informationen von PHP zu diesem Fehler zu erhalten, versuche <a href="' . $boardurl . '%1$s">die Seite direkt aufzurufen</a>.<br /><br />Du kannst auch versuchen, die Seite zu <a href="javascript:location.reload();">aktualisieren</a> oder das <a href="' . $scripturl . '?theme=1">Standard-Theme</a> zu benutzen.';
 $txt['template_parse_errmsg'] = 'Leider sind zur Zeit keine weiteren Informationen verfügbar.';
 
@@ -411,7 +411,7 @@ $txt['moved'] = 'VERSCHOBEN';
 $txt['move_why'] = 'Bitte gebe eine kurze Beschreibung ein, <br>warum dieses Thema verschoben wird.';
 $txt['board'] = 'Forum';
 $txt['in'] = 'in';
-$txt['sticky_topic'] = 'Festgelegtes Thema';
+$txt['sticky_topic'] = 'Wichtiges Thema';
 
 $txt['delete'] = 'Löschen';
 
@@ -454,10 +454,10 @@ $txt['target_board'] = 'Zielforum';
 $txt['target_topic'] = 'Zielthema';
 $txt['merge_confirm'] = 'Bist du sicher, diese zusammen zuführen?';
 $txt['with'] = 'mit';
-$txt['merge_desc'] = 'Diese Funktion verbindet die Nachrichten zweier Themen zu einem Thema. Die Nachrichten werden nach der Beitragserstellung sortiert. Daher ist die früheste gepostete Nachricht die erste Nachricht des zusammengeführten Themas.';
+$txt['merge_desc'] = 'Diese Funktion verbindet die Nachrichten zweier Themen zu einem Thema. Die Nachrichten werden nach der Beitragserstellung sortiert. Daher ist die früheste geschriebene Nachricht die erste Nachricht des zusammengeführten Themas.';
 
-$txt['set_sticky'] = 'Thema festlegen';
-$txt['set_nonsticky'] = 'Thema lösen';
+$txt['set_sticky'] = 'Thema wichtig';
+$txt['set_nonsticky'] = 'Thema nicht wichtig';
 $txt['set_lock'] = 'Thema sperren';
 $txt['set_unlock'] = 'Thema entsperren';
 
@@ -465,11 +465,11 @@ $txt['search_advanced'] = 'Erweiterte Suche';
 
 $txt['security_risk'] = 'HÖCHSTES SICHERHEITSRISIKO:';
 $txt['not_removed'] = 'Noch nicht entfernt: ';
-$txt['not_removed_extra'] = '%1$s Ist eine Sicherungskopie von %2$s die nicht von SMF erzeugt wurde. Es kann direkt zugegriffen und verwendet werden, um unbefugten Zugriff auf Ihr Forum zu bekommen. Du solltest sie sofort löschen.';
+$txt['not_removed_extra'] = '%1$s Ist eine Sicherungskopie von %2$s die nicht von SMF erzeugt wurde. Es kann direkt zugegriffen und verwendet werden, um unbefugten Zugriff auf dein Board zu bekommen. Du solltest sie sofort löschen.';
 $txt['generic_warning'] = 'Warnung';
 $txt['agreement_missing'] = 'Die benötigte Datei (agreement.txt), um die Nutzungsbedingungen zu akzeptieren, existiert nicht.';
 
-$txt['cache_writable'] = 'Das Cache-Verzeichnis ist nicht beschreibbar - Dies wirkt sich negativ auf die Leistung deines Forums aus.';
+$txt['cache_writable'] = 'Das Cache-Verzeichnis ist nicht beschreibbar - Dies wirkt sich negativ auf die Leistung dein Board aus.';
 
 $txt['page_created_full'] = 'Seite erstellt in %1$.3f Sekunden mit %2$d Abfragen.';
 
@@ -568,7 +568,7 @@ $txt['never'] = 'Nie';
 $txt['more'] = 'mehr';
 
 $txt['hostname'] = 'Hostname';
-$txt['you_are_post_banned'] = 'Tut uns leid %1$s, du bist gesperrt für Private Nachrichten erstellen und versenden in diesem Forum.';
+$txt['you_are_post_banned'] = 'Tut uns leid %1$s, du bist gesperrt für Private Nachrichten zu schreiben und versenden in diesem Board.';
 $txt['ban_reason'] = 'Grund';
 
 $txt['tables_optimized'] = 'Datenbank Tabellen optimiert';
@@ -587,7 +587,7 @@ $txt['poll_cannot_see'] = 'Du kannst die Ergebnisse dieser Umfrage im Moment nic
 $txt['quick_mod_approve'] = 'Auswahl bestätigen';
 $txt['quick_mod_remove'] = 'Ausgewählte entfernen';
 $txt['quick_mod_lock'] = 'Sperren / Entsperren ausgewählt';
-$txt['quick_mod_sticky'] = 'Festsetzen / Lösen ausgewählt';
+$txt['quick_mod_sticky'] = 'Wichtig / nicht Wichtig ausgewählt';
 $txt['quick_mod_move'] = 'Verschieben ausgewählt, nach';
 $txt['quick_mod_merge'] = 'Zusammenführen ausgewählt';
 $txt['quick_mod_markread'] = 'Ausgewählte als gelesen markieren';
@@ -691,7 +691,7 @@ $txt['message_icon'] = 'Nachricht  Symbol';
 
 $txt['smileys_current'] = 'Aktuelles Smiley Set';
 $txt['smileys_none'] = 'Keine Smileys';
-$txt['smileys_forum_board_default'] = 'Forum Standard';
+$txt['smileys_forum_board_default'] = 'Board Standard';
 
 $txt['search_results'] = 'Suchergebnisse';
 $txt['search_no_results'] = 'Es wurden keine Übereinstimmungen gefunden';
@@ -849,12 +849,12 @@ $txt['are_sure_mark_read'] = 'Bist du sicher, dass du alle Nachrichten als geles
 // Inline attachments messages.
 $txt['attachments_not_enable'] = 'Dateianhänge sind deaktiviert';
 $txt['attachments_no_data_loaded'] = 'Keine gültige Dateianhang ID.';
-$txt['attachments_not_allowed_to_see'] = 'Du kannst keine Dateianhänge im Forum sehen.';
+$txt['attachments_not_allowed_to_see'] = 'Du kannst keine Dateianhänge in diesem Board sehen.';
 $txt['attachments_no_msg_associated'] = 'Dateianhang nicht vorhanden.';
 
 // Accessibility
 $txt['hide_category'] = 'Kategorie ausblenden';
-$txt['show_category'] = 'Kategorie anzeigen';
+$txt['show_category'] = 'Kategorie einblenden';
 $txt['hide_infocenter'] = 'Info Bereich ausblenden';
 $txt['show_infocenter'] = 'Info Bereich anzeigen';
 

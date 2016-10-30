@@ -2,13 +2,13 @@
 
 The software is licensed under [BSD 3-clause license](http://www.opensource.org/licenses/BSD-3-Clause).
 
-File                  |Finish %
+Datei                  |Fertig %
 ----------------------|--------
 Admin                 | 100
 Alerts                | 100
 Drafts                | 100
 Editor                | 100
-EmailTemplates        | 0
+EmailTemplates        | 5
 Errors                | 0
 Help                  | 0
 Install               | 0
@@ -36,7 +36,7 @@ Search                | 0
 Settings              | 100
 Stats                 | 0
 Themes                | 0
-Who                   | 5
+Who                   | 100
 index                 | 100
 
-Stand currently pull request #3653 from 24.10.2016  18:45
+Stand aktueller Pull Request #3653 vom 24.10.2016  18:45
