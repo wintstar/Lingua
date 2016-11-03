@@ -72,15 +72,15 @@ $txt['no_user_with_email'] = 'Es gibt keine Benutzernamen, die mit dieser E-Mail
 $txt['board_moderator'] = 'Forum Moderator';
 $txt['remove_topic'] = 'Thema entfernen';
 $txt['topics'] = 'Themen';
-$txt['modify_msg'] = 'Beitrag ändern';
+$txt['modify_msg'] = 'Beitrag bearbeiten';
 $txt['name'] = 'Name';
 $txt['email'] = 'E-Mail';
 $txt['user_email_address'] = 'E-Mail Adresse';
 $txt['subject'] = 'Betreff';
 $txt['message'] = 'Beitrag';
 $txt['redirects'] = 'Weiterleitungen';
-$txt['quick_modify'] = 'Inline ändern';
-$txt['quick_modify_message'] = 'Beitrag erfolgreich geändert.';
+$txt['quick_modify'] = 'Inline bearbeiten';
+$txt['quick_modify_message'] = 'Beitrag erfolgreich bearbeitet.';
 $txt['reason_for_edit'] = 'Grund für die Bearbeitung';
 
 $txt['choose_pass'] = 'Wähle Passwort';
@@ -345,12 +345,12 @@ $txt['search_for'] = 'Suche nach';
 $txt['search_match'] = 'Übereinstimmung';
 
 $txt['forum_in_maintenance'] = 'Dein Board ist im Wartungsmodus. Nur Administratoren können sich derzeit anmelden.';
-$txt['maintenance_page'] = 'Du kannst den Wartungsmodus deaktivieren unter <a href="%1$s">Server Einstellungen</a> im Admin Bereich.';
+$txt['maintenance_page'] = 'Du kannst den Wartungsmodus deaktivieren unter <a href="%1$s">Server-Einstellungen</a> im Admin Bereich.';
 
 $txt['read_one_time'] = '1 mal gelesen';
 $txt['read_many_times'] = '%1$d mal gelesen';
 
-$txt['forum_stats'] = 'Board Statistik';
+$txt['forum_stats'] = 'Boardstatistik';
 $txt['latest_member'] = 'Neuestes Mitglied';
 $txt['total_cats'] = 'Gesamte Kategorien';
 $txt['latest_post'] = 'Neuester Beitrag';
@@ -431,7 +431,7 @@ $txt['quote_action'] = 'Zitat';
 $txt['quote_selected_action'] = 'Ausgewählten Text zitieren';
 $txt['fulledit'] = 'Vollständige&nbsp; Bearbeitung';
 $txt['edit'] = 'Ändern';
-$txt['quick_edit'] = 'Fix ändern';
+$txt['quick_edit'] = 'Fix bearbeiten';
 $txt['post_options'] = 'Mehr...';
 
 $txt['merge_to_topic_id'] = 'ID des Ziel-Thema';
@@ -501,7 +501,7 @@ $txt['calendar_day'] = 'Tag:';
 $txt['calendar_event_title'] = 'Ereignis Titel';
 $txt['calendar_event_options'] = 'Ereignis Optionen';
 $txt['calendar_post_in'] = 'Erstellen in:';
-$txt['calendar_edit'] = 'Ereignis ändern';
+$txt['calendar_edit'] = 'Ereignis bearbeiten';
 $txt['calendar_export'] = 'Ereignis Export';
 $txt['calendar_view_week'] = 'Woche anzeigen';
 $txt['event_delete_confirm'] = 'Dieses Ereignis löschen?';
@@ -670,7 +670,7 @@ $txt['hidden'] = 'Verborgen';
 $txt['hidden_s'] = 'Verborgen';
 $txt['buddy'] = 'Freund';
 $txt['buddies'] = 'Freunde';
-$txt['most_online_ever'] = 'Die meisten je online';
+$txt['most_online_ever'] = 'Gleichzeitig online';
 $txt['most_online_today'] = 'Am meisten online heute';
 
 $txt['merge_select_target_board'] = 'Wähle das Zielforum des zusammengeführten Themas aus';
@@ -691,7 +691,7 @@ $txt['message_icon'] = 'Nachricht  Symbol';
 
 $txt['smileys_current'] = 'Aktuelles Smiley Set';
 $txt['smileys_none'] = 'Keine Smileys';
-$txt['smileys_forum_board_default'] = 'Board Standard';
+$txt['smileys_forum_board_default'] = 'Board-Standard';
 
 $txt['search_results'] = 'Suchergebnisse';
 $txt['search_no_results'] = 'Es wurden keine Übereinstimmungen gefunden';
@@ -736,7 +736,7 @@ $txt['previous_next_forward'] = 'Nächstes Thema';
 
 $txt['mark_unread'] = 'Als ungelesen markieren';
 
-$txt['ssi_not_direct'] = 'Bitte greife nicht direkt auf SSI.php zu. Du kannst den den Pfad (%1$s) oder add ?ssi_function=etwas verwenden.';
+$txt['ssi_not_direct'] = 'Bitte greife nicht direkt auf SSI.php zu. Du kannst den den Pfad (%1$s) oder ?ssi_function= etwas hinzufügen.';
 $txt['ssi_session_broken'] = 'SSI.php konnte keine Sitzung laden!  Dies kann zu Problemen mit der Anmeldung und anderen Funktionen führen - bitte stellen Sie sicher, dass SSI.php in allen *jeglichen* Skripts aufgerufen wird!';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.

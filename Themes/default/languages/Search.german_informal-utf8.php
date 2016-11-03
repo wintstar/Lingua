@@ -1,48 +1,48 @@
 <?php
 // Version: 2.1 Beta 3; Search
 
-$txt['set_parameters'] = 'Set Search Parameters';
-$txt['choose_board'] = 'Choose a board to search in, or search all';
-$txt['all_words'] = 'Match all words';
-$txt['any_words'] = 'Match any words';
-$txt['by_user'] = 'By user';
+$txt['set_parameters'] = 'Suchanfrage';
+$txt['choose_board'] = 'Wähle das Forum oder die Foren aus, in denen gesucht werden soll';
+$txt['all_words'] = 'alle diese Wörter enthalten';
+$txt['any_words'] = 'eines dieser Wörter enthalten';
+$txt['by_user'] = 'Von Benutzer';
 
-$txt['search_post_age'] = 'Message age';
-$txt['search_between'] = 'between';
-$txt['search_and'] = 'and';
-$txt['search_options'] = 'Options';
-$txt['search_show_complete_messages'] = 'Show results as messages';
-$txt['search_subject_only'] = 'Search in topic subjects only';
-$txt['search_relevance'] = 'Relevance';
-$txt['search_date_posted'] = 'Date Posted';
-$txt['search_order'] = 'Search order';
-$txt['search_orderby_relevant_first'] = 'Most relevant results first';
-$txt['search_orderby_large_first'] = 'Largest topics first';
-$txt['search_orderby_small_first'] = 'Smallest topics first';
-$txt['search_orderby_recent_first'] = 'Most recent topics first';
-$txt['search_orderby_old_first'] = 'Oldest topics first';
-$txt['search_visual_verification_label'] = 'Verification';
-$txt['search_visual_verification_desc'] = 'Please enter the code in the image above to use search.';
+$txt['search_post_age'] = 'Alter der Nachrichten';
+$txt['search_between'] = 'zwischen';
+$txt['search_and'] = 'und';
+$txt['search_options'] = 'Optionen';
+$txt['search_show_complete_messages'] = 'Ergebnisse als Nachrichten anzeigen';
+$txt['search_subject_only'] = 'Nur Betreff der Themen suchen';
+$txt['search_relevance'] = 'Relevanz';
+$txt['search_date_posted'] = 'Datum, geschrieben';
+$txt['search_order'] = 'Suchreihenfolge';
+$txt['search_orderby_relevant_first'] = 'meisten relevanten Ergebnisse zuerst';
+$txt['search_orderby_large_first'] = 'größte Themen zuerst';
+$txt['search_orderby_small_first'] = 'kleinstes Themen zuerst';
+$txt['search_orderby_recent_first'] = 'neuesten Themen zuerst';
+$txt['search_orderby_old_first'] = 'älteste Themen zuerst';
+$txt['search_visual_verification_label'] = 'Spamschutz';
+$txt['search_visual_verification_desc'] = 'Bitte gebe den oben dargestellten Code ein, um die Suche zu starten.';
 
-$txt['search_specific_topic'] = 'Searching only posts in the topic';
+$txt['search_specific_topic'] = 'Suche nur Beiträge im Thema';
 
-$txt['mods_cat_search'] = 'Search';
-$txt['groups_search_posts'] = 'Membergroups with access to the search function';
-$txt['search_results_per_page'] = 'Number of search results per page';
-$txt['search_weight_frequency'] = 'Relative search weight for number of matching messages within a topic';
-$txt['search_weight_age'] = 'Relative search weight for age of last matching message';
-$txt['search_weight_length'] = 'Relative search weight for topic length';
-$txt['search_weight_subject'] = 'Relative search weight for a matching subject';
-$txt['search_weight_first_message'] = 'Relative search weight for a first message match';
-$txt['search_weight_sticky'] = 'Relative search weight for a sticky topic';
+$txt['mods_cat_search'] = 'Suche';
+$txt['groups_search_posts'] = 'Mitgliedergruppen mit Zugriff auf die Suchfunktion';
+$txt['search_results_per_page'] = 'Anzahl der Suchergebnisse pro Seite';
+$txt['search_weight_frequency'] = 'Relative Suchfaktoren für die Anzahl der übereinstimmenden Nachrichten innerhalb eines Themas';
+$txt['search_weight_age'] = 'Relative Suchfaktoren für Alter der letzten übereinstimmende Nachricht';
+$txt['search_weight_length'] = 'Relative Suchfaktoren für Thema Länge';
+$txt['search_weight_subject'] = 'Relative Suchfaktoren für ein passenden Betreff';
+$txt['search_weight_first_message'] = 'Relative Suchfaktoren für eine erste Nachrichtenübereinstimmung';
+$txt['search_weight_sticky'] = 'Relative Suchfaktoren für ein wichtiges Thema';
 
-$txt['search_settings_desc'] = 'Here you can changes the basic settings of the search function.';
-$txt['search_settings_title'] = 'Search Settings';
+$txt['search_settings_desc'] = 'Hier kannst du die Grundeinstellungen der Suchfunktion ändern.';
+$txt['search_settings_title'] = 'Suche_Einstellungen';
 
-$txt['search_weights_desc'] = 'Here you can change the individual components of the relevance rating. ';
-$txt['search_weights_title'] = 'Search - weights';
-$txt['search_weights_total'] = 'Total';
-$txt['search_weights_save'] = 'Save';
+$txt['search_weights_desc'] = 'Hier können Sie die einzelnen Komponenten der Relevanzbewertung ändern.. ';
+$txt['search_weights_title'] = 'Suchfaktoren';
+$txt['search_weights_total'] = 'Gesamt';
+$txt['search_weights_save'] = 'Speichern';
 
 $txt['search_method_desc'] = 'Here you can set the way search is powered.';
 $txt['search_method_title'] = 'Search - method';

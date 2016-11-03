@@ -33,5 +33,5 @@ $txt['manual_section_memberlist_desc'] = 'Die Mitgliederliste zeigt alle Mitglie
 $txt['manual_section_calendar_desc'] = 'Benutzer können den Überblick über Ereignisse, Feiertage und Geburtstage mit dem Kalender verfolgen.';
 $txt['manual_section_features_desc'] = 'Hier ist eine Liste der beliebtesten Funktionen in SMF.';
 
-$txt['agreement_disabled'] = 'Registrierungsvereinbarung deaktiviert';
+$txt['agreement_disabled'] = 'Nutzungsbedingungen deaktiviert';
 ?>

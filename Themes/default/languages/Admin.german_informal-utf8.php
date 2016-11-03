@@ -18,7 +18,7 @@ $txt['admin_censored_words'] = 'Wortzensur';
 $txt['admin_censored_where'] = 'Füge das zu zensierende Wort auf der linken Seite ein und auf der rechten Seite fügst du das Wort ein womit es ersetzt werden soll.';
 $txt['admin_censored_desc'] = 'Aufgrund der öffentlichen Natur der Diskussionsforen kann es sein das du einige Wörter verbieten solltest, die von Benutzer deines Boards veröffentlicht werden. Du kannst beliebige Wörter eingeben, die du zensieren möchtest, wenn sie von einem Mitglied verwendet werden.<br>Lösche ein Feld, um dieses Wort von der Zensur zu entfernen.';
 $txt['admin_reserved_names'] = 'Reservierte Namen';
-$txt['admin_template_edit'] = 'Board Template ändern';
+$txt['admin_template_edit'] = 'Board-Template bearbeiten';
 $txt['admin_modifications'] = 'Modifikationen';
 $txt['admin_server_settings'] = 'Server';
 $txt['admin_reserved_set'] = 'Reservierte Namen festlegen';
@@ -44,7 +44,7 @@ $txt['admin_credits'] = 'Danksagungen';
 $txt['admin_agreement'] = 'Nutzungsbedingungen anzeigen und Bestätigen lassen';
 $txt['admin_agreement_default'] = 'Standard';
 $txt['admin_agreement_select_language'] = 'Sprache zum bearbeiten wählen';
-$txt['admin_agreement_select_language_change'] = 'Text ändern';
+$txt['admin_agreement_select_language_change'] = 'Text bearbeiten';
 $txt['admin_agreement_not_saved'] = 'Die Änderungen der Nutzungsbedingungen wurden nicht gespeichert. Vielleicht sind die Dateiberechtigungen der Datei nicht korrekt eingestellt.';
 $txt['admin_delete_members'] = 'Ausgewählten Mitglieder löschen';
 $txt['admin_repair'] = 'Alle Foren und Themen reparieren';
@@ -58,7 +58,7 @@ $txt['admin_match_case'] = 'Groß-/Kleinschreibung beachten. Falls nicht aktivie
 $txt['admin_check_user'] = 'Benutzernamen überprüfen';
 $txt['admin_check_display'] = 'Anzeigenamen überprüfen';
 $txt['admin_newsletter_send'] = 'Du kannst jedem eine E-Mail senden von dieser Seite. Die E-Mail Adressen der gewählten Mitgliedergruppen sollten unten angezeigt werden, aber du kannst beliebige E-Mail-Adressen entfernen oder hinzufügen. Achte darauf, dass jede Adresse auf diese Weise getrennt ist: \'address1; address2\'.';
-$txt['admin_fader_delay'] = 'Verzögerung zwischen den Elementen für den Neuigkeiten-Fader';
+$txt['admin_fader_delay'] = 'Verzögerung zwischen den Elementen für den News-Fader';
 $txt['additional_options_collapsable'] = 'Zusammenklappbare zusätzliche Beitragsoptionen aktivieren.';
 $txt['zero_for_no_limit'] = '(0 für keine Begrenzung)';
 $txt['zero_to_disable'] = '(zum deaktivieren auf 0 setzen)';
@@ -102,7 +102,7 @@ $txt['attachmentdir_size_not_set'] = 'Maximale Verzeichnisgröße ist derzeit ni
 $txt['attachmentdir_files_not_set'] = 'Derzeit ist keine Dateiverzeichnis Begrenzung festgelegt';
 $txt['attachment_delete_admin'] = '[Dateianhang wurde vom Admin gelöscht]';
 $txt['live'] = 'Live von Simple Machines...';
-$txt['remove_all'] = 'Entfernen';
+$txt['remove_all'] = 'Alle entfernen';
 $txt['approve_new_members'] = 'Administrator muss alle neuen Mitglieder genehmigen';
 $txt['agreement_not_writable'] = 'Warnung! Datei agreement.*.txt ist nicht beschreibbar, alle Änderungen werden <strong>nicht</strong> gespeichert.';
 
@@ -256,13 +256,13 @@ $txt['maintenance_message'] = 'Nachricht zum anzeigen';
 $txt['errlog_desc'] = 'Das Fehlerprotokoll protokolliert jeden Fehler im Board. Um eventuelle Fehler aus der Datenbank zu löschen, markiere das Kontrollkästchen, und klicke auf %1$s Button am unteren Ende der Seite.';
 $txt['errlog_no_entries'] = 'Derzeit gibt es keine Fehler Protokolleinträge.';
 
-$txt['theme_settings'] = 'Theme Einstellungen';
+$txt['theme_settings'] = 'Theme-Einstellungen';
 $txt['theme_current_settings'] = 'Aktuelles Theme';
 
 $txt['dvc_your'] = 'Deine Version';
 $txt['dvc_current'] = 'Aktuelle Version';
 $txt['dvc_sources'] = 'Quellen';
-$txt['dvc_default'] = 'Standard Templates';
+$txt['dvc_default'] = 'Standard-Templates';
 $txt['dvc_templates'] = 'Aktuelles Templates';
 $txt['dvc_languages'] = 'Sprachdatei';
 $txt['dvc_tasks'] = 'Hintergrund Aufgaben';
@@ -335,10 +335,10 @@ $txt['attachment_manager_avatars_no_entries'] = 'Derzeit gibt es keine Avatare.'
 $txt['attachment_manager_attachments_no_entries'] = 'Derzeit gibt es keine Dateianhänge.';
 $txt['attachment_manager_thumbs_no_entries'] = 'Derzeit gibt es keine Vorschaubilder.';
 
-$txt['attachment_manager_settings'] = 'Dateianhang Einstellungen';
-$txt['attachment_manager_avatar_settings'] = 'Avatar Einstellungen';
+$txt['attachment_manager_settings'] = 'Dateianhang-Einstellungen';
+$txt['attachment_manager_avatar_settings'] = 'Avatar-Einstellungen';
 $txt['attachment_manager_browse'] = 'Dateien durchsuchen';
-$txt['attachment_manager_maintenance'] = 'Dateien Wartung';
+$txt['attachment_manager_maintenance'] = 'Dateien-Wartung';
 $txt['attachment_manager_save'] = 'Speichern';
 
 $txt['attachmentEnable'] = 'Dateianhang Modus';
@@ -366,8 +366,8 @@ $txt['attachment_thumb_png'] = 'Vorschaubilder als PNG speichern';
 $txt['attachment_thumb_memory'] = 'Adaptive Vorschaubilder Memory';
 $txt['attachmentThumbWidth'] = 'Maximale Breite der Vorschaubilder';
 $txt['attachmentThumbHeight'] = 'Maximale Höhe der Vorschaubilder';
-$txt['attachment_thumbnail_settings'] = 'Vorschaubild Einstellungen';
-$txt['attachment_security_settings'] = 'Dateianhang Sicherheits Einstellungen';
+$txt['attachment_thumbnail_settings'] = 'Vorschaubild-Einstellungen';
+$txt['attachment_security_settings'] = 'Dateianhang Sicherheits-Einstellungen';
 
 $txt['attach_dir_does_not_exist'] = 'Ist nicht vorhanden';
 $txt['attach_dir_not_writable'] = 'Nicht beschreibbar';
@@ -460,7 +460,7 @@ $txt['avatar_max_height_upload'] = 'Max. Höhe des hochgeladenen Avatar';
 $txt['avatar_resize_upload'] = 'Übergroße Avatare ändern';
 $txt['avatar_resize_upload_note'] = '(erfordert GD-Modul oder ImageMagick mit IMagick- oder MagickWand-Erweiterung)';
 $txt['avatar_download_png'] = 'PNG für größere Avatare verwenden';
-$txt['avatar_img_enc_warning'] = 'Weder das GD-Modul noch die Imagick oder MagickWand Erweiterungen sind derzeit installiert. Einige Avatar Funktionen sind deaktiviert.';
+$txt['avatar_img_enc_warning'] = 'Weder das GD-Modul noch die Imagick oder MagickWand Erweiterungen sind derzeit installiert. Einige Avatar-Funktionen sind deaktiviert.';
 $txt['avatar_external'] = 'Externe Avatare';
 $txt['avatar_upload'] = 'Hochgeladene Avatare';
 $txt['avatar_server_stored'] = 'Server gespeicherten Avatare';
@@ -551,7 +551,7 @@ $txt['manageposts_days'] = 'Tage';
 $txt['manageposts_posts'] = 'Beiträge';
 $txt['manageposts_topics'] = 'Themen';
 
-$txt['manageposts_settings'] = 'Beitrag Einstellungen';
+$txt['manageposts_settings'] = 'Beitrag-Einstellungen';
 $txt['manageposts_settings_description'] = 'Hier kannst du alles rund um Beiträge und deren Erstellung festlegen.';
 $txt['manageposts_settings_submit'] = 'Speichern';
 
@@ -560,11 +560,11 @@ $txt['manageposts_bbc_settings_description'] = 'Bulletin Board Code kann verwend
 $txt['manageposts_bbc_settings_title'] = 'Bulletin Board Code Einstellungen';
 $txt['manageposts_bbc_settings_submit'] = 'Speichern';
 
-$txt['manageposts_topic_settings'] = 'Thema Einstellungen';
+$txt['manageposts_topic_settings'] = 'Thema-Einstellungen';
 $txt['manageposts_topic_settings_description'] = 'Hier kannst du alle Einstellungen für Themen festlegen.';
 $txt['manageposts_topic_settings_submit'] = 'Speichern';
 
-$txt['managedrafts_settings'] = 'Entwurf Einstellungen';
+$txt['managedrafts_settings'] = 'Entwurf-Einstellungen';
 $txt['managedrafts_settings_description'] = 'Hier kannst du alle Einstellungen für Entwürfe festlegen.';
 $txt['managedrafts_submit'] = 'Speichern';
 $txt['manage_drafts'] = 'Entwürfe';
@@ -577,7 +577,7 @@ $txt['enableSpellChecking_warning'] = 'Dies funktioniert nicht auf allen Servern
 $txt['disable_wysiwyg'] = 'WYSIWYG Editor deaktivieren';
 $txt['max_messageLength'] = 'Max. zulässige Beitragsgröße';
 $txt['max_messageLength_zero'] = '0 für keine max.';
-$txt['convert_to_mediumtext'] = 'Die Datenbank Einstellungen akzeptiert Nachrichten mit nicht mehr als 65535 Zeichen. Verwende die <a href="%1$s">Datenbank Wartung</a>, um die Datenbank zu konvertieren und dann wieder hierher, um die maximal zulässige Beitragsgröße zu erhöhen.';
+$txt['convert_to_mediumtext'] = 'Die Datenbank-Einstellungen akzeptiert Nachrichten mit nicht mehr als 65535 Zeichen. Verwende die <a href="%1$s">Datenbank Wartung</a>, um die Datenbank zu konvertieren und dann wieder hierher, um die maximal zulässige Beitragsgröße zu erhöhen.';
 $txt['topicSummaryPosts'] = 'Anzahl der Beiträge im Thema zusammenfassend anzeigen';
 $txt['spamWaitTime'] = 'Zeitspanne zwischen Beiträgen von derselben IP Adresse';
 $txt['edit_wait_time'] = 'Wartezeit bis Änderung protokolliert wird';
@@ -623,8 +623,8 @@ $txt['security_settings'] = 'Sicherheit';
 $txt['caching_settings'] = 'Cache';
 $txt['load_balancing_settings'] = 'Lastverteilung';
 $txt['phpinfo_settings'] = 'PHP Info';
-$txt['phpinfo_localsettings'] = 'Lokale Einstellungen';
-$txt['phpinfo_defaultsettings'] = 'Standard Einstellungen';
+$txt['phpinfo_localsettings'] = 'Lokale-Einstellungen';
+$txt['phpinfo_defaultsettings'] = 'Standard-Einstellungen';
 $txt['phpinfo_itemsettings'] = 'Einstellungen';
 
 $txt['language_configuration'] = 'Sprachen';
@@ -678,18 +678,18 @@ $txt['signature_settings_short'] = 'Signatur';
 $txt['custom_profile_shorttitle'] = 'Profilfelder';
 $txt['pruning_title'] = 'Protokolle bereinigen';
 $txt['pruning_desc'] = 'Die folgenden Optionen sind nützlich, um das Protokoll nicht zu groß wird, da die ältere Einträge im laufe der Zeit, nicht wirklich so viel nutzen.';
-$txt['log_settings'] = 'Protokoll Einstellungen';
+$txt['log_settings'] = 'Protokoll-Einstellungen';
 $txt['log_ban_hits'] = 'Anmeldeversuche gesperrter Benutzer protokollieren?';
 
-$txt['boardsEdit'] = 'Foren ändern';
+$txt['boardsEdit'] = 'Foren bearbeiten';
 $txt['mboards_new_cat'] = 'Kategorie erstellen';
-$txt['manage_holidays'] = 'Feiertage verwalten';
-$txt['calendar_settings'] = 'Kalender Einstellungen';
+$txt['manage_holidays'] = 'Feiertage-Verwaltung';
+$txt['calendar_settings'] = 'Kalender-Einstellungen';
 $txt['search_weights'] = 'Suchfunktion';
 $txt['search_method'] = 'Suchmethode';
 
 $txt['smiley_sets'] = 'Smiley Sets';
-$txt['smileys_add'] = 'Add Smiley hinzufügen';
+$txt['smileys_add'] = 'Smiley hinzufügen';
 $txt['smileys_edit'] = 'Smileys bearbeiten';
 $txt['smileys_set_order'] = 'Smiley Reihenfolge festlegen';
 $txt['icons_edit_message_icons'] = 'Beitragssymbole';
@@ -707,9 +707,9 @@ $txt['installed_packages'] = 'Installierte Pakete';
 $txt['package_file_perms'] = 'Dateiberechtigungen';
 $txt['package_settings'] = 'Optionen';
 $txt['themeadmin_admin_title'] = 'Verwalten & Installieren';
-$txt['themeadmin_list_title'] = 'Theme Einstellungen';
+$txt['themeadmin_list_title'] = 'Theme-Einstellungen';
 $txt['themeadmin_reset_title'] = 'Mitgliederoptionen';
-$txt['themeadmin_edit_title'] = 'Themes ändern';
+$txt['themeadmin_edit_title'] = 'Themes bearbeiten';
 $txt['admin_browse_register_new'] = 'Mitglied hinzufügen';
 
 $txt['search_engines'] = 'Suchmaschienen';
@@ -751,7 +751,7 @@ $txt['likes_view'] = 'Mitgliedergruppen erlauben, Likes zu sehen';
 $txt['mention'] = 'Mitgliedergruppen erlauben, Benutzer zu erwähnen';
 
 $txt['notifications'] = 'Benachrichtigungen';
-$txt['notify_settings'] = 'Benachrichtigungen Einstellungen';
+$txt['notify_settings'] = 'Benachrichtigungen-Einstellungen';
 $txt['notifications_desc'] = 'Auf dieser Seite kannst du die Standardbenachrichtigungsoptionen für Benutzer festlegen.';
 
 ?>

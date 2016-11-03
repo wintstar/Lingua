@@ -17,7 +17,7 @@ $txt['who_show_guests_only'] = 'Nur Gäste';
 $txt['who_show_spiders_only'] = 'Nur Spiders';
 $txt['who_show_all'] = 'Alle';
 $txt['who_no_online_spiders'] = 'Derzeit keine Spiders online.';
-$txt['who_no_online_guests'] = 'Derzeit keine Gäst eonline.';
+$txt['who_no_online_guests'] = 'Derzeit keine Gäste online.';
 $txt['who_no_online_members'] = 'Derzeit keine Mitglieder online.';
 $txt['who_guest_login'] = 'Der Benutzer wurde zur Anmeldeseite weitergeleitet.';
 

@@ -1,6 +1,6 @@
-<h2>Unofficial updated language files</h2>
+<h2>Inofizielles Sprachpaket Deutsch informell für SMF 2.1 Beta 3</h2>
 
-The software is licensed under [BSD 3-clause license](http://www.opensource.org/licenses/BSD-3-Clause).
+Diese Software ist unter der Lizenz [BSD 3-clause license](http://www.opensource.org/licenses/BSD-3-Clause).
 
 Datei                  |Fertig %
 ----------------------|--------
@@ -28,14 +28,14 @@ ModerationCenter      | 0
 Modifications         | 100
 Modlog                | 0
 Packages              | 0
-PersonalMessage       | 0
+PersonalMessage       | 5
 Post                  | 0
 Profile               | 0
 Reports               | 0
-Search                | 0
+Search                | 100
 Settings              | 100
-Stats                 | 0
-Themes                | 0
+Stats                 | 50
+Themes                | 100
 Who                   | 100
 index                 | 100
 

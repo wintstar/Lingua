@@ -324,7 +324,7 @@ $txt['recent_posts_at_top'] = 'Show most recent posts at the top in topic view.'
 $txt['recent_pms_at_top'] = 'Show most recent personal messages at top.';
 $txt['wysiwyg_default'] = 'Show WYSIWYG editor on post page by default.';
 
-$txt['timeformat_default'] = '(Forum Default)';
+$txt['timeformat_default'] = '(Board-Standard)';
 $txt['timeformat_easy1'] = 'Month Day, Year, HH:MM:SS am/pm';
 $txt['timeformat_easy2'] = 'Month Day, Year, HH:MM:SS (24 hour)';
 $txt['timeformat_easy3'] = 'YYYY-MM-DD, HH:MM:SS';
@@ -339,11 +339,11 @@ $txt['show_no_signatures'] = 'Don\'t show users\' signatures.';
 $txt['show_no_censored'] = 'Leave words uncensored.';
 $txt['topics_per_page'] = 'Topics to display per page:';
 $txt['messages_per_page'] = 'Messages to display per page:';
-$txt['per_page_default'] = 'forum default';
+$txt['per_page_default'] = 'Board-Standard';
 $txt['calendar_start_day'] = 'First day of the week on the calendar';
 $txt['use_editor_quick_reply'] = 'Use full editor in Quick Reply';
 $txt['display_quick_mod'] = 'Show quick-moderation as';
-$txt['display_quick_mod_none'] = 'don\'t show';
+$txt['display_quick_mod_none'] = 'nicht anzeigen';
 $txt['display_quick_mod_check'] = 'checkboxes';
 $txt['display_quick_mod_image'] = 'icons';
 
