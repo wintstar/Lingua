@@ -77,7 +77,7 @@ $txt['name'] = 'Name';
 $txt['email'] = 'E-Mail';
 $txt['user_email_address'] = 'E-Mail Adresse';
 $txt['subject'] = 'Betreff';
-$txt['message'] = 'Beitrag';
+$txt['message'] = 'Nachricht';
 $txt['redirects'] = 'Weiterleitungen';
 $txt['quick_modify'] = 'Inline bearbeiten';
 $txt['quick_modify_message'] = 'Beitrag erfolgreich bearbeitet.';
@@ -457,7 +457,7 @@ $txt['with'] = 'mit';
 $txt['merge_desc'] = 'Diese Funktion verbindet die Nachrichten zweier Themen zu einem Thema. Die Nachrichten werden nach der Beitragserstellung sortiert. Daher ist die früheste geschriebene Nachricht die erste Nachricht des zusammengeführten Themas.';
 
 $txt['set_sticky'] = 'Thema wichtig';
-$txt['set_nonsticky'] = 'Thema nicht wichtig';
+$txt['set_nonsticky'] = 'Thema unwichtig';
 $txt['set_lock'] = 'Thema sperren';
 $txt['set_unlock'] = 'Thema entsperren';
 
@@ -549,7 +549,7 @@ $txt['smtp_error'] = 'Probleme beim Senden von E-Mails. Fehler: ';
 $txt['mail_send_unable'] = 'E-Mail konnte nicht an die E-Mail Adresse \'%1$s\' gesendet werden';
 
 $txt['mlist_search'] = 'Mitgliedersuche';
-$txt['mlist_search_again'] = 'Eine erneute Suche';
+$txt['mlist_search_again'] = 'Erneute Suche';
 $txt['mlist_search_filter'] = 'Suchoptionen';
 $txt['mlist_search_email'] = 'nach E-Mail-Adresse';
 $txt['mlist_search_messenger'] = 'nach Messenger Nickname';
@@ -587,7 +587,7 @@ $txt['poll_cannot_see'] = 'Du kannst die Ergebnisse dieser Umfrage im Moment nic
 $txt['quick_mod_approve'] = 'Auswahl bestätigen';
 $txt['quick_mod_remove'] = 'Ausgewählte entfernen';
 $txt['quick_mod_lock'] = 'Sperren / Entsperren ausgewählt';
-$txt['quick_mod_sticky'] = 'Wichtig / nicht Wichtig ausgewählt';
+$txt['quick_mod_sticky'] = 'Wichtig / Unwichtig ausgewählt';
 $txt['quick_mod_move'] = 'Verschieben ausgewählt, nach';
 $txt['quick_mod_merge'] = 'Zusammenführen ausgewählt';
 $txt['quick_mod_markread'] = 'Ausgewählte als gelesen markieren';
@@ -765,7 +765,7 @@ $txt['unapproved_posts'] = 'Nicht genehmigte Beiträge (Themen: %1$d, Beiträge:
 
 $txt['ajax_in_progress'] = 'Laden...';
 
-$txt['mod_reports_waiting'] = 'Gemeldete Beiträge';
+$txt['mod_reports_waiting'] = 'Gemeldete Nachrichten';
 
 $txt['view_unread_category'] = 'Ungelesene Beiträge';
 $txt['new_posts_in_category'] = 'Klick hier für die neuen Beiträge in %1$s';
@@ -786,9 +786,9 @@ $txt['modSettings_title'] = 'Funktionen & Optionen';
 $txt['package'] = 'Paketverwaltung';
 $txt['errlog'] = 'Fehler Protokoll';
 $txt['edit_permissions'] = 'Berechtigungen';
-$txt['mc_unapproved_attachments'] = 'Nicht genehmigte Dateianlagen';
-$txt['mc_unapproved_poststopics'] = 'Nicht genehmigte Beiträge und Themen';
-$txt['mc_reported_posts'] = 'Gemeldete Beiträge';
+$txt['mc_unapproved_attachments'] = 'Ungenehmigte Dateianlagen';
+$txt['mc_unapproved_poststopics'] = 'Ungenehmigte Beiträge & Themen';
+$txt['mc_reported_posts'] = 'Gemeldete Nchrichten';
 $txt['mc_reported_members'] = 'Gemeldete Mitglieder';
 $txt['modlog_view'] = 'Moderations Protokoll';
 $txt['calendar_menu'] = 'Kalender ansehen';

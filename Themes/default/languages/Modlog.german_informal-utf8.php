@@ -1,13 +1,13 @@
 <?php
 // Version: 2.1 Beta 3; Modlog
 
-$txt['modlog_date'] = 'Date';
-$txt['modlog_member'] = 'Member';
+$txt['modlog_date'] = 'Datum';
+$txt['modlog_member'] = 'Mitglied';
 $txt['modlog_position'] = 'Position';
-$txt['modlog_action'] = 'Action';
+$txt['modlog_action'] = 'Aktion';
 $txt['modlog_ip'] = 'IP';
-$txt['modlog_search_result'] = 'Search Results';
-$txt['modlog_total_entries'] = 'Total Entries';
+$txt['modlog_search_result'] = 'Suchergebnisse';
+$txt['modlog_total_entries'] = 'Gesamteinträge';
 $txt['modlog_ac_approve_topic'] = 'Approved topic &quot;{topic}&quot; by &quot;{member}&quot;';
 $txt['modlog_ac_unapprove_topic'] = 'Unapproved topic &quot;{topic}&quot; by &quot;{member}&quot;';
 $txt['modlog_ac_approve'] = 'Approved message &quot;{subject}&quot; in &quot;{topic}&quot; by &quot;{member}&quot;';
@@ -37,10 +37,10 @@ $txt['modlog_remove'] = 'Delete Selected';
 $txt['modlog_removeall'] = 'Clear Log';
 $txt['modlog_remove_selected_confirm'] = 'Are you sure you want to delete the selected log entries?';
 $txt['modlog_remove_all_confirm'] = 'Are you sure you want to completely clear the log?';
-$txt['modlog_go'] = 'Go';
-$txt['modlog_add'] = 'Add';
-$txt['modlog_search'] = 'Quick Search';
-$txt['modlog_by'] = 'By';
+$txt['modlog_go'] = 'Los';
+$txt['modlog_add'] = 'Hinzufügen';
+$txt['modlog_search'] = 'Schnellsuche';
+$txt['modlog_by'] = 'Von';
 $txt['modlog_id'] = '<em>Deleted - ID:%1$d</em>';
 
 $txt['modlog_ac_add_warn_template'] = 'Added warning template: &quot;{template}&quot;';
@@ -54,7 +54,7 @@ $txt['modlog_ac_ban_trigger_email'] = ' <em>Email:</em> {email}';
 $txt['modlog_ac_ban_trigger_ip_range'] = ' <em>IP:</em> {ip_range}';
 $txt['modlog_ac_ban_trigger_hostname'] = ' <em>Hostname:</em> {hostname}';
 
-$txt['modlog_admin_log'] = 'Administration Log';
+$txt['modlog_admin_log'] = 'Administration Protokoll';
 $txt['modlog_admin_log_desc'] = 'Below is a list of administration actions which have been logged on your forum.';
 $txt['modlog_admin_log_no_entries_found'] = 'There are currently no administration log entries.';
 

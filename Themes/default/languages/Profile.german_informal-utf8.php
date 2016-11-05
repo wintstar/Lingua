@@ -436,7 +436,7 @@ $txt['profile_warning_level'] = 'Warning Level';
 $txt['profile_warning_desc'] = 'From this section you can adjust the user\'s warning level and issue them with a written warning if necessary. You can also track their warning history and view the effects of their current warning level as determined by the administrator.';
 $txt['profile_warning_name'] = 'Member Name';
 $txt['profile_warning_impact'] = 'Result';
-$txt['profile_warning_reason'] = 'Reason for Warning';
+$txt['profile_warning_reason'] = 'Grund für die Verwarnung';
 $txt['profile_warning_reason_desc'] = 'This is required and will be logged.';
 $txt['profile_warning_effect_none'] = 'None.';
 $txt['profile_warning_effect_watch'] = 'User will be added to moderator watch list.';
@@ -452,7 +452,7 @@ $txt['profile_warning_effect_text'] = 'Level >= %1$d: %2$s';
 $txt['profile_warning_notify'] = 'Send a Notification';
 $txt['profile_warning_notify_template'] = 'Select template:';
 $txt['profile_warning_notify_subject'] = 'Notification Subject';
-$txt['profile_warning_notify_body'] = 'Notification Message';
+$txt['profile_warning_notify_body'] = 'Benachrichtigungsnachricht';
 $txt['profile_warning_notify_template_subject'] = 'You have received a warning';
 // Use numeric entities in below string.
 $txt['profile_warning_notify_template_outline'] = '{MEMBER},' . "\n\n" . 'You have received a warning for %1$s. Please cease these activities and abide by the forum rules otherwise we will take further action.' . "\n\n" . '{REGARDS}';
@@ -472,10 +472,10 @@ $txt['profile_warning_new_template'] = 'New Template';
 
 $txt['profile_warning_previous'] = 'Previous Warnings';
 $txt['profile_warning_previous_none'] = 'This user has not received any previous warnings.';
-$txt['profile_warning_previous_issued'] = 'Issued By';
-$txt['profile_warning_previous_time'] = 'Time';
-$txt['profile_warning_previous_level'] = 'Points';
-$txt['profile_warning_previous_reason'] = 'Reason';
+$txt['profile_warning_previous_issued'] = 'Ausgestellt von';
+$txt['profile_warning_previous_time'] = 'Zeit';
+$txt['profile_warning_previous_level'] = 'Stufe';
+$txt['profile_warning_previous_reason'] = 'Grund';
 $txt['profile_warning_previous_notice'] = 'View Notice Sent to Member';
 
 $txt['viewwarning'] = 'View Warnings';

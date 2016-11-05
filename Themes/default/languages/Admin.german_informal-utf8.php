@@ -141,7 +141,7 @@ $txt['email_as_pms'] = 'Sende diese an diese Gruppen mit Verwendung der persönl
 $txt['email_continue'] = 'Weiter';
 $txt['email_done'] = 'erledigt.';
 
-$txt['warnings'] = 'Warnungen';
+$txt['warnings'] = 'Verwarnungen';
 $txt['warnings_desc'] = 'Dieses System ermöglicht es Administratoren und Moderatoren, Benutzer Verwarnungen zu erteilen, und können automatisch Benutzerrechte entfernen, wenn ihre Warnstufe zunimmt. Um alle Vorteile dieses Systems zu nutzen, sollte &quot;Beitragsmoderation&quot; aktiviert werden.';
 
 $txt['ban_title'] = 'Sperrliste';
