@@ -11,7 +11,7 @@ Editor                | 100
 EmailTemplates        | 5
 Errors                | 0
 Help                  | 0
-Install               | 0
+Install               | 5
 Login                 | 0
 ManageBoards          | 0
 ManageCalendar        | 0
@@ -29,7 +29,7 @@ Modifications         | 100
 Modlog                | 5
 Packages              | 0
 PersonalMessage       | 5
-Post                  | 0
+Post                  | 100
 Profile               | 5
 Reports               | 0
 Search                | 100
@@ -39,4 +39,4 @@ Themes                | 100
 Who                   | 100
 index                 | 100
 
-Stand aktueller Pull Request #3685 vom 17.11.2016  02:30
+Stand aktueller Pull Request #3685 vom 04.12.2016 22:30

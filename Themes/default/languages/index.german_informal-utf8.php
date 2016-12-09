@@ -314,7 +314,7 @@ $txt['go_caps'] = 'LOS';
 
 $txt['print'] = 'Drucken';
 $txt['profile'] = 'Profil';
-$txt['topic_summary'] = 'Thema Zusammenfassung';
+$txt['topic_summary'] = 'Thema Überblick';
 $txt['not_applicable'] = 'Nicht angegeben';
 $txt['name_in_use'] = 'Dieser Name wird bereits von einem anderen Mitglied verwendet.';
 
@@ -599,7 +599,7 @@ $txt['quickmod_confirm'] = 'Bist du sicher, dass du dies tun möchtest?';
 $txt['spell_check'] = 'Rechtschreibprüfung';
 
 $txt['quick_reply'] = 'Schnellantwort';
-$txt['quick_reply_desc'] = 'Mit der <em>Schnellantwort</em> kannst du beim Ansehen eines Themas, einen Beitrag erstellen, ohne die Seite neu zu laden. Du kannst Bulletin Board Code und Smileys wie in einem normalen Beitrag verwenden.';
+$txt['quick_reply_desc'] = 'Mit der <em>Schnellantwort</em> kannst du beim Ansehen eines Themas, einen Beitrag erstellen, ohne die Seite neu zu laden. Du kannst BBCode und Smileys wie in einem normalen Beitrag verwenden.';
 $txt['quick_reply_warning'] = 'Warnung! Dieses Thema ist derzeit gesperrt, nur Admins und Moderatoren können antworten.';
 $txt['quick_reply_verification'] = 'Nach dem Absenden deines Beitrags wirst du zu der regulären Beitragseite weitergeleitet, um deinen Beitrag \'%1$s\' zu überprüfen.';
 $txt['quick_reply_verification_guests'] = '(erforderlich für alle Gäste)';
@@ -786,7 +786,7 @@ $txt['modSettings_title'] = 'Funktionen & Optionen';
 $txt['package'] = 'Paketverwaltung';
 $txt['errlog'] = 'Fehler Protokoll';
 $txt['edit_permissions'] = 'Berechtigungen';
-$txt['mc_unapproved_attachments'] = 'Ungenehmigte Dateianlagen';
+$txt['mc_unapproved_attachments'] = 'Ungenehmigte Dateianhänge';
 $txt['mc_unapproved_poststopics'] = 'Ungenehmigte Beiträge & Themen';
 $txt['mc_reported_posts'] = 'Gemeldete Nchrichten';
 $txt['mc_reported_members'] = 'Gemeldete Mitglieder';

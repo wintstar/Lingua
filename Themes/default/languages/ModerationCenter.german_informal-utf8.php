@@ -137,8 +137,8 @@ $txt['mc_warning_template_add'] = 'Vorlage hinzufügen';
 $txt['mc_warning_template_modify'] = 'Vorlage bearbeiten';
 $txt['mc_warning_template_delete'] = 'Ausgewählte löschen';
 $txt['mc_warning_template_delete_confirm'] = 'Bist du sicher, dass du die ausgewählten Vorlagen löschen möchtest?';
-$txt['report_action_message_saved'] = 'Du hast erfolgreich einen neuen Kommentar erstellt.';
-$txt['report_action_message_edited'] = 'Du hast erfolgreich deinenKommentar bearbeitet.';
+$txt['report_action_message_saved'] = 'Kommentar erfolgreich erstellt.';
+$txt['report_action_message_edited'] = 'Kommentar erfolgreich bearbeitet.';
 $txt['report_action_message_deleted'] = 'Deine Nachricht wurde erfolgreich gelöscht.';
 $txt['report_action_message_edit_issue'] = 'Die Nachricht, die du bearbeiten möchtest, ist nicht mehr verfügbar. Bitte überprüfe, ob sie nicht bereits gelöscht wurde.';
 $txt['report_action_message_edit_cannot'] = 'Es tut uns leid, du darfst diesen Kommentar nicht bearbeiten.';
@@ -148,7 +148,7 @@ $txt['report_action_ignore'] = 'Die Meldung wurde erfolgreich ignoriert.';
 $txt['report_action_unignore'] = 'Die Meldung wird nicht ignoriert.';
 $txt['report_action_close'] = 'Die Meldung wurde erfolgreich geschlossen.';
 $txt['report_action_open'] = 'Die Meldung wurde erfolgreich geöffnet.';
-$txt['report_action_close_all'] = 'Du hast alle ausgewählten Meldungen erfolgreich geschlossen.';
+$txt['report_action_close_all'] = 'Alle ausgewählten Meldungen erfolgreich geschlossen.';
 
 $txt['mc_warning_template_desc'] = 'Hier kannst du Details der Vorlage auszufüllen.<br><strong>Beachte:</strong><ul style="margin-top: 0px; margin-left: 15px; list-style-type: circle;"><li>dass der Betreff für die E-Mail nicht Teil der Vorlage ist</li>
 <li>dass wenn die Benachrichtigung als PM gesendet wird, BBCode innerhalb der Vorlage verwenden kannst</li>
