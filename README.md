@@ -1,3 +1,6 @@
+Aktuelle Sprachdateien sind auf [SF Webdesign](http://www.stephan-frank.de/board/index.php/topic,11.0.html)  
+==========================================================================================================  
+
 <h2>Inofizielles Sprachpaket Deutsch informell für SMF 2.1 Beta 3</h2>
 
 Diese Software ist unter der Lizenz [BSD 3-clause license](http://www.opensource.org/licenses/BSD-3-Clause).
