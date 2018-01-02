@@ -1,9 +1,12 @@
 Aktuelle Sprachdateien sind auf [SF Webdesign](http://www.stephan-frank.de/board/index.php/topic,11.0.html)  
 ==========================================================================================================  
-
-<h2>Inofizielles Sprachpaket Deutsch informell für SMF 2.1 Beta 3</h2>
-
 Diese Software ist unter der Lizenz [BSD 3-clause license](http://www.opensource.org/licenses/BSD-3-Clause).
+
+
+Informal
+=======
+
+ Inofizielles Sprachpaket Deutsch informell (Du) für SMF 2.1 Beta 3
 
 Datei                  |Fertig %
 ----------------------|--------
@@ -42,4 +45,10 @@ Themes                | 100
 Who                   | 100
 index                 | 100
 
-Stand aktueller Pull Request #3701 vom 04.12.2016 22:30
+ Stand aktueller Pull Request #3701 vom 04.12.2016 22:30  
+
+
+Formal
+======
+Inofizielles Sprachpaket Deutsch formal (Sie) für SMF 2.1 Beta 3
+
